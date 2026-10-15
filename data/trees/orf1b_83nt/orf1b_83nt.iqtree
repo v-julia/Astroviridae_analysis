@@ -1,0 +1,1341 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/alignments/orf1b_clustered83nt/mafft/Astroviridae_complete_1B_nt83-mafftdash_nd_gt0.8.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 23123
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 274 sequences with 423 amino-acid sites
+Number of constant sites: 13 (= 3.07329% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 13 (= 3.07329% of all sites)
+Number of parsimony informative sites: 390
+Number of distinct site patterns: 418
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+I+G4       -109840.520  220813.040 +        1  862657.040 -        0  223103.853 +        1
+LG+I+G4         -109922.905  220939.809 - 2.97e-028  820451.809 -        0  223153.722 - 1.48e-011
+Q.pfam+F+I+G4   -109882.235  220896.471 - 7.64e-019  862740.471 -        0  223187.283 - 7.64e-019
+LG+G4           -109986.000  221064.001 - 3.2e-055  818388.001 +        1  223273.866 - 1.21e-037
+Q.pfam+I+G4     -110101.188  221296.376 - 1.11e-105  820808.376 -        0  223510.289 - 5.54e-089
+Q.yeast+F+I+G4  -110046.288  221224.576 - 4.33e-090  863068.576 -        0  223515.388 - 4.33e-090
+rtREV+F+I+G4    -110055.207  221242.414 - 5.79e-094  863086.414 -        0  223533.227 - 5.79e-094
+Q.yeast+I+G4    -110448.225  221990.450 - 2.13e-256  821502.450 -        0  224204.363 - 1.06e-239
+Q.insect+I+G4   -110495.050  222084.101 - 9.83e-277  821596.101 -        0  224298.014 - 4.91e-260
+WAG+F+I+G4      -110601.992  222335.984 -        0  864179.984 -        0  224626.796 -        0
+rtREV+I+G4      -110681.818  222457.637 -        0  821969.637 -        0  224671.550 -        0
+Q.insect+F+I+G4 -110653.375  222438.750 -        0  864282.750 -        0  224729.563 -        0
+VT+F+I+G4       -110749.083  222630.166 -        0  864474.166 -        0  224920.979 -        0
+WAG+I+G4        -110819.056  222732.112 -        0  822244.112 -        0  224946.024 -        0
+Blosum62+I+G4   -110885.530  222865.059 -        0  822377.059 -        0  225078.972 -        0
+VT+I+G4         -110905.562  222905.123 -        0  822417.123 -        0  225119.036 -        0
+PMB+I+G4        -111099.573  223293.146 -        0  822805.146 -        0  225507.059 -        0
+Blosum62+F+I+G4 -111058.996  223249.993 -        0  865093.993 -        0  225540.806 -        0
+PMB+F+I+G4      -111358.337  223848.675 -        0  865692.675 -        0  226139.487 -        0
+cpREV+F+I+G4    -111507.327  224146.654 -        0  865990.654 -        0  226437.467 -        0
+cpREV+I+G4      -111734.024  224562.049 -        0  824074.049 -        0  226775.961 -        0
+JTTDCMut+F+I+G4 -111833.448  224798.895 -        0  866642.895 -        0  227089.708 -        0
+JTT+F+I+G4      -111884.480  224900.959 -        0  866744.959 -        0  227191.772 -        0
+JTTDCMut+I+G4   -112197.790  225489.581 -        0  825001.581 -        0  227703.493 -        0
+JTT+I+G4        -112256.777  225607.555 -        0  825119.555 -        0  227821.468 -        0
+mtInv+F+I+G4    -112246.013  225624.027 -        0  867468.027 -        0  227914.839 -        0
+DCMut+F+I+G4    -112352.898  225837.796 -        0  867681.796 -        0  228128.609 -        0
+Dayhoff+F+I+G4  -112356.457  225844.913 -        0  867688.913 -        0  228135.726 -        0
+mtZOA+F+I+G4    -112358.153  225848.306 -        0  867692.306 -        0  228139.119 -        0
+Q.plant+F+I+G4  -112654.262  226440.525 -        0  868284.525 -        0  228731.337 -        0
+Q.plant+I+G4    -112820.827  226735.653 -        0  826247.653 -        0  228949.566 -        0
+DCMut+I+G4      -113074.096  227242.192 -        0  826754.192 -        0  229456.104 -        0
+Dayhoff+I+G4    -113076.293  227246.587 -        0  826758.587 -        0  229460.499 -        0
+mtMet+F+I+G4    -113592.522  228317.043 -        0  870161.043 -        0  230607.856 -        0
+mtREV+F+I+G4    -113781.168  228694.336 -        0  870538.336 -        0  230985.148 -        0
+Q.mammal+F+I+G4 -114090.320  229312.640 -        0  871156.640 -        0  231603.452 -        0
+mtART+F+I+G4    -114181.231  229494.461 -        0  871338.461 -        0  231785.274 -        0
+Q.mammal+I+G4   -114317.772  229729.544 -        0  829241.544 -        0  231943.456 -        0
+FLU+F+I+G4      -114467.243  230066.486 -        0  871910.486 -        0  232357.298 -        0
+FLU+I+G4        -115053.627  231201.255 -        0  830713.255 -        0  233415.167 -        0
+mtZOA+I+G4      -115515.981  232125.962 -        0  831637.962 -        0  234339.875 -        0
+Q.bird+F+I+G4   -115490.822  232113.644 -        0  873957.644 -        0  234404.457 -        0
+HIVb+F+I+G4     -115587.832  232307.663 -        0  874151.663 -        0  234598.476 -        0
+Q.bird+I+G4     -115778.671  232651.343 -        0  832163.343 -        0  234865.255 -        0
+HIVb+I+G4       -115875.942  232845.884 -        0  832357.884 -        0  235059.796 -        0
+mtVer+F+I+G4    -116388.498  233908.995 -        0  875752.995 -        0  236199.808 -        0
+mtInv+I+G4      -117205.311  235504.621 -        0  835016.621 -        0  237718.534 -        0
+LG+I            -117647.142  236386.284 -        0  833710.284 -        0  238596.150 -        0
+mtMet+I+G4      -117676.279  236446.559 -        0  835958.559 -        0  238660.471 -        0
+mtMAM+F+I+G4    -117728.258  236588.517 -        0  878432.517 -        0  238879.329 -        0
+mtREV+I+G4      -118013.203  237120.407 -        0  836632.407 -        0  239334.319 -        0
+LG              -118407.521  237905.042 -        0  833045.042 -        0  240110.860 -        0
+FLAVI+F+I+G4    -118355.489  237842.979 -        0  879686.979 -        0  240133.792 -        0
+mtART+I+G4      -118585.144  238264.288 -        0  837776.288 -        0  240478.201 -        0
+FLAVI+I+G4      -119077.028  239248.056 -        0  838760.056 -        0  241461.968 -        0
+HIVw+F+I+G4     -120171.130  241474.260 -        0  883318.260 -        0  243765.072 -        0
+mtVer+I+G4      -120257.531  241609.062 -        0  841121.062 -        0  243822.975 -        0
+mtMAM+I+G4      -122110.229  245314.458 -        0  844826.458 -        0  247528.371 -        0
+HIVw+I+G4       -122574.697  246243.394 -        0  845755.394 -        0  248457.306 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+I+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0453
+  pi(R) = 0.0544
+  pi(N) = 0.0419
+  pi(D) = 0.0626
+  pi(C) = 0.0200
+  pi(Q) = 0.0343
+  pi(E) = 0.0680
+  pi(G) = 0.0517
+  pi(H) = 0.0203
+  pi(I) = 0.0541
+  pi(L) = 0.0867
+  pi(K) = 0.0688
+  pi(M) = 0.0270
+  pi(F) = 0.0555
+  pi(P) = 0.0547
+  pi(S) = 0.0500
+  pi(T) = 0.0596
+  pi(W) = 0.0301
+  pi(Y) = 0.0546
+  pi(V) = 0.0605
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0298
+Gamma shape alpha: 0.8295
+
+ Category  Relative_rate  Proportion
+  0         0              0.0298
+  1         0.1049         0.2425
+  2         0.4316         0.2425
+  3         0.9945         0.2425
+  4         2.5919         0.2425
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -109735.0603 (s.e. 3535.1347)
+Unconstrained log-likelihood (without tree): -2549.1974
+Number of free parameters (#branches + #model parameters): 566
+Akaike information criterion (AIC) score: 220602.1206
+Corrected Akaike information criterion (AICc) score: 862446.1206
+Bayesian information criterion (BIC) score: 222892.9332
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 566
+Sample size (n, alignment length): 423
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 90.2949
+Sum of internal branch lengths: 32.2959 (35.7672% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'OZ453978/NA/GBR/2022/NA/NA' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--OZ453978/NA/GBR/2022/NA/NA
+|
+|                 +--PX941856/SN-6192/CHN/2022/Bos-taurus/Mammalia
+|              +--| (100)
+|              |  +--MT499772/NA/CHN/2019-08-06/Bubalus-bubalis/Mammalia
+|           +--| (100)
+|           |  |        +--PX095800/DL-P.nayaur-Mav-1/CHN/2023/Pseudois-nayaur/Mammalia
+|           |  |     +--| (99)
+|           |  |     |  |  +--OK107515/NA/CHN/2021/Capra-hircus/Mammalia
+|           |  |     |  +--| (100)
+|           |  |     |     +--LT706531/UK-2013-ewe-lib01454/NA/NA/NA/NA
+|           |  |  +--| (100)
+|           |  |  |  +--Y15937/provided-by-Dr.-D.R.-Snodgrass--Moredun-Research-Institute--Edinburgh/NA/NA/Ovis-aries/Mammalia
+|           |  +--| (95)
+|           |     +--NC_024498/CH13/LAO/2012-03/Bos-taurus/Mammalia
+|        +--| (97)
+|        |  |                                                                    +--PX597466/JSYC2504/CHN/2025/Anser-cygnoides/Aves
+|        |  |                                                                 +--| (62)
+|        |  |                                                                 |  +--OR924090/NA/CHN/2021-11-09/Anser-anser/Aves
+|        |  |                                                              +--| (62)
+|        |  |                                                              |  |  +--KF753807/NA/CHN/2012-09-15/NA/NA
+|        |  |                                                              |  +--| (100)
+|        |  |                                                              |     +--AF206663/NA/NA/NA/NA/NA
+|        |  |                                                           +--| (94)
+|        |  |                                                           |  |        +--PV093029/NA/CHN/2023-01-01/Neogale-vison/Mammalia
+|        |  |                                                           |  |     +--| (100)
+|        |  |                                                           |  |     |  +--JF832365/4175/USA/2006-11/Gallus-gallus/Aves
+|        |  |                                                           |  |  +--| (98)
+|        |  |                                                           |  |  |  +--OM095382/JM/CHN/2021-03-08/Anas-platyrhynchos/Aves
+|        |  |                                                           |  +--| (100)
+|        |  |                                                           |     +--OR907127/NA/CHN/2023-03-21/Anser-anser/Aves
+|        |  |                                                        +--| (94)
+|        |  |                                                        |  |  +--PV169360/NA/CHN/2024/Anas-platyrhynchos/Aves
+|        |  |                                                        |  +--| (100)
+|        |  |                                                        |     +--MW588062/NA/GBR/NA/NA/NA
+|        |  |                                                     +--| (97)
+|        |  |                                                     |  |  +**PP108251/NA/CHN/2023-08-15/Anser-anser/Aves
+|        |  |                                                     |  +--| (100)
+|        |  |                                                     |     +**OP272633/AH33-3/CHN/2021/Anser-anser/Aves
+|        |  |                                                  +--| (97)
+|        |  |                                                  |  |     +--PV793827/AstroviridaeCranefe81/CHN/2024-01/Leucogeranus-leucogeranus/Aves
+|        |  |                                                  |  |  +--| (100)
+|        |  |                                                  |  |  |  +--MW588064/NA/GBR/NA/NA/NA
+|        |  |                                                  |  +--| (69)
+|        |  |                                                  |     |  +--PQ220257/ASTV-1/CHN/2020-12/Anser-indicus/Aves
+|        |  |                                                  |     +--| (96)
+|        |  |                                                  |        +--MT138004/hftbif16ast1nc/NA/2016/NA/NA
+|        |  |                                               +--| (91)
+|        |  |                                               |  +--PV093020/NA/CHN/2023-01-01/Neogale-vison/Mammalia
+|        |  |                                            +--| (76)
+|        |  |                                            |  |  +--PV793829/AstroviridaeGoosefe94/CHN/2024-01/NA/Aves
+|        |  |                                            |  +--| (86)
+|        |  |                                            |     +--PQ893528/NSW-2021/AUS/2021-01/Eolophus-roseicapilla/Aves
+|        |  |                                         +--| (100)
+|        |  |                                         |  |              +--PP871808/astro_vt_90/VNM/2015-06-16_2016-04-02/Gallus-gallus/Aves
+|        |  |                                         |  |           +--| (100)
+|        |  |                                         |  |           |  +--MW684820/Chicken-NLD-2019-V_M_033_astro_3/LAO/2019/Gallus-gallus/Aves
+|        |  |                                         |  |        +--| (100)
+|        |  |                                         |  |        |  +--PP478075/PL_pigeon_4a-2023/LAO/2023-05/Columba-livia/Aves
+|        |  |                                         |  |     +--| (100)
+|        |  |                                         |  |     |  +--PQ893527/QLD-2021/AUS/2021-01/Alisterus-scapularis/Aves
+|        |  |                                         |  |  +--| (100)
+|        |  |                                         |  |  |  |  +--MT993583/MW06_2o/AUS/2014/Arenaria-interpres/Aves
+|        |  |                                         |  |  |  +--| (100)
+|        |  |                                         |  |  |     +--MH453801/AstV-Red-necked-Avocet-MW09-Interior/AUS/2013/Recurvirostra-novaehollandiae/Aves
+|        |  |                                         |  +--| (100)
+|        |  |                                         |     |           +--MT993596/MW10_1o/AUS/2015/Arenaria-interpres/Aves
+|        |  |                                         |     |        +--| (59)
+|        |  |                                         |     |        |  +--MT138002/cra070ast1/NA/2018/NA/NA
+|        |  |                                         |     |     +--| (95)
+|        |  |                                         |     |     |  |  +--MT137999/coa196ast1/NA/2018/NA/NA
+|        |  |                                         |     |     |  +--| (98)
+|        |  |                                         |     |     |     +--MT137996/cfe153ast01/NA/2018/NA/NA
+|        |  |                                         |     |  +--| (94)
+|        |  |                                         |     |  |  +--MH453800/AstV-Red-necked-Avocet-MW08-Interior/AUS/2013/Recurvirostra-novaehollandiae/Aves
+|        |  |                                         |     +--| (100)
+|        |  |                                         |        |     +--MT138010/prf037ast2/NA/2018/NA/NA
+|        |  |                                         |        |  +--| (94)
+|        |  |                                         |        |  |  +--MT138007/ltr178ast1/NA/2018/NA/NA
+|        |  |                                         |        +--| (100)
+|        |  |                                         |           +--MT138005/hwf041ast1/NA/2018/NA/NA
+|        |  |                                      +--| (98)
+|        |  |                                      |  |                 +--OQ986679/GEIG/LAO/2021-02_2021-03/NA/NA
+|        |  |                                      |  |              +--| (76)
+|        |  |                                      |  |              |  +--OQ986607/GEIG/LAO/2021-02_2021-03/NA/NA
+|        |  |                                      |  |           +--| (64)
+|        |  |                                      |  |           |  +--OQ986608/RHFU/LAO/2021-02_2021-03/NA/NA
+|        |  |                                      |  |        +--| (79)
+|        |  |                                      |  |        |  |              +--OQ986606/GEIG/LAO/2021-02_2021-03/NA/NA
+|        |  |                                      |  |        |  |           +--| (92)
+|        |  |                                      |  |        |  |           |  +--MK096774/PasAstV-2/GUF/2016-10/NA/Aves
+|        |  |                                      |  |        |  |        +--| (58)
+|        |  |                                      |  |        |  |        |  |  +--MK096776/PasAstV-4/GUF/2016-10/NA/Aves
+|        |  |                                      |  |        |  |        |  +--| (98)
+|        |  |                                      |  |        |  |        |     +--MK096775/PasAstV-3/GUF/2016-10/NA/Aves
+|        |  |                                      |  |        |  |     +--| (59)
+|        |  |                                      |  |        |  |     |  +--MT138003/ecw123ast1/NA/2018/NA/NA
+|        |  |                                      |  |        |  |  +--| (98)
+|        |  |                                      |  |        |  |  |  |        +--MW826482/YSN02/CHN/2019-07/NA/Aves
+|        |  |                                      |  |        |  |  |  |     +--| (100)
+|        |  |                                      |  |        |  |  |  |     |  |  +--MW826371/XZN01/CHN/2018-04/NA/Aves
+|        |  |                                      |  |        |  |  |  |     |  +--| (99)
+|        |  |                                      |  |        |  |  |  |     |     |     +--MT137995/bun145astnc1/NA/2018/NA/NA
+|        |  |                                      |  |        |  |  |  |     |     |  +--| (99)
+|        |  |                                      |  |        |  |  |  |     |     |  |  |  +--MN920668/war204ast1/CHN/2018/NA/NA
+|        |  |                                      |  |        |  |  |  |     |     |  |  +--| (100)
+|        |  |                                      |  |        |  |  |  |     |     |  |     +--MN920663/spa143ast1/CHN/2018/NA/NA
+|        |  |                                      |  |        |  |  |  |     |     +--| (98)
+|        |  |                                      |  |        |  |  |  |     |        |  +--MN920671/ytb089ast01/CHN/2018/NA/NA
+|        |  |                                      |  |        |  |  |  |     |        +--| (100)
+|        |  |                                      |  |        |  |  |  |     |           +--MN920669/ybb150ast01/CHN/2018/NA/NA
+|        |  |                                      |  |        |  |  |  |  +--| (97)
+|        |  |                                      |  |        |  |  |  |  |  +--MT138016/rtr168ast1/NA/2018/NA/NA
+|        |  |                                      |  |        |  |  |  +--| (36)
+|        |  |                                      |  |        |  |  |     |        +--KT946721/D11-148.2-HK/HKG/NA/NA/Aves
+|        |  |                                      |  |        |  |  |     |     +--| (100)
+|        |  |                                      |  |        |  |  |     |     |  +--MT137997/cfe153ast02/NA/2018/NA/NA
+|        |  |                                      |  |        |  |  |     |  +--| (100)
+|        |  |                                      |  |        |  |  |     |  |  +--MN920670/ybw202ast01/CHN/2018/NA/NA
+|        |  |                                      |  |        |  |  |     +--| (59)
+|        |  |                                      |  |        |  |  |        +--MT137991/bbr144ast1/NA/2018/NA/NA
+|        |  |                                      |  |        |  +--| (73)
+|        |  |                                      |  |        |     |  +--MW385413/NA/CHN/2017-12-28/NA/Aves
+|        |  |                                      |  |        |     +--| (76)
+|        |  |                                      |  |        |        |  +--MW385412/NA/CHN/2017-12-28/NA/Aves
+|        |  |                                      |  |        |        +--| (100)
+|        |  |                                      |  |        |           +--KT946718/D11-139-HK/HKG/NA/Corvus-splendens/Aves
+|        |  |                                      |  |     +--| (74)
+|        |  |                                      |  |     |  |     +--OQ986605/BOPU/LAO/2021-02_2021-03/NA/NA
+|        |  |                                      |  |     |  |  +--| (99)
+|        |  |                                      |  |     |  |  |  +--MT137994/bsk136ast01/NA/2018/NA/NA
+|        |  |                                      |  |     |  +--| (97)
+|        |  |                                      |  |     |     |     +--MT138013/rob181ast1/NA/2018/NA/NA
+|        |  |                                      |  |     |     |  +--| (100)
+|        |  |                                      |  |     |     |  |  +--MT138008/ltt163ast1/NA/2018/NA/NA
+|        |  |                                      |  |     |     +--| (97)
+|        |  |                                      |  |     |        |  +--MN920665/stc111ast1/CHN/2018/NA/NA
+|        |  |                                      |  |     |        +--| (97)
+|        |  |                                      |  |     |           +--MN920664/sru051ast1/CHN/2018/NA/NA
+|        |  |                                      |  |  +--| (100)
+|        |  |                                      |  |  |  |  +--OQ986609/RHFU/LAO/2021-02_2021-03/NA/NA
+|        |  |                                      |  |  |  +--| (89)
+|        |  |                                      |  |  |     +--MK096773/PasAstV-1/GUF/NA/NA/Aves
+|        |  |                                      |  +--| (97)
+|        |  |                                      |     |     +--MW826483/YSN01/CHN/2019-07/NA/Aves
+|        |  |                                      |     |  +--| (100)
+|        |  |                                      |     |  |  +--MT138000/coa196ast2nc/NA/2018/NA/NA
+|        |  |                                      |     +--| (100)
+|        |  |                                      |        |  +--MT138009/prf037ast1nc/NA/2018/NA/NA
+|        |  |                                      |        +--| (100)
+|        |  |                                      |           |  +--MT138006/hwf182ast2/NA/2018/NA/NA
+|        |  |                                      |           +--| (100)
+|        |  |                                      |              +--MT137993/brb026ast1/NA/2018/NA/NA
+|        |  |                                   +--| (73)
+|        |  |                                   |  +--MT993595/MW09_1o/AUS/2015/Arenaria-interpres/Aves
+|        |  |                                +--| (61)
+|        |  |                                |  |           +--PP711188/Hplan-A_304122/AUS/2017/Heteronotia-planiceps/Lepidosauria
+|        |  |                                |  |        +--| (100)
+|        |  |                                |  |        |  |  +--MZ375139/3PE-RDRP-2/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria
+|        |  |                                |  |        |  +--| (100)
+|        |  |                                |  |        |     +--MG599918/NA/CHN/NA/Hemidactylus-bowringii/Lepidosauria
+|        |  |                                |  |     +--| (100)
+|        |  |                                |  |     |  +--MG599916/NA/CHN/NA/Hypselotriton-orientalis/Amphibia
+|        |  |                                |  |  +--| (99)
+|        |  |                                |  |  |  +--MG599910/NA/CHN/NA/Duttaphrynus-melanostictus/Amphibia
+|        |  |                                |  +--| (100)
+|        |  |                                |     |  +--PP352010/Hunan-CHN-2022/CHN/2022/Pelophylax-nigromaculatus/Amphibia
+|        |  |                                |     +--| (100)
+|        |  |                                |        +--MG599931/NA/CHN/NA/Polypedates-megacephalus/Amphibia
+|        |  |                             +--| (93)
+|        |  |                             |  +-----PP623814/MP22-196/CHN/2022-11-09/Mareca-falcata/Aves
+|        |  |                          +--| (91)
+|        |  |                          |  |                       +--OR951053/JX2020/CHN/2020/NA/NA
+|        |  |                          |  |                    +--| (100)
+|        |  |                          |  |                    |  +--MG599892/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia
+|        |  |                          |  |                 +--| (100)
+|        |  |                          |  |                 |  +--MG599891/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia
+|        |  |                          |  |              +--| (98)
+|        |  |                          |  |              |  +----MG599890/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia
+|        |  |                          |  |           +--| (100)
+|        |  |                          |  |           |  +-------MG599922/NA/CHN/NA/Gonorynchus-abbreviatus/Actinopteri
+|        |  |                          |  |        +--| (100)
+|        |  |                          |  |        |  |     +--MG599895/NA/CHN/NA/Coelorinchus-multispinulosus/Actinopteri
+|        |  |                          |  |        |  |  +--| (100)
+|        |  |                          |  |        |  |  |  |  +--MG599897/NA/CHN/NA/Coelorinchus-multispinulosus/Actinopteri
+|        |  |                          |  |        |  |  |  +--| (100)
+|        |  |                          |  |        |  |  |     +--MG599893/NA/CHN/NA/Coelorinchus-multispinulosus/Actinopteri
+|        |  |                          |  |        |  +--| (100)
+|        |  |                          |  |        |     |     +------MG599886/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia
+|        |  |                          |  |        |     |  +--| (100)
+|        |  |                          |  |        |     |  |  +----MG599921/NA/CHN/NA/Macroramphosus-scolopax/Actinopteri
+|        |  |                          |  |        |     +--| (100)
+|        |  |                          |  |        |        |  +--MG599930/NA/CHN/NA/NA/Actinopteri
+|        |  |                          |  |        |        +--| (100)
+|        |  |                          |  |        |           +--MG599923/NA/CHN/NA/NA/Actinopteri
+|        |  |                          |  |     +--| (16)
+|        |  |                          |  |     |  |                      +----------------PP172009/CC1C_k141_14283/AUS/2021-12-17/NA/NA
+|        |  |                          |  |     |  |  +-------------------| (99)
+|        |  |                          |  |     |  |  |                   +-------------------------PP171953/CC1B_k141_72897/AUS/2021-12-17/NA/NA
+|        |  |                          |  |     |  +--| (21)
+|        |  |                          |  |     |     |              +--MG599899/NA/CHN/NA/Pleuronichthys-japonicus/Actinopteri
+|        |  |                          |  |     |     |           +--| (100)
+|        |  |                          |  |     |     |           |  +--MG599929/NA/CHN/NA/Echelus-uropterus/Actinopteri
+|        |  |                          |  |     |     |        +--| (99)
+|        |  |                          |  |     |     |        |  |     +--MG599884/NA/CHN/NA/NA/NA
+|        |  |                          |  |     |     |        |  |  +--| (100)
+|        |  |                          |  |     |     |        |  |  |  +--MG599928/NA/CHN/NA/Parapercis-lutevittata/Actinopteri
+|        |  |                          |  |     |     |        |  +--| (100)
+|        |  |                          |  |     |     |        |     +--MG599901/NA/CHN/NA/NA/Actinopteri
+|        |  |                          |  |     |     |     +--| (97)
+|        |  |                          |  |     |     |     |  +--MG599925/NA/CHN/NA/NA/Actinopteri
+|        |  |                          |  |     |     +-----| (100)
+|        |  |                          |  |     |           +--MG599924/NA/CHN/NA/NA/Actinopteri
+|        |  |                          |  |  +--| (86)
+|        |  |                          |  |  |  |               +--PQ421846/LQ4-XSQ/CHN/2019-10-20/Crocidura-suaveolens/Mammalia
+|        |  |                          |  |  |  |            +--| (100)
+|        |  |                          |  |  |  |            |  +--OQ802743/WZ_Hy.pulveratus_astro_1/CHN/2016_2017/Hypsugo-pulveratus/Mammalia
+|        |  |                          |  |  |  |         +--| (100)
+|        |  |                          |  |  |  |         |  |                       +--PP352011/Jiangxi-CHN-2022/CHN/2022/Pelophylax-nigromaculatus/Amphibia
+|        |  |                          |  |  |  |         |  |                    +--| (100)
+|        |  |                          |  |  |  |         |  |                    |  +--MG599932/NA/CHN/NA/Polypedates-megacephalus/Amphibia
+|        |  |                          |  |  |  |         |  |                 +--| (83)
+|        |  |                          |  |  |  |         |  |                 |  |  +--MG599909/NA/CHN/NA/Microhyla-pulchra/Amphibia
+|        |  |                          |  |  |  |         |  |                 |  +--| (96)
+|        |  |                          |  |  |  |         |  |                 |     |  +--MG599911/NA/CHN/NA/Hyla-simplex/Amphibia
+|        |  |                          |  |  |  |         |  |                 |     +--| (99)
+|        |  |                          |  |  |  |         |  |                 |        +--MG599903/NA/CHN/NA/Bufo-gargarizans/Amphibia
+|        |  |                          |  |  |  |         |  |              +--| (84)
+|        |  |                          |  |  |  |         |  |              |  |  +--MG599912/NA/CHN/NA/Sylvirana-guentheri/Amphibia
+|        |  |                          |  |  |  |         |  |              |  +--| (99)
+|        |  |                          |  |  |  |         |  |              |     +--MG599908/NA/CHN/NA/Microhyla-pulchra/Amphibia
+|        |  |                          |  |  |  |         |  |           +--| (99)
+|        |  |                          |  |  |  |         |  |           |  +--MG599906/NA/CHN/NA/Leptobrachium-hainanense/Amphibia
+|        |  |                          |  |  |  |         |  |        +--| (90)
+|        |  |                          |  |  |  |         |  |        |  +--MG599913/NA/CHN/NA/Pachytriton-brevipes/Amphibia
+|        |  |                          |  |  |  |         |  |     +--| (84)
+|        |  |                          |  |  |  |         |  |     |  |  +--MG599915/NA/CHN/NA/Hypselotriton-orientalis/Amphibia
+|        |  |                          |  |  |  |         |  |     |  +--| (100)
+|        |  |                          |  |  |  |         |  |     |     +--MG599914/NA/CHN/NA/Hypselotriton-orientalis/Amphibia
+|        |  |                          |  |  |  |         |  |  +--| (90)
+|        |  |                          |  |  |  |         |  |  |  +--MG599907/NA/CHN/NA/Teratoscincus-roborowskii/Lepidosauria
+|        |  |                          |  |  |  |         |  +--| (94)
+|        |  |                          |  |  |  |         |     |              +--MZ375141/5PT-RDRP-1/CHN/2020/Phrynocephalus-theobaldi/Lepidosauria
+|        |  |                          |  |  |  |         |     |           +--| (100)
+|        |  |                          |  |  |  |         |     |           |  |  +**MZ375137/2PE-RDRP-2/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria
+|        |  |                          |  |  |  |         |     |           |  +--| (100)
+|        |  |                          |  |  |  |         |     |           |     +**MZ375133/1PE-RDRP-3/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria
+|        |  |                          |  |  |  |         |     |        +--| (100)
+|        |  |                          |  |  |  |         |     |        |  |  +--MZ375136/2PE-RDRP-1/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria
+|        |  |                          |  |  |  |         |     |        |  +--| (100)
+|        |  |                          |  |  |  |         |     |        |     +--MZ375134/1PE-RDRP-4/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria
+|        |  |                          |  |  |  |         |     |     +--| (100)
+|        |  |                          |  |  |  |         |     |     |  +--MG599933/NA/CHN/NA/Calotes-versicolor/Lepidosauria
+|        |  |                          |  |  |  |         |     |  +--| (100)
+|        |  |                          |  |  |  |         |     |  |  |  +--MG599904/NA/CHN/NA/Myrrophis-chinensis/Lepidosauria
+|        |  |                          |  |  |  |         |     |  |  +--| (100)
+|        |  |                          |  |  |  |         |     |  |     +--MG599905/NA/CHN/NA/NA/NA
+|        |  |                          |  |  |  |         |     +--| (88)
+|        |  |                          |  |  |  |         |        +----MG599920/NA/CHN/NA/Tropidophorus-sinicus/Lepidosauria
+|        |  |                          |  |  |  |      +--| (68)
+|        |  |                          |  |  |  |      |  |          +--MG599888/NA/CHN/NA/Scoliodon-macrorhynchos/Chondrichthyes
+|        |  |                          |  |  |  |      |  |       +--| (100)
+|        |  |                          |  |  |  |      |  |       |  +--MG599936/NA/CHN/NA/Hemitriakis-japanica/Chondrichthyes
+|        |  |                          |  |  |  |      |  |    +--| (100)
+|        |  |                          |  |  |  |      |  |    |  +--MG599887/NA/CHN/NA/Hemitrygon-akajei/Chondrichthyes
+|        |  |                          |  |  |  |      |  +----| (100)
+|        |  |                          |  |  |  |      |       +-----MG599889/NA/CHN/NA/Scoliodon-macrorhynchos/Chondrichthyes
+|        |  |                          |  |  |  |   +--| (68)
+|        |  |                          |  |  |  |   |  +----------MG599902/NA/CHN/NA/Pterygotrigla-hemisticta/Actinopteri
+|        |  |                          |  |  |  +---| (100)
+|        |  |                          |  |  |      |     +--MG599883/NA/CHN/NA/Cephalopholis-spiloparaea/Actinopteri
+|        |  |                          |  |  |      +-----| (100)
+|        |  |                          |  |  |            +---MG599882/NA/CHN/NA/Banjos-banjos/Actinopteri
+|        |  |                          |  +--| (87)
+|        |  |                          |     +-----MK450332/NA/HUN/2011/Coracias-garrulus/Aves
+|        |  |                       +--| (46)
+|        |  |                       |  |           +--LC900440/PoAstV-5-wt-Pig-Japan-G-Tsuru-2-2022/JPN/2022-05-19/Sus-scrofa/Mammalia
+|        |  |                       |  |        +--| (53)
+|        |  |                       |  |        |  +--ON571622/NA/CHN/2020/Capra-hircus/Mammalia
+|        |  |                       |  |     +--| (15)
+|        |  |                       |  |     |  +--PX113253/QXDL-78513/CHN/2023/Camelus-bactrianus/Mammalia
+|        |  |                       |  |  +--| (100)
+|        |  |                       |  |  |  +--LC900421/PoAstV-5-wt-Pig-Japan-Hira-4-2021/JPN/2021-05-18/Sus-scrofa/Mammalia
+|        |  |                       |  +--| (100)
+|        |  |                       |     +----OM480533/NA/CHN/2019/NA/Magnoliopsida
+|        |  |                    +--| (11)
+|        |  |                    |  |                 +--PX221760/JLTH_3/CHN/2021/Apodemus-agrarius/Mammalia
+|        |  |                    |  |              +--| (100)
+|        |  |                    |  |              |  +--PQ541155/Lo.-chrysopus_astro/SLE/2023/Lophuromys-chrysopus/Mammalia
+|        |  |                    |  |           +--| (100)
+|        |  |                    |  |           |  |     +--PV605181/21DB39/CHN/2021/Bandicota-indica/Mammalia
+|        |  |                    |  |           |  |  +--| (100)
+|        |  |                    |  |           |  |  |  +--OR711901/YNKm72022/CHN/2022-07/Rattus-norvegicus/Mammalia
+|        |  |                    |  |           |  +--| (100)
+|        |  |                    |  |           |     +--PV351773/HN_K11f_6/CHN/2024-06-20/Suncus-murinus/Mammalia
+|        |  |                    |  |        +--| (93)
+|        |  |                    |  |        |  |                 +--MW826416/XZS01/CHN/2018-04/Rattus-norvegicus/Mammalia
+|        |  |                    |  |        |  |              +--| (100)
+|        |  |                    |  |        |  |              |  +--PQ678016/NJLS-YNSC15/CHN/2021/Eothenomys-miletus/Mammalia
+|        |  |                    |  |        |  |           +--| (96)
+|        |  |                    |  |        |  |           |  |     +--PQ678015/DHMS-YNSC01/CHN/2021/Rattus-tanezumi/Mammalia
+|        |  |                    |  |        |  |           |  |  +--| (100)
+|        |  |                    |  |        |  |           |  |  |  +--MZ779126/NA/USA/2021-07-13/NA/Mammalia
+|        |  |                    |  |        |  |           |  +--| (99)
+|        |  |                    |  |        |  |           |     +--MW826530/YSS03/CHN/2019-07/Rattus-norvegicus/Mammalia
+|        |  |                    |  |        |  |        +--| (78)
+|        |  |                    |  |        |  |        |  |  +--MN503235/TIB-224-MA-USA-2018/USA/2018-05-04/Mus-musculus/Mammalia
+|        |  |                    |  |        |  |        |  +--| (100)
+|        |  |                    |  |        |  |        |     +--KT946734/HK-1998F/HKG/NA/Rattus-andamanensis/Mammalia
+|        |  |                    |  |        |  |     +--| (49)
+|        |  |                    |  |        |  |     |  +--PX095749/SQ-N.fuscus-Mav-4/CHN/2023/Neodon-fuscus/Mammalia
+|        |  |                    |  |        |  |  +--| (46)
+|        |  |                    |  |        |  |  |  +--OM480542/NA/CHN/2020/Myocastor-coypus/Mammalia
+|        |  |                    |  |        |  +--| (90)
+|        |  |                    |  |        |     +--NC_027426/NA/HUN/2011-07/Coracias-garrulus/Aves
+|        |  |                    |  |     +--| (28)
+|        |  |                    |  |     |  |           +--PV656460/TNG04553/TZA/2023-12-01/Homo-sapiens/Mammalia
+|        |  |                    |  |     |  |        +--| (100)
+|        |  |                    |  |     |  |        |  |  +--MK089435/668/LAO/2015/Homo-sapiens/Mammalia
+|        |  |                    |  |     |  |        |  +--| (100)
+|        |  |                    |  |     |  |        |     +--NC_019028/MLB3-human-Vellore-26564-2004/IND/2004/Homo-sapiens/Mammalia
+|        |  |                    |  |     |  |     +--| (100)
+|        |  |                    |  |     |  |     |  +--BR001717/macaque_feces-2019-624/NA/NA/Macaca-mulatta/Mammalia
+|        |  |                    |  |     |  |  +--| (70)
+|        |  |                    |  |     |  |  |  +--KY024237/HHMAstV1/CHN/2013_2014/Marmota-himalayana/Mammalia
+|        |  |                    |  |     |  +--| (70)
+|        |  |                    |  |     |     |     +--OQ198047/AstroviridaeDogfe326C1full/CHN/2020_2021/Canis-lupus/Mammalia
+|        |  |                    |  |     |     |  +--| (100)
+|        |  |                    |  |     |     |  |  +--JF729316/TN-rabbit-10-2208/USA/2010-06-04/Oryctolagus-cuniculus/Mammalia
+|        |  |                    |  |     |     +--| (100)
+|        |  |                    |  |     |        |  +--OM140654/NA/CHN/2016/Marmota-caudata/Mammalia
+|        |  |                    |  |     |        +--| (100)
+|        |  |                    |  |     |           |  +**NC_033821/HHMAstV2/CHN/2013_2014/Marmota-himalayana/Mammalia
+|        |  |                    |  |     |           +--| (100)
+|        |  |                    |  |     |              +**KY855438/NA/CHN/2013/Marmota-himalayana/Mammalia
+|        |  |                    |  |  +--| (90)
+|        |  |                    |  |  |  |                 +--PV605151/22SS640/CHN/2022/Rattus-norvegicus/Mammalia
+|        |  |                    |  |  |  |              +--| (100)
+|        |  |                    |  |  |  |              |  +--OQ802720/WZ_Ra.losea_astro_1/CHN/2016_2017/Rattus-losea/Mammalia
+|        |  |                    |  |  |  |           +--| (100)
+|        |  |                    |  |  |  |           |  +--KT946729/HK-13112F/HKG/NA/Rattus-andamanensis/Mammalia
+|        |  |                    |  |  |  |        +--| (100)
+|        |  |                    |  |  |  |        |  +--OQ802759/WF_Ni.niviventer_astro_1/CHN/2016_2017/Niviventer-niviventer/Mammalia
+|        |  |                    |  |  |  |     +--| (31)
+|        |  |                    |  |  |  |     |  |           +--PP871761/astro_vt_43/VNM/2016-04-02/Gallus-gallus/Aves
+|        |  |                    |  |  |  |     |  |        +--| (100)
+|        |  |                    |  |  |  |     |  |        |  +--KY214437/15V010/BEL/2015-01/Sus-scrofa/Mammalia
+|        |  |                    |  |  |  |     |  |     +--| (100)
+|        |  |                    |  |  |  |     |  |     |  +--PP871721/astro_vt_3/VNM/2014-05-29_2016-07-14/Sus-scrofa/Mammalia
+|        |  |                    |  |  |  |     |  |  +--| (96)
+|        |  |                    |  |  |  |     |  |  |  +--OL345583/DB03F-SX-2018/CHN/2018/Meriones-unguiculatus/Mammalia
+|        |  |                    |  |  |  |     |  +--| (94)
+|        |  |                    |  |  |  |     |     |  +--PP711883/20A-Kenya-RNALIV2211-2016/KEN/2016/Aethomys-hindei/Mammalia
+|        |  |                    |  |  |  |     |     +--| (96)
+|        |  |                    |  |  |  |     |        |     +--OQ802738/LQ_Ap.agrarius_astro_1/CHN/2016_2017/Apodemus-agrarius/Mammalia
+|        |  |                    |  |  |  |     |        |  +--| (100)
+|        |  |                    |  |  |  |     |        |  |  +--MT506231/RoAstV-CHN-S3/CHN/2016-12/Rattus-norvegicus/Mammalia
+|        |  |                    |  |  |  |     |        +--| (97)
+|        |  |                    |  |  |  |     |           |  +--MT152345/UK-2010/GBR/2010/NA/Mammalia
+|        |  |                    |  |  |  |     |           +--| (100)
+|        |  |                    |  |  |  |     |              +--KY855439/NA/CHN/2013/Marmota-himalayana/Mammalia
+|        |  |                    |  |  |  |  +--| (98)
+|        |  |                    |  |  |  |  |  |     +--PQ541178/Mu.-setulosus_astro/SLE/2023/Mus-setulosus/Mammalia
+|        |  |                    |  |  |  |  |  |  +--| (100)
+|        |  |                    |  |  |  |  |  |  |  +--MN837532/TW2/TWN/NA/Mus-musculus/Mammalia
+|        |  |                    |  |  |  |  |  +--| (94)
+|        |  |                    |  |  |  |  |     |  +--PQ678013/ZTMIX-YNSC193/CHN/2022/Niviventer-huang/Mammalia
+|        |  |                    |  |  |  |  |     +--| (100)
+|        |  |                    |  |  |  |  |        +--OQ802742/WZ_Ni.niviventer_astro_1/CHN/2016_2017/Niviventer-niviventer/Mammalia
+|        |  |                    |  |  |  +--| (33)
+|        |  |                    |  |  |     |     +--PV247174/LUVAS-2023-PAstV_21/IND/2023/Sus-scrofa/Mammalia
+|        |  |                    |  |  |     |  +--| (90)
+|        |  |                    |  |  |     |  |  |        +--LC849253/AstV-Raccoon_dog-Kodo2023-51-2023-JPN/JPN/2023-11-27/Nyctereutes-procyonoides/Mammalia
+|        |  |                    |  |  |     |  |  |     +--| (100)
+|        |  |                    |  |  |     |  |  |     |  |  +--OQ198041/AstroviridaeDogfe351C1full/CHN/2020_2021/Canis-lupus/Mammalia
+|        |  |                    |  |  |     |  |  |     |  +--| (98)
+|        |  |                    |  |  |     |  |  |     |     +--KX599353/NA/HUN/2012-05-09/Canis-lupus/Mammalia
+|        |  |                    |  |  |     |  |  |  +--| (100)
+|        |  |                    |  |  |     |  |  |  |  |  +--JN420354/1169/USA/2010/Zalophus-californianus/Mammalia
+|        |  |                    |  |  |     |  |  |  |  +--| (100)
+|        |  |                    |  |  |     |  |  |  |     +--JN420351/1136/USA/2010/Zalophus-californianus/Mammalia
+|        |  |                    |  |  |     |  |  +--| (89)
+|        |  |                    |  |  |     |  |     |  +--PQ435248/FeAstV-THA-CU34912-2023/LAO/2023-12/Felis-catus/Mammalia
+|        |  |                    |  |  |     |  |     +--| (86)
+|        |  |                    |  |  |     |  |        |     +--PP901925/E59S4/IRL/NA/Homo-sapiens/Mammalia
+|        |  |                    |  |  |     |  |        |  +--| (100)
+|        |  |                    |  |  |     |  |        |  |  +**ON807354/G22-014/FRA/2014-03-12/NA/NA
+|        |  |                    |  |  |     |  |        +--| (100)
+|        |  |                    |  |  |     |  |           +--JN420352/1148/USA/2010/Zalophus-californianus/Mammalia
+|        |  |                    |  |  |     +--| (44)
+|        |  |                    |  |  |        +----OP094602/B80F05/CHN/2019-03/Rhizomys-pruinosus/Mammalia
+|        |  |                    |  +--| (100)
+|        |  |                    |     |     +--OR951068/YN2016_267_21909/CHN/2016/Rousettus-leschenaultii/Mammalia
+|        |  |                    |     |  +--| (79)
+|        |  |                    |     |  |  |     +--PQ805453/GX-DA-2024/CHN/2024/Capra-hircus/Mammalia
+|        |  |                    |     |  |  |  +--| (96)
+|        |  |                    |     |  |  |  |  |              +--PP571883/GX-WZ-2023/CHN/2023/Capra-hircus/Mammalia
+|        |  |                    |     |  |  |  |  |           +--| (87)
+|        |  |                    |     |  |  |  |  |           |  +--ON624282/NA/CHN/2021/Bos-taurus/Mammalia
+|        |  |                    |     |  |  |  |  |        +--| (88)
+|        |  |                    |     |  |  |  |  |        |  +--MN087316/NA/USA/2018/Odocoileus-virginianus/Mammalia
+|        |  |                    |     |  |  |  |  |     +--| (88)
+|        |  |                    |     |  |  |  |  |     |  +--OQ198050/AstroviridaeDogfe316C2full/CHN/2020_2021/Canis-lupus/Mammalia
+|        |  |                    |     |  |  |  |  |  +--| (100)
+|        |  |                    |     |  |  |  |  |  |  +--NC_023632/NA/HKG/NA/Bos-taurus/Mammalia
+|        |  |                    |     |  |  |  |  +--| (90)
+|        |  |                    |     |  |  |  |     |  +--MW504552/15214_AST_len_6117_cov_31.526724/USA/2018-10-09/Sus-scrofa/Mammalia
+|        |  |                    |     |  |  |  |     +--| (100)
+|        |  |                    |     |  |  |  |        |  +--NC_034974/K321/KEN/2012-08/Sus-scrofa/Mammalia
+|        |  |                    |     |  |  |  |        +--| (100)
+|        |  |                    |     |  |  |  |           +--KY214438/15V010/BEL/2015-01/Sus-scrofa/Mammalia
+|        |  |                    |     |  |  +--| (84)
+|        |  |                    |     |  |     +--OR367608/YakFeces06-13688/CHN/2021-05/Bos-mutus/Mammalia
+|        |  |                    |     +--| (100)
+|        |  |                    |        |  +--ON624260/NA/CHN/2021/Bos-taurus/Mammalia
+|        |  |                    |        +--| (100)
+|        |  |                    |           +--ON624251/NA/CHN/2021/Bos-taurus/Mammalia
+|        |  |                 +--| (52)
+|        |  |                 |  |  +--PX236817/M22/LAO/2021/Trichosurus-vulpecula/Mammalia
+|        |  |                 |  +--| (99)
+|        |  |                 |     +--MK521912/Stony-Head-Tasmania-Sarcophilus_harrisii-2016-DN108473/AUS/2016/Sarcophilus-harrisii/Mammalia
+|        |  |              +--| (85)
+|        |  |              |  |                    +--OR951049/GD2017_211_130439/CHN/2017/Myotis-pilosus/Mammalia
+|        |  |              |  |                 +--| (100)
+|        |  |              |  |                 |  +--OQ236134/AstV-GZ-L162.18b-2022/CHN/2022-08/Myotis-pilosus/Mammalia
+|        |  |              |  |              +--| (100)
+|        |  |              |  |              |  |  +--MW249010/DesRot-Peru-AYA14_F_DrAstV/PER/2016/Desmodus-rotundus/Mammalia
+|        |  |              |  |              |  +--| (100)
+|        |  |              |  |              |     +--MT734809/BAstV-RB/USA/2020-02/NA/Mammalia
+|        |  |              |  |           +--| (100)
+|        |  |              |  |           |  +--OQ802748/WZ_Pi.abramus_astro_2/CHN/2016_2017/Pipistrellus-abramus/Mammalia
+|        |  |              |  |        +--| (97)
+|        |  |              |  |        |  |     +--OR951026/GX2017_185_6114/CHN/2017/Scotophilus-kuhlii/Mammalia
+|        |  |              |  |        |  |  +--| (97)
+|        |  |              |  |        |  |  |  +--PQ678018/HHLX-YNSP102/CHN/2021/Anourosorex-squamipes/Mammalia
+|        |  |              |  |        |  +--| (100)
+|        |  |              |  |        |     +--PP711853/10A-Kenya-BAT273-2015/KEN/2015/Coleura-afra/Mammalia
+|        |  |              |  |     +--| (100)
+|        |  |              |  |     |  +--PP711856/13A-Kenya-BAT1552-2015/KEN/2015/Mops-condylurus/Mammalia
+|        |  |              |  |  +--| (98)
+|        |  |              |  |  |  |              +--OR951045/GD2017_207_27658/CHN/2017/Myotis-pilosus/Mammalia
+|        |  |              |  |  |  |           +--| (100)
+|        |  |              |  |  |  |           |  +--MN832787/BtAstV-13585-58-M.dau-DK-2014/DNK/2014-10/Myotis-daubentonii/Mammalia
+|        |  |              |  |  |  |        +--| (100)
+|        |  |              |  |  |  |        |  +--OQ802750/WZ_My.laniger_astro_2/CHN/2016_2017/Myotis-laniger/Mammalia
+|        |  |              |  |  |  |     +--| (100)
+|        |  |              |  |  |  |     |  +--OR951021/GX2019_145_83144/CHN/2019/Tylonycteris-pachypus/Mammalia
+|        |  |              |  |  |  |  +--| (97)
+|        |  |              |  |  |  |  |  |  +--OR951025/GD2018_176_158949/CHN/2018/Scotophilus-kuhlii/Mammalia
+|        |  |              |  |  |  |  |  +--| (99)
+|        |  |              |  |  |  |  |     +--PP711857/14A-Kenya-BAT1537-2015/KEN/2015/Mops-condylurus/Mammalia
+|        |  |              |  |  |  +--| (99)
+|        |  |              |  |  |     |           +--PP711881/9A-Kenya-BAT2999-2015/KEN/2015/Miniopterus-sp.-clade-1-TD-2020/Mammalia
+|        |  |              |  |  |     |        +--| (100)
+|        |  |              |  |  |     |        |  +--PP711874/4A-Kenya-BAT3003-2015/KEN/2015/Miniopterus-sp./Mammalia
+|        |  |              |  |  |     |     +--| (100)
+|        |  |              |  |  |     |     |  +--PP711877/5A-Kenya-BAT0738-2015/KEN/2015/Miniopterus-sp.-clade-10-TD-2020/Mammalia
+|        |  |              |  |  |     |  +--| (99)
+|        |  |              |  |  |     |  |  +--OR613303/MSJDC22-12649/CHN/2022/Miniopterus-schreibersii/Mammalia
+|        |  |              |  |  |     +--| (99)
+|        |  |              |  |  |        |  +--PP711878/6A-Kenya-BAT2988-2015/KEN/2015/Miniopterus-sp.-clade-1-TD-2020/Mammalia
+|        |  |              |  |  |        +--| (100)
+|        |  |              |  |  |           +--OR613304/MSJDC22-9044/CHN/2022/Miniopterus-schreibersii/Mammalia
+|        |  |              |  +--| (100)
+|        |  |              |     |  +--OR951032/GD2016_189_30487/CHN/2016/Hipposideros-larvatus/Mammalia
+|        |  |              |     +--| (100)
+|        |  |              |        +--OQ802712/JM_Rh.sinicus_astro_2/CHN/2016_2017/Rhinolophus-sinicus/Mammalia
+|        |  |           +--| (89)
+|        |  |           |  |                       +--OR951097/JX2021_367_194485/CHN/2021/Rhinolophus-sinicus/Mammalia
+|        |  |           |  |                    +--| (100)
+|        |  |           |  |                    |  +--OR951079/HB2020_303_11589/CHN/2020/Rhinolophus-ferrumequinum/Mammalia
+|        |  |           |  |                 +--| (96)
+|        |  |           |  |                 |  |        +--OR951034/GD2017_191_26815/CHN/2017/Hipposideros-larvatus/Mammalia
+|        |  |           |  |                 |  |     +--| (78)
+|        |  |           |  |                 |  |     |  +--OQ236124/AstV-CQ-L76.18d-2021/CHN/2021-12/Hipposideros-armiger/Mammalia
+|        |  |           |  |                 |  |  +--| (89)
+|        |  |           |  |                 |  |  |  +--OQ236128/AstV-SC-L74.18c-2021/CHN/2021-12/Hipposideros-armiger/Mammalia
+|        |  |           |  |                 |  +--| (99)
+|        |  |           |  |                 |     |  +--OQ236123/AstV-CQ-L76.18c-2021/CHN/2021-12/Hipposideros-armiger/Mammalia
+|        |  |           |  |                 |     +--| (86)
+|        |  |           |  |                 |        +--OQ236121/AstV-CQ-L76.18a-2021/CHN/2021-12/Hipposideros-armiger/Mammalia
+|        |  |           |  |              +--| (100)
+|        |  |           |  |              |  +--OQ236130/AstV-SC-L74.18e-2021/CHN/2021-12/Hipposideros-armiger/Mammalia
+|        |  |           |  |           +--| (91)
+|        |  |           |  |           |  |     +--OR951016/YN2020_064_655/CHN/2020/Myotis-chinensis/Mammalia
+|        |  |           |  |           |  |  +--| (100)
+|        |  |           |  |           |  |  |  +--MZ218053/BtAstV-21164-6-A-M.dau-DK-2015/DNK/2015-11/Myotis-daubentonii/Mammalia
+|        |  |           |  |           |  +--| (91)
+|        |  |           |  |           |     +--OR552421/seven/RUS/2023-02/Nyctalus-noctula/Mammalia
+|        |  |           |  |        +--| (100)
+|        |  |           |  |        |  +--OR951080/HB2020_306_19370/CHN/2020/Rhinolophus-sinicus/Mammalia
+|        |  |           |  |     +--| (100)
+|        |  |           |  |     |  |     +--OR951087/YN2020_321_29515/CHN/2020/Miniopterus-schreibersii/Mammalia
+|        |  |           |  |     |  |  +--| (70)
+|        |  |           |  |     |  |  |  +--EU847155/AFCD337/CHN/2006/Miniopterus-pusillus/Mammalia
+|        |  |           |  |     |  +--| (100)
+|        |  |           |  |     |     |  +--PP711873/3A-Kenya-BAT0736-2015/KEN/2015/Miniopterus-sp.-clade-10-TD-2020/Mammalia
+|        |  |           |  |     |     +--| (100)
+|        |  |           |  |     |        |        +--OP589979/EBW-Sk-3/AUS/2013_2021/Miniopterus-orianae/Mammalia
+|        |  |           |  |     |        |     +--| (100)
+|        |  |           |  |     |        |     |  +--OP589977/EBW-Sk-1/AUS/2013_2021/Miniopterus-orianae/Mammalia
+|        |  |           |  |     |        |  +--| (100)
+|        |  |           |  |     |        |  |  +--MW450837/BF2-astro-YN-CHN-2020/CHN/2020-02-20/Miniopterus-schreibersii/Mammalia
+|        |  |           |  |     |        +--| (99)
+|        |  |           |  |     |           +--OP589978/EBW-Sk-2/AUS/2013_2021/Miniopterus-orianae/Mammalia
+|        |  |           |  |  +--| (99)
+|        |  |           |  |  |  |     +--PQ421850/QJ1-CWDS/CHN/2017-10-14/Crocidura-dracula/Mammalia
+|        |  |           |  |  |  |  +--| (100)
+|        |  |           |  |  |  |  |  +--OQ802733/JM_Cr.shantungensis_astro_1/CHN/2016_2017/Crocidura-shantungensis/Mammalia
+|        |  |           |  |  |  +--| (100)
+|        |  |           |  |  |     +--PQ421849/YL-SCDW/CHN/2015-11-17/Anourosorex-squamipes/Mammalia
+|        |  |           |  +--| (63)
+|        |  |           |     +--OQ802710/JM_My.chinensis_astro_6/CHN/2016_2017/Myotis-chinensis/Mammalia
+|        |  |        +--| (100)
+|        |  |        |  |     +--PP711880/8A-Uganda-UGR87-2019/UGA/2019/Rousettus-aegyptiacus/Mammalia
+|        |  |        |  |  +--| (100)
+|        |  |        |  |  |  +--OQ606244/RR034B/MDG/2018/Rousettus-madagascariensis/Mammalia
+|        |  |        |  +--| (100)
+|        |  |        |     |  +--PP711872/2A-Uganda-UV32-2018/UGA/2018/Rousettus-aegyptiacus/Mammalia
+|        |  |        |     +--| (100)
+|        |  |        |        +--MG693176/CMR-Bat-AsV-P02/CMR/2013-12/Eidolon-helvum/Mammalia
+|        |  |     +--| (55)
+|        |  |     |  +--OQ693700/DAstV-1/NA/NA/Equus-asinus/Mammalia
+|        |  |  +--| (74)
+|        |  |  |  |  +--PV166024/PAstV3-XJJY17-2023/CHN/2023/Sus-scrofa/Mammalia
+|        |  |  |  +--| (100)
+|        |  |  |     +--KY933399/U460/UGA/2012-11/Sus-scrofa/Mammalia
+|        |  +--| (21)
+|        |     |           +--FJ973620/VA1/USA/2008-08/Homo-sapiens/Mammalia
+|        |     |        +--| (100)
+|        |     |        |  +--MH933754/CMRHP6/CMR/2014-12/Homo-sapiens/Mammalia
+|        |     |     +--| (100)
+|        |     |     |  +--JX857868/VA3-human-Vellore-28054-2005/IND/2005/Homo-sapiens/Mammalia
+|        |     |  +--| (100)
+|        |     |  |  |  +--OQ968312/21153-SD-CHN-VA2/CHN/2021/Homo-sapiens/Mammalia
+|        |     |  |  +--| (100)
+|        |     |  |     +--JX857869/VA4-human-Nepal-S5363-2008/NPL/2008/Homo-sapiens/Mammalia
+|        |     +--| (99)
+|        |        +--KF859964/NA/BFA/2010/Homo-sapiens/Mammalia
+|     +--| (99)
+|     |  +--MW037839/NA/AUS/2018-06/Felis-catus/Mammalia
+|  +--| (100)
+|  |  +--NC_004579/NA/NA/NA/NA/NA
++--| (100)
+|  +--KC692365/fox-5/LAO/2012-03-15/Vulpes-vulpes/Mammalia
+|
++--KM017741/FAstV-D1/USA/2013-10/Felis-catus/Mammalia
+
+Tree in newick format:
+
+(OZ453978/NA/GBR/2022/NA/NA:0.0416957951,((((((PX941856/SN-6192/CHN/2022/Bos-taurus/Mammalia:0.0981540530,MT499772/NA/CHN/2019-08-06/Bubalus-bubalis/Mammalia:0.0886695519)100:0.1278643851,(((PX095800/DL-P.nayaur-Mav-1/CHN/2023/Pseudois-nayaur/Mammalia:0.0676695504,(OK107515/NA/CHN/2021/Capra-hircus/Mammalia:0.0289450802,LT706531/UK-2013-ewe-lib01454/NA/NA/NA/NA:0.0344410821)100:0.0502852049)99:0.0189635380,Y15937/provided-by-Dr.-D.R.-Snodgrass--Moredun-Research-Institute--Edinburgh/NA/NA/Ovis-aries/Mammalia:0.0852131156)100:0.1152670673,NC_024498/CH13/LAO/2012-03/Bos-taurus/Mammalia:0.2173254587)95:0.0369603786)100:0.1316483453,(((((((((((((((((((((((PX597466/JSYC2504/CHN/2025/Anser-cygnoides/Aves:0.1871694873,OR924090/NA/CHN/2021-11-09/Anser-anser/Aves:0.3835444392)62:0.0692213835,(KF753807/NA/CHN/2012-09-15/NA/NA:0.0774990693,AF206663/NA/NA/NA/NA/NA:0.0955542433)100:0.0656934873)62:0.0806216877,(((PV093029/NA/CHN/2023-01-01/Neogale-vison/Mammalia:0.0548287877,JF832365/4175/USA/2006-11/Gallus-gallus/Aves:0.2178169867)100:0.0644878425,OM095382/JM/CHN/2021-03-08/Anas-platyrhynchos/Aves:0.1408470226)98:0.0548071895,OR907127/NA/CHN/2023-03-21/Anser-anser/Aves:0.1382803027)100:0.0726688815)94:0.0302930267,(PV169360/NA/CHN/2024/Anas-platyrhynchos/Aves:0.1318895980,MW588062/NA/GBR/NA/NA/NA:0.1604472140)100:0.0586568925)94:0.0452500722,(PP108251/NA/CHN/2023-08-15/Anser-anser/Aves:0.0022446795,OP272633/AH33-3/CHN/2021/Anser-anser/Aves:0.0000024461)100:0.3112074550)97:0.0654564866,((PV793827/AstroviridaeCranefe81/CHN/2024-01/Leucogeranus-leucogeranus/Aves:0.1158790003,MW588064/NA/GBR/NA/NA/NA:0.1050509430)100:0.1219692214,(PQ220257/ASTV-1/CHN/2020-12/Anser-indicus/Aves:0.2077120548,MT138004/hftbif16ast1nc/NA/2016/NA/NA:0.1936286817)96:0.0523137718)69:0.0623182212)97:0.0771055577,PV093020/NA/CHN/2023-01-01/Neogale-vison/Mammalia:0.4767687699)91:0.0511099765,(PV793829/AstroviridaeGoosefe94/CHN/2024-01/NA/Aves:0.4110155022,PQ893528/NSW-2021/AUS/2021-01/Eolophus-roseicapilla/Aves:0.3641797320)86:0.1085907782)76:0.0646274534,(((((PP871808/astro_vt_90/VNM/2015-06-16_2016-04-02/Gallus-gallus/Aves:0.0720360251,MW684820/Chicken-NLD-2019-V_M_033_astro_3/LAO/2019/Gallus-gallus/Aves:0.0682702500)100:0.0299627104,PP478075/PL_pigeon_4a-2023/LAO/2023-05/Columba-livia/Aves:0.0493328131)100:0.0442198075,PQ893527/QLD-2021/AUS/2021-01/Alisterus-scapularis/Aves:0.1302038840)100:0.0634979284,(MT993583/MW06_2o/AUS/2014/Arenaria-interpres/Aves:0.0435075772,MH453801/AstV-Red-necked-Avocet-MW09-Interior/AUS/2013/Recurvirostra-novaehollandiae/Aves:0.0334920933)100:0.0601967808)100:0.1828307890,((((MT993596/MW10_1o/AUS/2015/Arenaria-interpres/Aves:0.4789135194,MT138002/cra070ast1/NA/2018/NA/NA:0.1175265017)59:0.0268641291,(MT137999/coa196ast1/NA/2018/NA/NA:0.1257603625,MT137996/cfe153ast01/NA/2018/NA/NA:0.1844762687)98:0.0422296018)95:0.0692478350,MH453800/AstV-Red-necked-Avocet-MW08-Interior/AUS/2013/Recurvirostra-novaehollandiae/Aves:0.2311362021)94:0.0676533486,((MT138010/prf037ast2/NA/2018/NA/NA:0.0838836420,MT138007/ltr178ast1/NA/2018/NA/NA:0.0598604947)94:0.0154104196,MT138005/hwf041ast1/NA/2018/NA/NA:0.0820185127)100:0.0918990678)100:0.1785918921)100:0.2127756392)100:0.1037736149,((((((OQ986679/GEIG/LAO/2021-02_2021-03/NA/NA:0.2830796356,OQ986607/GEIG/LAO/2021-02_2021-03/NA/NA:0.2481501402)76:0.0441228585,OQ986608/RHFU/LAO/2021-02_2021-03/NA/NA:0.2831850745)64:0.0374326894,(((((OQ986606/GEIG/LAO/2021-02_2021-03/NA/NA:0.2605929467,MK096774/PasAstV-2/GUF/2016-10/NA/Aves:0.2508840147)92:0.0578892076,(MK096776/PasAstV-4/GUF/2016-10/NA/Aves:0.1818839155,MK096775/PasAstV-3/GUF/2016-10/NA/Aves:0.2454103849)98:0.0692360102)58:0.0198372481,MT138003/ecw123ast1/NA/2018/NA/NA:0.2908736044)59:0.0317814821,(((MW826482/YSN02/CHN/2019-07/NA/Aves:0.0890076568,(MW826371/XZN01/CHN/2018-04/NA/Aves:0.0785452519,((MT137995/bun145astnc1/NA/2018/NA/NA:0.0666924285,(MN920668/war204ast1/CHN/2018/NA/NA:0.1000303495,MN920663/spa143ast1/CHN/2018/NA/NA:0.0508218110)100:0.0318161202)99:0.0099893437,(MN920671/ytb089ast01/CHN/2018/NA/NA:0.0410174343,MN920669/ybb150ast01/CHN/2018/NA/NA:0.0277013382)100:0.0547367672)98:0.0180506404)99:0.0338281911)100:0.1666580411,MT138016/rtr168ast1/NA/2018/NA/NA:0.2366303127)97:0.0610548903,(((KT946721/D11-148.2-HK/HKG/NA/NA/Aves:0.0349502322,MT137997/cfe153ast02/NA/2018/NA/NA:0.0672541049)100:0.0731234357,MN920670/ybw202ast01/CHN/2018/NA/NA:0.1577811011)100:0.0855063887,MT137991/bbr144ast1/NA/2018/NA/NA:0.1928615102)59:0.0333959979)36:0.0317890581)98:0.0415519570,(MW385413/NA/CHN/2017-12-28/NA/Aves:0.2824975590,(MW385412/NA/CHN/2017-12-28/NA/Aves:0.1771339250,KT946718/D11-139-HK/HKG/NA/Corvus-splendens/Aves:0.1735502345)100:0.0826831219)76:0.0558049620)73:0.0202261617)79:0.0218510279,((OQ986605/BOPU/LAO/2021-02_2021-03/NA/NA:0.2174473817,MT137994/bsk136ast01/NA/2018/NA/NA:0.2670638288)99:0.1067133347,((MT138013/rob181ast1/NA/2018/NA/NA:0.0794821569,MT138008/ltt163ast1/NA/2018/NA/NA:0.0793943553)100:0.1325166192,(MN920665/stc111ast1/CHN/2018/NA/NA:0.1808646507,MN920664/sru051ast1/CHN/2018/NA/NA:0.1613064454)97:0.0602912647)97:0.0398697728)97:0.0424399498)74:0.0349553095,(OQ986609/RHFU/LAO/2021-02_2021-03/NA/NA:0.3570468686,MK096773/PasAstV-1/GUF/NA/NA/Aves:0.3293051239)89:0.0734160337)100:0.0729561194,((MW826483/YSN01/CHN/2019-07/NA/Aves:0.1314487817,MT138000/coa196ast2nc/NA/2018/NA/NA:0.1016737088)100:0.1580384213,(MT138009/prf037ast1nc/NA/2018/NA/NA:0.1392157012,(MT138006/hwf182ast2/NA/2018/NA/NA:0.0544780807,MT137993/brb026ast1/NA/2018/NA/NA:0.0290714677)100:0.2729567532)100:0.0784138321)100:0.2309312053)97:0.0176024473)98:0.0730442568,MT993595/MW09_1o/AUS/2015/Arenaria-interpres/Aves:0.3679212771)73:0.0773180916,((((PP711188/Hplan-A_304122/AUS/2017/Heteronotia-planiceps/Lepidosauria:0.2297814177,(MZ375139/3PE-RDRP-2/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria:0.1780894883,MG599918/NA/CHN/NA/Hemidactylus-bowringii/Lepidosauria:0.1840886641)100:0.0692765615)100:0.0910325979,MG599916/NA/CHN/NA/Hypselotriton-orientalis/Amphibia:0.2438500196)100:0.1888662807,MG599910/NA/CHN/NA/Duttaphrynus-melanostictus/Amphibia:0.3901936893)99:0.0996225049,(PP352010/Hunan-CHN-2022/CHN/2022/Pelophylax-nigromaculatus/Amphibia:0.4824366320,MG599931/NA/CHN/NA/Polypedates-megacephalus/Amphibia:0.4313428368)100:0.1058027552)100:0.1775158846)61:0.0790693809,PP623814/MP22-196/CHN/2022-11-09/Mareca-falcata/Aves:0.8877520490)93:0.1076010023,((((((((OR951053/JX2020/CHN/2020/NA/NA:0.1099455513,MG599892/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia:0.1568515928)100:0.1024208219,MG599891/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia:0.1685652474)100:0.2484757985,MG599890/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia:0.7173668838)98:0.1507042302,MG599922/NA/CHN/NA/Gonorynchus-abbreviatus/Actinopteri:1.2115250148)100:0.2527943174,((MG599895/NA/CHN/NA/Coelorinchus-multispinulosus/Actinopteri:0.1387996299,(MG599897/NA/CHN/NA/Coelorinchus-multispinulosus/Actinopteri:0.3080425227,MG599893/NA/CHN/NA/Coelorinchus-multispinulosus/Actinopteri:0.2323723700)100:0.0971001264)100:0.4577292748,((MG599886/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia:1.0615152070,MG599921/NA/CHN/NA/Macroramphosus-scolopax/Actinopteri:0.7400185047)100:0.1486721233,(MG599930/NA/CHN/NA/NA/Actinopteri:0.4397154270,MG599923/NA/CHN/NA/NA/Actinopteri:0.3345358817)100:0.4958064310)100:0.1680296965)100:0.2555395898)100:0.2952331834,((PP172009/CC1C_k141_14283/AUS/2021-12-17/NA/NA:2.3665227494,PP171953/CC1B_k141_72897/AUS/2021-12-17/NA/NA:3.5886233523)99:2.7361986640,((((MG599899/NA/CHN/NA/Pleuronichthys-japonicus/Actinopteri:0.1846579998,MG599929/NA/CHN/NA/Echelus-uropterus/Actinopteri:0.2512843458)100:0.0678504376,((MG599884/NA/CHN/NA/NA/NA:0.0391761029,MG599928/NA/CHN/NA/Parapercis-lutevittata/Actinopteri:0.0577994792)100:0.1042812449,MG599901/NA/CHN/NA/NA/Actinopteri:0.2214894972)100:0.0938545995)99:0.0716618313,MG599925/NA/CHN/NA/NA/Actinopteri:0.1974959414)97:0.0425627076,MG599924/NA/CHN/NA/NA/Actinopteri:0.1580878508)100:0.8724568448)21:0.1373713631)16:0.0921263760,(((((PQ421846/LQ4-XSQ/CHN/2019-10-20/Crocidura-suaveolens/Mammalia:0.1991253292,OQ802743/WZ_Hy.pulveratus_astro_1/CHN/2016_2017/Hypsugo-pulveratus/Mammalia:0.1995279906)100:0.4708984025,((((((((PP352011/Jiangxi-CHN-2022/CHN/2022/Pelophylax-nigromaculatus/Amphibia:0.2786932630,MG599932/NA/CHN/NA/Polypedates-megacephalus/Amphibia:0.2471687276)100:0.1935359760,(MG599909/NA/CHN/NA/Microhyla-pulchra/Amphibia:0.3584157025,(MG599911/NA/CHN/NA/Hyla-simplex/Amphibia:0.4049003229,MG599903/NA/CHN/NA/Bufo-gargarizans/Amphibia:0.3587025581)99:0.1137305511)96:0.0973922309)83:0.0608655471,(MG599912/NA/CHN/NA/Sylvirana-guentheri/Amphibia:0.3737644394,MG599908/NA/CHN/NA/Microhyla-pulchra/Amphibia:0.2954275920)99:0.0971519434)84:0.0905845870,MG599906/NA/CHN/NA/Leptobrachium-hainanense/Amphibia:0.4038961039)99:0.1219667578,MG599913/NA/CHN/NA/Pachytriton-brevipes/Amphibia:0.4329279109)90:0.0895295763,(MG599915/NA/CHN/NA/Hypselotriton-orientalis/Amphibia:0.1481347873,MG599914/NA/CHN/NA/Hypselotriton-orientalis/Amphibia:0.0913500779)100:0.3299538845)84:0.0617797782,MG599907/NA/CHN/NA/Teratoscincus-roborowskii/Lepidosauria:0.4380030159)90:0.0830641656,(((((MZ375141/5PT-RDRP-1/CHN/2020/Phrynocephalus-theobaldi/Lepidosauria:0.0916291512,(MZ375137/2PE-RDRP-2/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria:0.0000010002,MZ375133/1PE-RDRP-3/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria:0.0000010002)100:0.0656371882)100:0.0684524645,(MZ375136/2PE-RDRP-1/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria:0.0026498018,MZ375134/1PE-RDRP-4/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria:0.0027748417)100:0.1383663400)100:0.1466412595,MG599933/NA/CHN/NA/Calotes-versicolor/Lepidosauria:0.2594777731)100:0.1563915796,(MG599904/NA/CHN/NA/Myrrophis-chinensis/Lepidosauria:0.4940857192,MG599905/NA/CHN/NA/NA/NA:0.3159411929)100:0.1410789937)100:0.1148267336,MG599920/NA/CHN/NA/Tropidophorus-sinicus/Lepidosauria:0.7276263872)88:0.0440619237)94:0.1322275461)100:0.5005480964,(((MG599888/NA/CHN/NA/Scoliodon-macrorhynchos/Chondrichthyes:0.4443819282,MG599936/NA/CHN/NA/Hemitriakis-japanica/Chondrichthyes:0.4144861666)100:0.2295946729,MG599887/NA/CHN/NA/Hemitrygon-akajei/Chondrichthyes:0.5011984406)100:0.5281219565,MG599889/NA/CHN/NA/Scoliodon-macrorhynchos/Chondrichthyes:0.8810344033)100:0.6878476738)68:0.1325432937,MG599902/NA/CHN/NA/Pterygotrigla-hemisticta/Actinopteri:1.6071720395)68:0.1392243294,(MG599883/NA/CHN/NA/Cephalopholis-spiloparaea/Actinopteri:0.4977708154,MG599882/NA/CHN/NA/Banjos-banjos/Actinopteri:0.5491403366)100:0.8968926649)100:0.5446749905)86:0.1718491140,MK450332/NA/HUN/2011/Coracias-garrulus/Aves:0.9123772473)87:0.2463613129)91:0.2822950240,((((LC900440/PoAstV-5-wt-Pig-Japan-G-Tsuru-2-2022/JPN/2022-05-19/Sus-scrofa/Mammalia:0.0721394025,ON571622/NA/CHN/2020/Capra-hircus/Mammalia:0.0833309051)53:0.0245965602,PX113253/QXDL-78513/CHN/2023/Camelus-bactrianus/Mammalia:0.0884035562)15:0.0281581605,LC900421/PoAstV-5-wt-Pig-Japan-Hira-4-2021/JPN/2021-05-18/Sus-scrofa/Mammalia:0.0161707848)100:0.3781898558,OM480533/NA/CHN/2019/NA/Magnoliopsida:0.6922117441)100:0.3314367561)46:0.1040087097,((((((PX221760/JLTH_3/CHN/2021/Apodemus-agrarius/Mammalia:0.1597158907,PQ541155/Lo.-chrysopus_astro/SLE/2023/Lophuromys-chrysopus/Mammalia:0.1979592969)100:0.0900593207,((PV605181/21DB39/CHN/2021/Bandicota-indica/Mammalia:0.0391737867,OR711901/YNKm72022/CHN/2022-07/Rattus-norvegicus/Mammalia:0.0379008579)100:0.0650492684,PV351773/HN_K11f_6/CHN/2024-06-20/Suncus-murinus/Mammalia:0.0908957257)100:0.1004886738)100:0.2208284945,((((((MW826416/XZS01/CHN/2018-04/Rattus-norvegicus/Mammalia:0.2018054645,PQ678016/NJLS-YNSC15/CHN/2021/Eothenomys-miletus/Mammalia:0.1099118562)100:0.1261614544,((PQ678015/DHMS-YNSC01/CHN/2021/Rattus-tanezumi/Mammalia:0.0466535003,MZ779126/NA/USA/2021-07-13/NA/Mammalia:0.0598739842)100:0.1225625247,MW826530/YSS03/CHN/2019-07/Rattus-norvegicus/Mammalia:0.1993574225)99:0.0604873425)96:0.0605048764,(MN503235/TIB-224-MA-USA-2018/USA/2018-05-04/Mus-musculus/Mammalia:0.0977885642,KT946734/HK-1998F/HKG/NA/Rattus-andamanensis/Mammalia:0.0350968856)100:0.3132226359)78:0.0581760383,PX095749/SQ-N.fuscus-Mav-4/CHN/2023/Neodon-fuscus/Mammalia:0.1994968550)49:0.0698635859,OM480542/NA/CHN/2020/Myocastor-coypus/Mammalia:0.2470109449)46:0.0424691611,NC_027426/NA/HUN/2011-07/Coracias-garrulus/Aves:0.2919494860)90:0.0413042085)93:0.0423011083,((((PV656460/TNG04553/TZA/2023-12-01/Homo-sapiens/Mammalia:0.1488592515,(MK089435/668/LAO/2015/Homo-sapiens/Mammalia:0.0610444659,NC_019028/MLB3-human-Vellore-26564-2004/IND/2004/Homo-sapiens/Mammalia:0.0416024853)100:0.0678407750)100:0.1622568757,BR001717/macaque_feces-2019-624/NA/NA/Macaca-mulatta/Mammalia:0.2466848405)100:0.2085738150,KY024237/HHMAstV1/CHN/2013_2014/Marmota-himalayana/Mammalia:0.5219498202)70:0.0577959354,((OQ198047/AstroviridaeDogfe326C1full/CHN/2020_2021/Canis-lupus/Mammalia:0.1042615678,JF729316/TN-rabbit-10-2208/USA/2010-06-04/Oryctolagus-cuniculus/Mammalia:0.0761439766)100:0.1945131461,(OM140654/NA/CHN/2016/Marmota-caudata/Mammalia:0.0404356679,(NC_033821/HHMAstV2/CHN/2013_2014/Marmota-himalayana/Mammalia:0.0000010002,KY855438/NA/CHN/2013/Marmota-himalayana/Mammalia:0.0000010002)100:0.0556409459)100:0.3070706385)100:0.0940762221)70:0.0535658815)28:0.0332359942,((((((PV605151/22SS640/CHN/2022/Rattus-norvegicus/Mammalia:0.0551003311,OQ802720/WZ_Ra.losea_astro_1/CHN/2016_2017/Rattus-losea/Mammalia:0.0992116649)100:0.0389508686,KT946729/HK-13112F/HKG/NA/Rattus-andamanensis/Mammalia:0.0959927998)100:0.0737928920,OQ802759/WF_Ni.niviventer_astro_1/CHN/2016_2017/Niviventer-niviventer/Mammalia:0.1463082672)100:0.0598224143,((((PP871761/astro_vt_43/VNM/2016-04-02/Gallus-gallus/Aves:0.0109634925,KY214437/15V010/BEL/2015-01/Sus-scrofa/Mammalia:0.0250123784)100:0.0738045047,PP871721/astro_vt_3/VNM/2014-05-29_2016-07-14/Sus-scrofa/Mammalia:0.0955914299)100:0.0841087162,OL345583/DB03F-SX-2018/CHN/2018/Meriones-unguiculatus/Mammalia:0.2571400056)96:0.0466542267,(PP711883/20A-Kenya-RNALIV2211-2016/KEN/2016/Aethomys-hindei/Mammalia:0.1061507100,((OQ802738/LQ_Ap.agrarius_astro_1/CHN/2016_2017/Apodemus-agrarius/Mammalia:0.0684899862,MT506231/RoAstV-CHN-S3/CHN/2016-12/Rattus-norvegicus/Mammalia:0.0539988871)100:0.0705331389,(MT152345/UK-2010/GBR/2010/NA/Mammalia:0.1552422132,KY855439/NA/CHN/2013/Marmota-himalayana/Mammalia:0.0910032115)100:0.1970069948)97:0.0661555091)96:0.0391478793)94:0.0421130537)31:0.0179717119,((PQ541178/Mu.-setulosus_astro/SLE/2023/Mus-setulosus/Mammalia:0.1217565097,MN837532/TW2/TWN/NA/Mus-musculus/Mammalia:0.0868118634)100:0.1239398093,(PQ678013/ZTMIX-YNSC193/CHN/2022/Niviventer-huang/Mammalia:0.0856920073,OQ802742/WZ_Ni.niviventer_astro_1/CHN/2016_2017/Niviventer-niviventer/Mammalia:0.0581094726)100:0.1423860943)94:0.0370298786)98:0.1397006686,((PV247174/LUVAS-2023-PAstV_21/IND/2023/Sus-scrofa/Mammalia:0.1948161997,(((LC849253/AstV-Raccoon_dog-Kodo2023-51-2023-JPN/JPN/2023-11-27/Nyctereutes-procyonoides/Mammalia:0.0471174585,(OQ198041/AstroviridaeDogfe351C1full/CHN/2020_2021/Canis-lupus/Mammalia:0.0449527017,KX599353/NA/HUN/2012-05-09/Canis-lupus/Mammalia:0.3154889288)98:0.0291453776)100:0.1848406139,(JN420354/1169/USA/2010/Zalophus-californianus/Mammalia:0.0594596120,JN420351/1136/USA/2010/Zalophus-californianus/Mammalia:0.0616550456)100:0.0875159643)100:0.1180635730,(PQ435248/FeAstV-THA-CU34912-2023/LAO/2023-12/Felis-catus/Mammalia:0.0999545372,((PP901925/E59S4/IRL/NA/Homo-sapiens/Mammalia:0.0027742871,ON807354/G22-014/FRA/2014-03-12/NA/NA:0.0000010002)100:0.0691186811,JN420352/1148/USA/2010/Zalophus-californianus/Mammalia:0.0268626218)100:0.0948730985)86:0.0304696194)89:0.0921901646)90:0.0970565257,OP094602/B80F05/CHN/2019-03/Rhizomys-pruinosus/Mammalia:0.6976368417)44:0.0396942235)33:0.0502361490)90:0.0783269058,((OR951068/YN2016_267_21909/CHN/2016/Rousettus-leschenaultii/Mammalia:0.1847685868,((PQ805453/GX-DA-2024/CHN/2024/Capra-hircus/Mammalia:0.1357325199,(((((PP571883/GX-WZ-2023/CHN/2023/Capra-hircus/Mammalia:0.1166815767,ON624282/NA/CHN/2021/Bos-taurus/Mammalia:0.0567505520)87:0.0189302377,MN087316/NA/USA/2018/Odocoileus-virginianus/Mammalia:0.0566371451)88:0.0202279045,OQ198050/AstroviridaeDogfe316C2full/CHN/2020_2021/Canis-lupus/Mammalia:0.0524357520)88:0.0167093444,NC_023632/NA/HKG/NA/Bos-taurus/Mammalia:0.0887660737)100:0.0586491291,(MW504552/15214_AST_len_6117_cov_31.526724/USA/2018-10-09/Sus-scrofa/Mammalia:0.0795879710,(NC_034974/K321/KEN/2012-08/Sus-scrofa/Mammalia:0.0222837372,KY214438/15V010/BEL/2015-01/Sus-scrofa/Mammalia:0.0350210947)100:0.0581763897)100:0.0298891525)90:0.0364131599)96:0.0594048555,OR367608/YakFeces06-13688/CHN/2021-05/Bos-mutus/Mammalia:0.2957724188)84:0.0355841680)79:0.0363907644,(ON624260/NA/CHN/2021/Bos-taurus/Mammalia:0.0120510539,ON624251/NA/CHN/2021/Bos-taurus/Mammalia:0.0107233240)100:0.2566300871)100:0.1602911633)100:0.1345648458)11:0.0202720319,(PX236817/M22/LAO/2021/Trichosurus-vulpecula/Mammalia:0.5101790679,MK521912/Stony-Head-Tasmania-Sarcophilus_harrisii-2016-DN108473/AUS/2016/Sarcophilus-harrisii/Mammalia:0.4155252935)99:0.2793396237)52:0.0576851661,(((((((OR951049/GD2017_211_130439/CHN/2017/Myotis-pilosus/Mammalia:0.0692555361,OQ236134/AstV-GZ-L162.18b-2022/CHN/2022-08/Myotis-pilosus/Mammalia:0.0607594754)100:0.0970077388,(MW249010/DesRot-Peru-AYA14_F_DrAstV/PER/2016/Desmodus-rotundus/Mammalia:0.1179851938,MT734809/BAstV-RB/USA/2020-02/NA/Mammalia:0.0817193663)100:0.0791158977)100:0.0427363467,OQ802748/WZ_Pi.abramus_astro_2/CHN/2016_2017/Pipistrellus-abramus/Mammalia:0.2137287751)100:0.0758936714,((OR951026/GX2017_185_6114/CHN/2017/Scotophilus-kuhlii/Mammalia:0.1515265733,PQ678018/HHLX-YNSP102/CHN/2021/Anourosorex-squamipes/Mammalia:0.1693661569)97:0.0424965006,PP711853/10A-Kenya-BAT273-2015/KEN/2015/Coleura-afra/Mammalia:0.1974762110)100:0.1039525086)97:0.0289711988,PP711856/13A-Kenya-BAT1552-2015/KEN/2015/Mops-condylurus/Mammalia:0.2596733142)100:0.0513239714,(((((OR951045/GD2017_207_27658/CHN/2017/Myotis-pilosus/Mammalia:0.0740166861,MN832787/BtAstV-13585-58-M.dau-DK-2014/DNK/2014-10/Myotis-daubentonii/Mammalia:0.0636001424)100:0.0520473876,OQ802750/WZ_My.laniger_astro_2/CHN/2016_2017/Myotis-laniger/Mammalia:0.0789943089)100:0.0555691998,OR951021/GX2019_145_83144/CHN/2019/Tylonycteris-pachypus/Mammalia:0.1711092014)100:0.0642529140,(OR951025/GD2018_176_158949/CHN/2018/Scotophilus-kuhlii/Mammalia:0.2446013568,PP711857/14A-Kenya-BAT1537-2015/KEN/2015/Mops-condylurus/Mammalia:0.2998215070)99:0.0782162840)97:0.0430138725,((((PP711881/9A-Kenya-BAT2999-2015/KEN/2015/Miniopterus-sp.-clade-1-TD-2020/Mammalia:0.0487225775,PP711874/4A-Kenya-BAT3003-2015/KEN/2015/Miniopterus-sp./Mammalia:0.0478928996)100:0.0635495907,PP711877/5A-Kenya-BAT0738-2015/KEN/2015/Miniopterus-sp.-clade-10-TD-2020/Mammalia:0.0556714785)100:0.0768481162,OR613303/MSJDC22-12649/CHN/2022/Miniopterus-schreibersii/Mammalia:0.1583457382)99:0.0342893565,(PP711878/6A-Kenya-BAT2988-2015/KEN/2015/Miniopterus-sp.-clade-1-TD-2020/Mammalia:0.1380475343,OR613304/MSJDC22-9044/CHN/2022/Miniopterus-schreibersii/Mammalia:0.1570487459)100:0.0572196721)99:0.0628652137)99:0.1046738355)98:0.0404822646,(OR951032/GD2016_189_30487/CHN/2016/Hipposideros-larvatus/Mammalia:0.2451409441,OQ802712/JM_Rh.sinicus_astro_2/CHN/2016_2017/Rhinolophus-sinicus/Mammalia:0.2275803998)100:0.1714843061)100:0.2112063951)85:0.0580207473,((((((((OR951097/JX2021_367_194485/CHN/2021/Rhinolophus-sinicus/Mammalia:0.0694447888,OR951079/HB2020_303_11589/CHN/2020/Rhinolophus-ferrumequinum/Mammalia:0.1369802331)100:0.0432914006,(((OR951034/GD2017_191_26815/CHN/2017/Hipposideros-larvatus/Mammalia:0.0547805405,OQ236124/AstV-CQ-L76.18d-2021/CHN/2021-12/Hipposideros-armiger/Mammalia:0.0408388436)78:0.0176696140,OQ236128/AstV-SC-L74.18c-2021/CHN/2021-12/Hipposideros-armiger/Mammalia:0.0634580024)89:0.0055148245,(OQ236123/AstV-CQ-L76.18c-2021/CHN/2021-12/Hipposideros-armiger/Mammalia:0.0467599752,OQ236121/AstV-CQ-L76.18a-2021/CHN/2021-12/Hipposideros-armiger/Mammalia:0.0338973552)86:0.0128183878)99:0.0838568285)96:0.0259273876,OQ236130/AstV-SC-L74.18e-2021/CHN/2021-12/Hipposideros-armiger/Mammalia:0.1448023161)100:0.0411805875,((OR951016/YN2020_064_655/CHN/2020/Myotis-chinensis/Mammalia:0.0322773437,MZ218053/BtAstV-21164-6-A-M.dau-DK-2015/DNK/2015-11/Myotis-daubentonii/Mammalia:0.0537226313)100:0.1002177256,OR552421/seven/RUS/2023-02/Nyctalus-noctula/Mammalia:0.2492273034)91:0.0504089449)91:0.0314171103,OR951080/HB2020_306_19370/CHN/2020/Rhinolophus-sinicus/Mammalia:0.1684997411)100:0.1045023578,((OR951087/YN2020_321_29515/CHN/2020/Miniopterus-schreibersii/Mammalia:0.0807537143,EU847155/AFCD337/CHN/2006/Miniopterus-pusillus/Mammalia:0.1262813675)70:0.0391184959,(PP711873/3A-Kenya-BAT0736-2015/KEN/2015/Miniopterus-sp.-clade-10-TD-2020/Mammalia:0.0561033717,(((OP589979/EBW-Sk-3/AUS/2013_2021/Miniopterus-orianae/Mammalia:0.0432683747,OP589977/EBW-Sk-1/AUS/2013_2021/Miniopterus-orianae/Mammalia:0.0429214089)100:0.0217964619,MW450837/BF2-astro-YN-CHN-2020/CHN/2020-02-20/Miniopterus-schreibersii/Mammalia:0.0620329656)100:0.0276379609,OP589978/EBW-Sk-2/AUS/2013_2021/Miniopterus-orianae/Mammalia:0.0979925490)99:0.0273563419)100:0.0676550048)100:0.1026973298)100:0.1627454439,((PQ421850/QJ1-CWDS/CHN/2017-10-14/Crocidura-dracula/Mammalia:0.0857501411,OQ802733/JM_Cr.shantungensis_astro_1/CHN/2016_2017/Crocidura-shantungensis/Mammalia:0.1078834244)100:0.1997318810,PQ421849/YL-SCDW/CHN/2015-11-17/Anourosorex-squamipes/Mammalia:0.3445147235)100:0.1934693036)99:0.0899346932,OQ802710/JM_My.chinensis_astro_6/CHN/2016_2017/Myotis-chinensis/Mammalia:0.5088407200)63:0.0583710653)89:0.0617245204,((PP711880/8A-Uganda-UGR87-2019/UGA/2019/Rousettus-aegyptiacus/Mammalia:0.0797569079,OQ606244/RR034B/MDG/2018/Rousettus-madagascariensis/Mammalia:0.0712944014)100:0.3058552027,(PP711872/2A-Uganda-UV32-2018/UGA/2018/Rousettus-aegyptiacus/Mammalia:0.1575160871,MG693176/CMR-Bat-AsV-P02/CMR/2013-12/Eidolon-helvum/Mammalia:0.1458157497)100:0.1484713579)100:0.1911470712)100:0.1019241903,OQ693700/DAstV-1/NA/NA/Equus-asinus/Mammalia:0.3098348995)55:0.0552489757,(PV166024/PAstV3-XJJY17-2023/CHN/2023/Sus-scrofa/Mammalia:0.0977542945,KY933399/U460/UGA/2012-11/Sus-scrofa/Mammalia:0.1062074586)100:0.2137753388)74:0.0564929694,((((FJ973620/VA1/USA/2008-08/Homo-sapiens/Mammalia:0.0053038128,MH933754/CMRHP6/CMR/2014-12/Homo-sapiens/Mammalia:0.0077171216)100:0.1008837331,JX857868/VA3-human-Vellore-28054-2005/IND/2005/Homo-sapiens/Mammalia:0.1078379778)100:0.1036259455,(OQ968312/21153-SD-CHN-VA2/CHN/2021/Homo-sapiens/Mammalia:0.1204037632,JX857869/VA4-human-Nepal-S5363-2008/NPL/2008/Homo-sapiens/Mammalia:0.1524593303)100:0.0532796295)100:0.0471371265,KF859964/NA/BFA/2010/Homo-sapiens/Mammalia:0.1592871671)99:0.0704950105)21:0.0126590643)97:0.0467892331,MW037839/NA/AUS/2018-06/Felis-catus/Mammalia:0.2669877111)99:0.0562275137,NC_004579/NA/NA/NA/NA/NA:0.2508236506)100:0.1592591878,KC692365/fox-5/LAO/2012-03-15/Vulpes-vulpes/Mammalia:0.2160208984)100:0.0545009691,KM017741/FAstV-D1/USA/2013-10/Felis-catus/Mammalia:0.0373975442);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -109740.570326
+Robinson-Foulds distance between ML tree and consensus tree: 14
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--OZ453978/NA/GBR/2022/NA/NA
+|
+|                    +--PX941856/SN-6192/CHN/2022/Bos-taurus/Mammalia
+|                 +--| (100)
+|                 |  +--MT499772/NA/CHN/2019-08-06/Bubalus-bubalis/Mammalia
+|              +--| (100)
+|              |  |        +--PX095800/DL-P.nayaur-Mav-1/CHN/2023/Pseudois-nayaur/Mammalia
+|              |  |     +--| (99)
+|              |  |     |  |  +--OK107515/NA/CHN/2021/Capra-hircus/Mammalia
+|              |  |     |  +--| (100)
+|              |  |     |     +--LT706531/UK-2013-ewe-lib01454/NA/NA/NA/NA
+|              |  |  +--| (100)
+|              |  |  |  +--Y15937/provided-by-Dr.-D.R.-Snodgrass--Moredun-Research-Institute--Edinburgh/NA/NA/Ovis-aries/Mammalia
+|              |  +--| (95)
+|              |     +--NC_024498/CH13/LAO/2012-03/Bos-taurus/Mammalia
+|           +--| (52)
+|           |  |                                                              +--PX597466/JSYC2504/CHN/2025/Anser-cygnoides/Aves
+|           |  |                                                           +--| (62)
+|           |  |                                                           |  +--OR924090/NA/CHN/2021-11-09/Anser-anser/Aves
+|           |  |                                                        +--| (62)
+|           |  |                                                        |  |  +--KF753807/NA/CHN/2012-09-15/NA/NA
+|           |  |                                                        |  +--| (100)
+|           |  |                                                        |     +--AF206663/NA/NA/NA/NA/NA
+|           |  |                                                     +--| (94)
+|           |  |                                                     |  |        +--PV093029/NA/CHN/2023-01-01/Neogale-vison/Mammalia
+|           |  |                                                     |  |     +--| (100)
+|           |  |                                                     |  |     |  +--JF832365/4175/USA/2006-11/Gallus-gallus/Aves
+|           |  |                                                     |  |  +--| (98)
+|           |  |                                                     |  |  |  +--OM095382/JM/CHN/2021-03-08/Anas-platyrhynchos/Aves
+|           |  |                                                     |  +--| (100)
+|           |  |                                                     |     +--OR907127/NA/CHN/2023-03-21/Anser-anser/Aves
+|           |  |                                                  +--| (94)
+|           |  |                                                  |  |  +--PV169360/NA/CHN/2024/Anas-platyrhynchos/Aves
+|           |  |                                                  |  +--| (100)
+|           |  |                                                  |     +--MW588062/NA/GBR/NA/NA/NA
+|           |  |                                               +--| (97)
+|           |  |                                               |  |  +--PP108251/NA/CHN/2023-08-15/Anser-anser/Aves
+|           |  |                                               |  +--| (100)
+|           |  |                                               |     +--OP272633/AH33-3/CHN/2021/Anser-anser/Aves
+|           |  |                                            +--| (97)
+|           |  |                                            |  |     +--PV793827/AstroviridaeCranefe81/CHN/2024-01/Leucogeranus-leucogeranus/Aves
+|           |  |                                            |  |  +--| (100)
+|           |  |                                            |  |  |  +--MW588064/NA/GBR/NA/NA/NA
+|           |  |                                            |  +--| (69)
+|           |  |                                            |     |  +--PQ220257/ASTV-1/CHN/2020-12/Anser-indicus/Aves
+|           |  |                                            |     +--| (96)
+|           |  |                                            |        +--MT138004/hftbif16ast1nc/NA/2016/NA/NA
+|           |  |                                         +--| (91)
+|           |  |                                         |  +--PV093020/NA/CHN/2023-01-01/Neogale-vison/Mammalia
+|           |  |                                      +--| (76)
+|           |  |                                      |  |  +--PV793829/AstroviridaeGoosefe94/CHN/2024-01/NA/Aves
+|           |  |                                      |  +--| (86)
+|           |  |                                      |     +--PQ893528/NSW-2021/AUS/2021-01/Eolophus-roseicapilla/Aves
+|           |  |                                   +--| (100)
+|           |  |                                   |  |              +--PP871808/astro_vt_90/VNM/2015-06-16_2016-04-02/Gallus-gallus/Aves
+|           |  |                                   |  |           +--| (100)
+|           |  |                                   |  |           |  +--MW684820/Chicken-NLD-2019-V_M_033_astro_3/LAO/2019/Gallus-gallus/Aves
+|           |  |                                   |  |        +--| (100)
+|           |  |                                   |  |        |  +--PP478075/PL_pigeon_4a-2023/LAO/2023-05/Columba-livia/Aves
+|           |  |                                   |  |     +--| (100)
+|           |  |                                   |  |     |  +--PQ893527/QLD-2021/AUS/2021-01/Alisterus-scapularis/Aves
+|           |  |                                   |  |  +--| (100)
+|           |  |                                   |  |  |  |  +--MT993583/MW06_2o/AUS/2014/Arenaria-interpres/Aves
+|           |  |                                   |  |  |  +--| (100)
+|           |  |                                   |  |  |     +--MH453801/AstV-Red-necked-Avocet-MW09-Interior/AUS/2013/Recurvirostra-novaehollandiae/Aves
+|           |  |                                   |  +--| (100)
+|           |  |                                   |     |           +--MT993596/MW10_1o/AUS/2015/Arenaria-interpres/Aves
+|           |  |                                   |     |        +--| (59)
+|           |  |                                   |     |        |  +--MT138002/cra070ast1/NA/2018/NA/NA
+|           |  |                                   |     |     +--| (95)
+|           |  |                                   |     |     |  |  +--MT137999/coa196ast1/NA/2018/NA/NA
+|           |  |                                   |     |     |  +--| (98)
+|           |  |                                   |     |     |     +--MT137996/cfe153ast01/NA/2018/NA/NA
+|           |  |                                   |     |  +--| (94)
+|           |  |                                   |     |  |  +--MH453800/AstV-Red-necked-Avocet-MW08-Interior/AUS/2013/Recurvirostra-novaehollandiae/Aves
+|           |  |                                   |     +--| (100)
+|           |  |                                   |        |     +--MT138010/prf037ast2/NA/2018/NA/NA
+|           |  |                                   |        |  +--| (94)
+|           |  |                                   |        |  |  +--MT138007/ltr178ast1/NA/2018/NA/NA
+|           |  |                                   |        +--| (100)
+|           |  |                                   |           +--MT138005/hwf041ast1/NA/2018/NA/NA
+|           |  |                                +--| (98)
+|           |  |                                |  |                 +--OQ986679/GEIG/LAO/2021-02_2021-03/NA/NA
+|           |  |                                |  |              +--| (76)
+|           |  |                                |  |              |  +--OQ986607/GEIG/LAO/2021-02_2021-03/NA/NA
+|           |  |                                |  |           +--| (64)
+|           |  |                                |  |           |  +--OQ986608/RHFU/LAO/2021-02_2021-03/NA/NA
+|           |  |                                |  |        +--| (79)
+|           |  |                                |  |        |  |              +--OQ986606/GEIG/LAO/2021-02_2021-03/NA/NA
+|           |  |                                |  |        |  |           +--| (92)
+|           |  |                                |  |        |  |           |  +--MK096774/PasAstV-2/GUF/2016-10/NA/Aves
+|           |  |                                |  |        |  |        +--| (58)
+|           |  |                                |  |        |  |        |  |  +--MK096776/PasAstV-4/GUF/2016-10/NA/Aves
+|           |  |                                |  |        |  |        |  +--| (98)
+|           |  |                                |  |        |  |        |     +--MK096775/PasAstV-3/GUF/2016-10/NA/Aves
+|           |  |                                |  |        |  |     +--| (59)
+|           |  |                                |  |        |  |     |  +--MT138003/ecw123ast1/NA/2018/NA/NA
+|           |  |                                |  |        |  |  +--| (98)
+|           |  |                                |  |        |  |  |  |        +--MW826482/YSN02/CHN/2019-07/NA/Aves
+|           |  |                                |  |        |  |  |  |     +--| (100)
+|           |  |                                |  |        |  |  |  |     |  |  +--MW826371/XZN01/CHN/2018-04/NA/Aves
+|           |  |                                |  |        |  |  |  |     |  +--| (99)
+|           |  |                                |  |        |  |  |  |     |     |     +--MT137995/bun145astnc1/NA/2018/NA/NA
+|           |  |                                |  |        |  |  |  |     |     |  +--| (99)
+|           |  |                                |  |        |  |  |  |     |     |  |  |  +--MN920668/war204ast1/CHN/2018/NA/NA
+|           |  |                                |  |        |  |  |  |     |     |  |  +--| (100)
+|           |  |                                |  |        |  |  |  |     |     |  |     +--MN920663/spa143ast1/CHN/2018/NA/NA
+|           |  |                                |  |        |  |  |  |     |     +--| (98)
+|           |  |                                |  |        |  |  |  |     |        |  +--MN920671/ytb089ast01/CHN/2018/NA/NA
+|           |  |                                |  |        |  |  |  |     |        +--| (100)
+|           |  |                                |  |        |  |  |  |     |           +--MN920669/ybb150ast01/CHN/2018/NA/NA
+|           |  |                                |  |        |  |  |  |  +--| (97)
+|           |  |                                |  |        |  |  |  |  |  +--MT138016/rtr168ast1/NA/2018/NA/NA
+|           |  |                                |  |        |  |  |  +--| (36)
+|           |  |                                |  |        |  |  |     |        +--KT946721/D11-148.2-HK/HKG/NA/NA/Aves
+|           |  |                                |  |        |  |  |     |     +--| (100)
+|           |  |                                |  |        |  |  |     |     |  +--MT137997/cfe153ast02/NA/2018/NA/NA
+|           |  |                                |  |        |  |  |     |  +--| (100)
+|           |  |                                |  |        |  |  |     |  |  +--MN920670/ybw202ast01/CHN/2018/NA/NA
+|           |  |                                |  |        |  |  |     +--| (59)
+|           |  |                                |  |        |  |  |        +--MT137991/bbr144ast1/NA/2018/NA/NA
+|           |  |                                |  |        |  +--| (73)
+|           |  |                                |  |        |     |  +--MW385413/NA/CHN/2017-12-28/NA/Aves
+|           |  |                                |  |        |     +--| (76)
+|           |  |                                |  |        |        |  +--MW385412/NA/CHN/2017-12-28/NA/Aves
+|           |  |                                |  |        |        +--| (100)
+|           |  |                                |  |        |           +--KT946718/D11-139-HK/HKG/NA/Corvus-splendens/Aves
+|           |  |                                |  |     +--| (74)
+|           |  |                                |  |     |  |     +--OQ986605/BOPU/LAO/2021-02_2021-03/NA/NA
+|           |  |                                |  |     |  |  +--| (99)
+|           |  |                                |  |     |  |  |  +--MT137994/bsk136ast01/NA/2018/NA/NA
+|           |  |                                |  |     |  +--| (97)
+|           |  |                                |  |     |     |     +--MT138013/rob181ast1/NA/2018/NA/NA
+|           |  |                                |  |     |     |  +--| (100)
+|           |  |                                |  |     |     |  |  +--MT138008/ltt163ast1/NA/2018/NA/NA
+|           |  |                                |  |     |     +--| (97)
+|           |  |                                |  |     |        |  +--MN920665/stc111ast1/CHN/2018/NA/NA
+|           |  |                                |  |     |        +--| (97)
+|           |  |                                |  |     |           +--MN920664/sru051ast1/CHN/2018/NA/NA
+|           |  |                                |  |  +--| (100)
+|           |  |                                |  |  |  |  +--OQ986609/RHFU/LAO/2021-02_2021-03/NA/NA
+|           |  |                                |  |  |  +--| (89)
+|           |  |                                |  |  |     +--MK096773/PasAstV-1/GUF/NA/NA/Aves
+|           |  |                                |  +--| (97)
+|           |  |                                |     |     +--MW826483/YSN01/CHN/2019-07/NA/Aves
+|           |  |                                |     |  +--| (100)
+|           |  |                                |     |  |  +--MT138000/coa196ast2nc/NA/2018/NA/NA
+|           |  |                                |     +--| (100)
+|           |  |                                |        |  +--MT138009/prf037ast1nc/NA/2018/NA/NA
+|           |  |                                |        +--| (100)
+|           |  |                                |           |  +--MT138006/hwf182ast2/NA/2018/NA/NA
+|           |  |                                |           +--| (100)
+|           |  |                                |              +--MT137993/brb026ast1/NA/2018/NA/NA
+|           |  |                             +--| (73)
+|           |  |                             |  +--MT993595/MW09_1o/AUS/2015/Arenaria-interpres/Aves
+|           |  |                          +--| (61)
+|           |  |                          |  |           +--PP711188/Hplan-A_304122/AUS/2017/Heteronotia-planiceps/Lepidosauria
+|           |  |                          |  |        +--| (100)
+|           |  |                          |  |        |  |  +--MZ375139/3PE-RDRP-2/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria
+|           |  |                          |  |        |  +--| (100)
+|           |  |                          |  |        |     +--MG599918/NA/CHN/NA/Hemidactylus-bowringii/Lepidosauria
+|           |  |                          |  |     +--| (100)
+|           |  |                          |  |     |  +--MG599916/NA/CHN/NA/Hypselotriton-orientalis/Amphibia
+|           |  |                          |  |  +--| (99)
+|           |  |                          |  |  |  +--MG599910/NA/CHN/NA/Duttaphrynus-melanostictus/Amphibia
+|           |  |                          |  +--| (100)
+|           |  |                          |     |  +--PP352010/Hunan-CHN-2022/CHN/2022/Pelophylax-nigromaculatus/Amphibia
+|           |  |                          |     +--| (100)
+|           |  |                          |        +--MG599931/NA/CHN/NA/Polypedates-megacephalus/Amphibia
+|           |  |                       +--| (93)
+|           |  |                       |  +-----PP623814/MP22-196/CHN/2022-11-09/Mareca-falcata/Aves
+|           |  |                    +--| (91)
+|           |  |                    |  |                       +--OR951053/JX2020/CHN/2020/NA/NA
+|           |  |                    |  |                    +--| (100)
+|           |  |                    |  |                    |  +--MG599892/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia
+|           |  |                    |  |                 +--| (100)
+|           |  |                    |  |                 |  +--MG599891/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia
+|           |  |                    |  |              +--| (98)
+|           |  |                    |  |              |  +----MG599890/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia
+|           |  |                    |  |           +--| (100)
+|           |  |                    |  |           |  +--------MG599922/NA/CHN/NA/Gonorynchus-abbreviatus/Actinopteri
+|           |  |                    |  |        +--| (100)
+|           |  |                    |  |        |  |     +--MG599895/NA/CHN/NA/Coelorinchus-multispinulosus/Actinopteri
+|           |  |                    |  |        |  |  +--| (100)
+|           |  |                    |  |        |  |  |  |  +--MG599897/NA/CHN/NA/Coelorinchus-multispinulosus/Actinopteri
+|           |  |                    |  |        |  |  |  +--| (100)
+|           |  |                    |  |        |  |  |     +--MG599893/NA/CHN/NA/Coelorinchus-multispinulosus/Actinopteri
+|           |  |                    |  |        |  +--| (100)
+|           |  |                    |  |        |     |     +-------MG599886/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia
+|           |  |                    |  |        |     |  +--| (100)
+|           |  |                    |  |        |     |  |  +----MG599921/NA/CHN/NA/Macroramphosus-scolopax/Actinopteri
+|           |  |                    |  |        |     +--| (100)
+|           |  |                    |  |        |        |  +--MG599930/NA/CHN/NA/NA/Actinopteri
+|           |  |                    |  |        |        +--| (100)
+|           |  |                    |  |        |           +--MG599923/NA/CHN/NA/NA/Actinopteri
+|           |  |                    |  |     +--| (37)
+|           |  |                    |  |     |  |               +--MG599899/NA/CHN/NA/Pleuronichthys-japonicus/Actinopteri
+|           |  |                    |  |     |  |            +--| (100)
+|           |  |                    |  |     |  |            |  +--MG599929/NA/CHN/NA/Echelus-uropterus/Actinopteri
+|           |  |                    |  |     |  |         +--| (99)
+|           |  |                    |  |     |  |         |  |     +--MG599884/NA/CHN/NA/NA/NA
+|           |  |                    |  |     |  |         |  |  +--| (100)
+|           |  |                    |  |     |  |         |  |  |  +--MG599928/NA/CHN/NA/Parapercis-lutevittata/Actinopteri
+|           |  |                    |  |     |  |         |  +--| (100)
+|           |  |                    |  |     |  |         |     +--MG599901/NA/CHN/NA/NA/Actinopteri
+|           |  |                    |  |     |  |      +--| (97)
+|           |  |                    |  |     |  |      |  +--MG599925/NA/CHN/NA/NA/Actinopteri
+|           |  |                    |  |     |  +------| (100)
+|           |  |                    |  |     |         +--MG599924/NA/CHN/NA/NA/Actinopteri
+|           |  |                    |  |  +--| (86)
+|           |  |                    |  |  |  |                 +--PQ421846/LQ4-XSQ/CHN/2019-10-20/Crocidura-suaveolens/Mammalia
+|           |  |                    |  |  |  |              +--| (100)
+|           |  |                    |  |  |  |              |  +--OQ802743/WZ_Hy.pulveratus_astro_1/CHN/2016_2017/Hypsugo-pulveratus/Mammalia
+|           |  |                    |  |  |  |           +--| (100)
+|           |  |                    |  |  |  |           |  |                       +--PP352011/Jiangxi-CHN-2022/CHN/2022/Pelophylax-nigromaculatus/Amphibia
+|           |  |                    |  |  |  |           |  |                    +--| (100)
+|           |  |                    |  |  |  |           |  |                    |  +--MG599932/NA/CHN/NA/Polypedates-megacephalus/Amphibia
+|           |  |                    |  |  |  |           |  |                 +--| (83)
+|           |  |                    |  |  |  |           |  |                 |  |  +--MG599909/NA/CHN/NA/Microhyla-pulchra/Amphibia
+|           |  |                    |  |  |  |           |  |                 |  +--| (96)
+|           |  |                    |  |  |  |           |  |                 |     |  +--MG599911/NA/CHN/NA/Hyla-simplex/Amphibia
+|           |  |                    |  |  |  |           |  |                 |     +--| (99)
+|           |  |                    |  |  |  |           |  |                 |        +--MG599903/NA/CHN/NA/Bufo-gargarizans/Amphibia
+|           |  |                    |  |  |  |           |  |              +--| (84)
+|           |  |                    |  |  |  |           |  |              |  |  +--MG599912/NA/CHN/NA/Sylvirana-guentheri/Amphibia
+|           |  |                    |  |  |  |           |  |              |  +--| (99)
+|           |  |                    |  |  |  |           |  |              |     +--MG599908/NA/CHN/NA/Microhyla-pulchra/Amphibia
+|           |  |                    |  |  |  |           |  |           +--| (99)
+|           |  |                    |  |  |  |           |  |           |  +--MG599906/NA/CHN/NA/Leptobrachium-hainanense/Amphibia
+|           |  |                    |  |  |  |           |  |        +--| (90)
+|           |  |                    |  |  |  |           |  |        |  +--MG599913/NA/CHN/NA/Pachytriton-brevipes/Amphibia
+|           |  |                    |  |  |  |           |  |     +--| (84)
+|           |  |                    |  |  |  |           |  |     |  |  +--MG599915/NA/CHN/NA/Hypselotriton-orientalis/Amphibia
+|           |  |                    |  |  |  |           |  |     |  +--| (100)
+|           |  |                    |  |  |  |           |  |     |     +--MG599914/NA/CHN/NA/Hypselotriton-orientalis/Amphibia
+|           |  |                    |  |  |  |           |  |  +--| (90)
+|           |  |                    |  |  |  |           |  |  |  +--MG599907/NA/CHN/NA/Teratoscincus-roborowskii/Lepidosauria
+|           |  |                    |  |  |  |           |  +--| (94)
+|           |  |                    |  |  |  |           |     |              +--MZ375141/5PT-RDRP-1/CHN/2020/Phrynocephalus-theobaldi/Lepidosauria
+|           |  |                    |  |  |  |           |     |           +--| (100)
+|           |  |                    |  |  |  |           |     |           |  |  +--MZ375137/2PE-RDRP-2/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria
+|           |  |                    |  |  |  |           |     |           |  +--| (100)
+|           |  |                    |  |  |  |           |     |           |     +--MZ375133/1PE-RDRP-3/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria
+|           |  |                    |  |  |  |           |     |        +--| (100)
+|           |  |                    |  |  |  |           |     |        |  |  +--MZ375136/2PE-RDRP-1/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria
+|           |  |                    |  |  |  |           |     |        |  +--| (100)
+|           |  |                    |  |  |  |           |     |        |     +--MZ375134/1PE-RDRP-4/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria
+|           |  |                    |  |  |  |           |     |     +--| (100)
+|           |  |                    |  |  |  |           |     |     |  +--MG599933/NA/CHN/NA/Calotes-versicolor/Lepidosauria
+|           |  |                    |  |  |  |           |     |  +--| (100)
+|           |  |                    |  |  |  |           |     |  |  |  +--MG599904/NA/CHN/NA/Myrrophis-chinensis/Lepidosauria
+|           |  |                    |  |  |  |           |     |  |  +--| (100)
+|           |  |                    |  |  |  |           |     |  |     +--MG599905/NA/CHN/NA/NA/NA
+|           |  |                    |  |  |  |           |     +--| (88)
+|           |  |                    |  |  |  |           |        +----MG599920/NA/CHN/NA/Tropidophorus-sinicus/Lepidosauria
+|           |  |                    |  |  |  |        +--| (68)
+|           |  |                    |  |  |  |        |  |           +--MG599888/NA/CHN/NA/Scoliodon-macrorhynchos/Chondrichthyes
+|           |  |                    |  |  |  |        |  |        +--| (100)
+|           |  |                    |  |  |  |        |  |        |  +--MG599936/NA/CHN/NA/Hemitriakis-japanica/Chondrichthyes
+|           |  |                    |  |  |  |        |  |    +---| (100)
+|           |  |                    |  |  |  |        |  |    |   +--MG599887/NA/CHN/NA/Hemitrygon-akajei/Chondrichthyes
+|           |  |                    |  |  |  |        |  +----| (100)
+|           |  |                    |  |  |  |        |       +-----MG599889/NA/CHN/NA/Scoliodon-macrorhynchos/Chondrichthyes
+|           |  |                    |  |  |  |     +--| (68)
+|           |  |                    |  |  |  |     |  +-----------MG599902/NA/CHN/NA/Pterygotrigla-hemisticta/Actinopteri
+|           |  |                    |  |  |  |  +--| (100)
+|           |  |                    |  |  |  |  |  |      +--MG599883/NA/CHN/NA/Cephalopholis-spiloparaea/Actinopteri
+|           |  |                    |  |  |  |  |  +------| (100)
+|           |  |                    |  |  |  |  |         +---MG599882/NA/CHN/NA/Banjos-banjos/Actinopteri
+|           |  |                    |  |  |  +--| (57)
+|           |  |                    |  |  |     |                   +-----------------PP172009/CC1C_k141_14283/AUS/2021-12-17/NA/NA
+|           |  |                    |  |  |     +-------------------| (99)
+|           |  |                    |  |  |                         +-------------------------PP171953/CC1B_k141_72897/AUS/2021-12-17/NA/NA
+|           |  |                    |  +--| (87)
+|           |  |                    |     +-----MK450332/NA/HUN/2011/Coracias-garrulus/Aves
+|           |  |                 +--| (26)
+|           |  |                 |  |  +--PX236817/M22/LAO/2021/Trichosurus-vulpecula/Mammalia
+|           |  |                 |  +--| (99)
+|           |  |                 |     +--MK521912/Stony-Head-Tasmania-Sarcophilus_harrisii-2016-DN108473/AUS/2016/Sarcophilus-harrisii/Mammalia
+|           |  |              +--| (52)
+|           |  |              |  |                    +--PX221760/JLTH_3/CHN/2021/Apodemus-agrarius/Mammalia
+|           |  |              |  |                 +--| (100)
+|           |  |              |  |                 |  +--PQ541155/Lo.-chrysopus_astro/SLE/2023/Lophuromys-chrysopus/Mammalia
+|           |  |              |  |              +--| (100)
+|           |  |              |  |              |  |     +--PV605181/21DB39/CHN/2021/Bandicota-indica/Mammalia
+|           |  |              |  |              |  |  +--| (100)
+|           |  |              |  |              |  |  |  +--OR711901/YNKm72022/CHN/2022-07/Rattus-norvegicus/Mammalia
+|           |  |              |  |              |  +--| (100)
+|           |  |              |  |              |     +--PV351773/HN_K11f_6/CHN/2024-06-20/Suncus-murinus/Mammalia
+|           |  |              |  |           +--| (93)
+|           |  |              |  |           |  |                 +--MW826416/XZS01/CHN/2018-04/Rattus-norvegicus/Mammalia
+|           |  |              |  |           |  |              +--| (100)
+|           |  |              |  |           |  |              |  +--PQ678016/NJLS-YNSC15/CHN/2021/Eothenomys-miletus/Mammalia
+|           |  |              |  |           |  |           +--| (96)
+|           |  |              |  |           |  |           |  |     +--PQ678015/DHMS-YNSC01/CHN/2021/Rattus-tanezumi/Mammalia
+|           |  |              |  |           |  |           |  |  +--| (100)
+|           |  |              |  |           |  |           |  |  |  +--MZ779126/NA/USA/2021-07-13/NA/Mammalia
+|           |  |              |  |           |  |           |  +--| (99)
+|           |  |              |  |           |  |           |     +--MW826530/YSS03/CHN/2019-07/Rattus-norvegicus/Mammalia
+|           |  |              |  |           |  |        +--| (78)
+|           |  |              |  |           |  |        |  |  +--MN503235/TIB-224-MA-USA-2018/USA/2018-05-04/Mus-musculus/Mammalia
+|           |  |              |  |           |  |        |  +--| (100)
+|           |  |              |  |           |  |        |     +--KT946734/HK-1998F/HKG/NA/Rattus-andamanensis/Mammalia
+|           |  |              |  |           |  |     +--| (49)
+|           |  |              |  |           |  |     |  +--PX095749/SQ-N.fuscus-Mav-4/CHN/2023/Neodon-fuscus/Mammalia
+|           |  |              |  |           |  |  +--| (46)
+|           |  |              |  |           |  |  |  +--OM480542/NA/CHN/2020/Myocastor-coypus/Mammalia
+|           |  |              |  |           |  +--| (90)
+|           |  |              |  |           |     +--NC_027426/NA/HUN/2011-07/Coracias-garrulus/Aves
+|           |  |              |  |        +--| (28)
+|           |  |              |  |        |  |           +--PV656460/TNG04553/TZA/2023-12-01/Homo-sapiens/Mammalia
+|           |  |              |  |        |  |        +--| (100)
+|           |  |              |  |        |  |        |  |  +--MK089435/668/LAO/2015/Homo-sapiens/Mammalia
+|           |  |              |  |        |  |        |  +--| (100)
+|           |  |              |  |        |  |        |     +--NC_019028/MLB3-human-Vellore-26564-2004/IND/2004/Homo-sapiens/Mammalia
+|           |  |              |  |        |  |     +--| (100)
+|           |  |              |  |        |  |     |  +--BR001717/macaque_feces-2019-624/NA/NA/Macaca-mulatta/Mammalia
+|           |  |              |  |        |  |  +--| (70)
+|           |  |              |  |        |  |  |  +---KY024237/HHMAstV1/CHN/2013_2014/Marmota-himalayana/Mammalia
+|           |  |              |  |        |  +--| (70)
+|           |  |              |  |        |     |     +--OQ198047/AstroviridaeDogfe326C1full/CHN/2020_2021/Canis-lupus/Mammalia
+|           |  |              |  |        |     |  +--| (100)
+|           |  |              |  |        |     |  |  +--JF729316/TN-rabbit-10-2208/USA/2010-06-04/Oryctolagus-cuniculus/Mammalia
+|           |  |              |  |        |     +--| (100)
+|           |  |              |  |        |        |  +--OM140654/NA/CHN/2016/Marmota-caudata/Mammalia
+|           |  |              |  |        |        +--| (100)
+|           |  |              |  |        |           |  +--NC_033821/HHMAstV2/CHN/2013_2014/Marmota-himalayana/Mammalia
+|           |  |              |  |        |           +--| (100)
+|           |  |              |  |        |              +--KY855438/NA/CHN/2013/Marmota-himalayana/Mammalia
+|           |  |              |  |     +--| (90)
+|           |  |              |  |     |  |                 +--PV605151/22SS640/CHN/2022/Rattus-norvegicus/Mammalia
+|           |  |              |  |     |  |              +--| (100)
+|           |  |              |  |     |  |              |  +--OQ802720/WZ_Ra.losea_astro_1/CHN/2016_2017/Rattus-losea/Mammalia
+|           |  |              |  |     |  |           +--| (100)
+|           |  |              |  |     |  |           |  +--KT946729/HK-13112F/HKG/NA/Rattus-andamanensis/Mammalia
+|           |  |              |  |     |  |        +--| (100)
+|           |  |              |  |     |  |        |  +--OQ802759/WF_Ni.niviventer_astro_1/CHN/2016_2017/Niviventer-niviventer/Mammalia
+|           |  |              |  |     |  |     +--| (37)
+|           |  |              |  |     |  |     |  |     +--PQ541178/Mu.-setulosus_astro/SLE/2023/Mus-setulosus/Mammalia
+|           |  |              |  |     |  |     |  |  +--| (100)
+|           |  |              |  |     |  |     |  |  |  +--MN837532/TW2/TWN/NA/Mus-musculus/Mammalia
+|           |  |              |  |     |  |     |  +--| (94)
+|           |  |              |  |     |  |     |     |  +--PQ678013/ZTMIX-YNSC193/CHN/2022/Niviventer-huang/Mammalia
+|           |  |              |  |     |  |     |     +--| (100)
+|           |  |              |  |     |  |     |        +--OQ802742/WZ_Ni.niviventer_astro_1/CHN/2016_2017/Niviventer-niviventer/Mammalia
+|           |  |              |  |     |  |  +--| (98)
+|           |  |              |  |     |  |  |  |           +--PP871761/astro_vt_43/VNM/2016-04-02/Gallus-gallus/Aves
+|           |  |              |  |     |  |  |  |        +--| (100)
+|           |  |              |  |     |  |  |  |        |  +--KY214437/15V010/BEL/2015-01/Sus-scrofa/Mammalia
+|           |  |              |  |     |  |  |  |     +--| (100)
+|           |  |              |  |     |  |  |  |     |  +--PP871721/astro_vt_3/VNM/2014-05-29_2016-07-14/Sus-scrofa/Mammalia
+|           |  |              |  |     |  |  |  |  +--| (96)
+|           |  |              |  |     |  |  |  |  |  +--OL345583/DB03F-SX-2018/CHN/2018/Meriones-unguiculatus/Mammalia
+|           |  |              |  |     |  |  |  +--| (94)
+|           |  |              |  |     |  |  |     |  +--PP711883/20A-Kenya-RNALIV2211-2016/KEN/2016/Aethomys-hindei/Mammalia
+|           |  |              |  |     |  |  |     +--| (96)
+|           |  |              |  |     |  |  |        |     +--OQ802738/LQ_Ap.agrarius_astro_1/CHN/2016_2017/Apodemus-agrarius/Mammalia
+|           |  |              |  |     |  |  |        |  +--| (100)
+|           |  |              |  |     |  |  |        |  |  +--MT506231/RoAstV-CHN-S3/CHN/2016-12/Rattus-norvegicus/Mammalia
+|           |  |              |  |     |  |  |        +--| (97)
+|           |  |              |  |     |  |  |           |  +--MT152345/UK-2010/GBR/2010/NA/Mammalia
+|           |  |              |  |     |  |  |           +--| (100)
+|           |  |              |  |     |  |  |              +--KY855439/NA/CHN/2013/Marmota-himalayana/Mammalia
+|           |  |              |  |     |  +--| (33)
+|           |  |              |  |     |     |     +--PV247174/LUVAS-2023-PAstV_21/IND/2023/Sus-scrofa/Mammalia
+|           |  |              |  |     |     |  +--| (90)
+|           |  |              |  |     |     |  |  |        +--LC849253/AstV-Raccoon_dog-Kodo2023-51-2023-JPN/JPN/2023-11-27/Nyctereutes-procyonoides/Mammalia
+|           |  |              |  |     |     |  |  |     +--| (100)
+|           |  |              |  |     |     |  |  |     |  |  +--OQ198041/AstroviridaeDogfe351C1full/CHN/2020_2021/Canis-lupus/Mammalia
+|           |  |              |  |     |     |  |  |     |  +--| (98)
+|           |  |              |  |     |     |  |  |     |     +--KX599353/NA/HUN/2012-05-09/Canis-lupus/Mammalia
+|           |  |              |  |     |     |  |  |  +--| (100)
+|           |  |              |  |     |     |  |  |  |  |  +--JN420354/1169/USA/2010/Zalophus-californianus/Mammalia
+|           |  |              |  |     |     |  |  |  |  +--| (100)
+|           |  |              |  |     |     |  |  |  |     +--JN420351/1136/USA/2010/Zalophus-californianus/Mammalia
+|           |  |              |  |     |     |  |  +--| (89)
+|           |  |              |  |     |     |  |     |  +--PQ435248/FeAstV-THA-CU34912-2023/LAO/2023-12/Felis-catus/Mammalia
+|           |  |              |  |     |     |  |     +--| (86)
+|           |  |              |  |     |     |  |        |     +--PP901925/E59S4/IRL/NA/Homo-sapiens/Mammalia
+|           |  |              |  |     |     |  |        |  +--| (100)
+|           |  |              |  |     |     |  |        |  |  +--ON807354/G22-014/FRA/2014-03-12/NA/NA
+|           |  |              |  |     |     |  |        +--| (100)
+|           |  |              |  |     |     |  |           +--JN420352/1148/USA/2010/Zalophus-californianus/Mammalia
+|           |  |              |  |     |     +--| (44)
+|           |  |              |  |     |        +----OP094602/B80F05/CHN/2019-03/Rhizomys-pruinosus/Mammalia
+|           |  |              |  |  +--| (100)
+|           |  |              |  |  |  |     +--OR951068/YN2016_267_21909/CHN/2016/Rousettus-leschenaultii/Mammalia
+|           |  |              |  |  |  |  +--| (79)
+|           |  |              |  |  |  |  |  |     +--PQ805453/GX-DA-2024/CHN/2024/Capra-hircus/Mammalia
+|           |  |              |  |  |  |  |  |  +--| (96)
+|           |  |              |  |  |  |  |  |  |  |              +--PP571883/GX-WZ-2023/CHN/2023/Capra-hircus/Mammalia
+|           |  |              |  |  |  |  |  |  |  |           +--| (87)
+|           |  |              |  |  |  |  |  |  |  |           |  +--ON624282/NA/CHN/2021/Bos-taurus/Mammalia
+|           |  |              |  |  |  |  |  |  |  |        +--| (88)
+|           |  |              |  |  |  |  |  |  |  |        |  +--MN087316/NA/USA/2018/Odocoileus-virginianus/Mammalia
+|           |  |              |  |  |  |  |  |  |  |     +--| (88)
+|           |  |              |  |  |  |  |  |  |  |     |  +--OQ198050/AstroviridaeDogfe316C2full/CHN/2020_2021/Canis-lupus/Mammalia
+|           |  |              |  |  |  |  |  |  |  |  +--| (100)
+|           |  |              |  |  |  |  |  |  |  |  |  +--NC_023632/NA/HKG/NA/Bos-taurus/Mammalia
+|           |  |              |  |  |  |  |  |  |  +--| (90)
+|           |  |              |  |  |  |  |  |  |     |  +--MW504552/15214_AST_len_6117_cov_31.526724/USA/2018-10-09/Sus-scrofa/Mammalia
+|           |  |              |  |  |  |  |  |  |     +--| (100)
+|           |  |              |  |  |  |  |  |  |        |  +--NC_034974/K321/KEN/2012-08/Sus-scrofa/Mammalia
+|           |  |              |  |  |  |  |  |  |        +--| (100)
+|           |  |              |  |  |  |  |  |  |           +--KY214438/15V010/BEL/2015-01/Sus-scrofa/Mammalia
+|           |  |              |  |  |  |  |  +--| (84)
+|           |  |              |  |  |  |  |     +--OR367608/YakFeces06-13688/CHN/2021-05/Bos-mutus/Mammalia
+|           |  |              |  |  |  +--| (100)
+|           |  |              |  |  |     |  +--ON624260/NA/CHN/2021/Bos-taurus/Mammalia
+|           |  |              |  |  |     +--| (100)
+|           |  |              |  |  |        +--ON624251/NA/CHN/2021/Bos-taurus/Mammalia
+|           |  |              |  +--| (51)
+|           |  |              |     |        +--LC900440/PoAstV-5-wt-Pig-Japan-G-Tsuru-2-2022/JPN/2022-05-19/Sus-scrofa/Mammalia
+|           |  |              |     |     +--| (53)
+|           |  |              |     |     |  +--ON571622/NA/CHN/2020/Capra-hircus/Mammalia
+|           |  |              |     |  +--| (100)
+|           |  |              |     |  |  |  +--LC900421/PoAstV-5-wt-Pig-Japan-Hira-4-2021/JPN/2021-05-18/Sus-scrofa/Mammalia
+|           |  |              |     |  |  +--| (47)
+|           |  |              |     |  |     +--PX113253/QXDL-78513/CHN/2023/Camelus-bactrianus/Mammalia
+|           |  |              |     +--| (100)
+|           |  |              |        +----OM480533/NA/CHN/2019/NA/Magnoliopsida
+|           |  |           +--| (85)
+|           |  |           |  |                    +--OR951049/GD2017_211_130439/CHN/2017/Myotis-pilosus/Mammalia
+|           |  |           |  |                 +--| (100)
+|           |  |           |  |                 |  +--OQ236134/AstV-GZ-L162.18b-2022/CHN/2022-08/Myotis-pilosus/Mammalia
+|           |  |           |  |              +--| (100)
+|           |  |           |  |              |  |  +--MW249010/DesRot-Peru-AYA14_F_DrAstV/PER/2016/Desmodus-rotundus/Mammalia
+|           |  |           |  |              |  +--| (100)
+|           |  |           |  |              |     +--MT734809/BAstV-RB/USA/2020-02/NA/Mammalia
+|           |  |           |  |           +--| (100)
+|           |  |           |  |           |  +--OQ802748/WZ_Pi.abramus_astro_2/CHN/2016_2017/Pipistrellus-abramus/Mammalia
+|           |  |           |  |        +--| (97)
+|           |  |           |  |        |  |     +--OR951026/GX2017_185_6114/CHN/2017/Scotophilus-kuhlii/Mammalia
+|           |  |           |  |        |  |  +--| (97)
+|           |  |           |  |        |  |  |  +--PQ678018/HHLX-YNSP102/CHN/2021/Anourosorex-squamipes/Mammalia
+|           |  |           |  |        |  +--| (100)
+|           |  |           |  |        |     +--PP711853/10A-Kenya-BAT273-2015/KEN/2015/Coleura-afra/Mammalia
+|           |  |           |  |     +--| (100)
+|           |  |           |  |     |  +--PP711856/13A-Kenya-BAT1552-2015/KEN/2015/Mops-condylurus/Mammalia
+|           |  |           |  |  +--| (98)
+|           |  |           |  |  |  |              +--OR951045/GD2017_207_27658/CHN/2017/Myotis-pilosus/Mammalia
+|           |  |           |  |  |  |           +--| (100)
+|           |  |           |  |  |  |           |  +--MN832787/BtAstV-13585-58-M.dau-DK-2014/DNK/2014-10/Myotis-daubentonii/Mammalia
+|           |  |           |  |  |  |        +--| (100)
+|           |  |           |  |  |  |        |  +--OQ802750/WZ_My.laniger_astro_2/CHN/2016_2017/Myotis-laniger/Mammalia
+|           |  |           |  |  |  |     +--| (100)
+|           |  |           |  |  |  |     |  +--OR951021/GX2019_145_83144/CHN/2019/Tylonycteris-pachypus/Mammalia
+|           |  |           |  |  |  |  +--| (97)
+|           |  |           |  |  |  |  |  |  +--OR951025/GD2018_176_158949/CHN/2018/Scotophilus-kuhlii/Mammalia
+|           |  |           |  |  |  |  |  +--| (99)
+|           |  |           |  |  |  |  |     +--PP711857/14A-Kenya-BAT1537-2015/KEN/2015/Mops-condylurus/Mammalia
+|           |  |           |  |  |  +--| (99)
+|           |  |           |  |  |     |           +--PP711881/9A-Kenya-BAT2999-2015/KEN/2015/Miniopterus-sp.-clade-1-TD-2020/Mammalia
+|           |  |           |  |  |     |        +--| (100)
+|           |  |           |  |  |     |        |  +--PP711874/4A-Kenya-BAT3003-2015/KEN/2015/Miniopterus-sp./Mammalia
+|           |  |           |  |  |     |     +--| (100)
+|           |  |           |  |  |     |     |  +--PP711877/5A-Kenya-BAT0738-2015/KEN/2015/Miniopterus-sp.-clade-10-TD-2020/Mammalia
+|           |  |           |  |  |     |  +--| (99)
+|           |  |           |  |  |     |  |  +--OR613303/MSJDC22-12649/CHN/2022/Miniopterus-schreibersii/Mammalia
+|           |  |           |  |  |     +--| (99)
+|           |  |           |  |  |        |  +--PP711878/6A-Kenya-BAT2988-2015/KEN/2015/Miniopterus-sp.-clade-1-TD-2020/Mammalia
+|           |  |           |  |  |        +--| (100)
+|           |  |           |  |  |           +--OR613304/MSJDC22-9044/CHN/2022/Miniopterus-schreibersii/Mammalia
+|           |  |           |  +--| (100)
+|           |  |           |     |  +--OR951032/GD2016_189_30487/CHN/2016/Hipposideros-larvatus/Mammalia
+|           |  |           |     +--| (100)
+|           |  |           |        +--OQ802712/JM_Rh.sinicus_astro_2/CHN/2016_2017/Rhinolophus-sinicus/Mammalia
+|           |  |        +--| (89)
+|           |  |        |  |                       +--OR951097/JX2021_367_194485/CHN/2021/Rhinolophus-sinicus/Mammalia
+|           |  |        |  |                    +--| (100)
+|           |  |        |  |                    |  +--OR951079/HB2020_303_11589/CHN/2020/Rhinolophus-ferrumequinum/Mammalia
+|           |  |        |  |                 +--| (96)
+|           |  |        |  |                 |  |        +--OR951034/GD2017_191_26815/CHN/2017/Hipposideros-larvatus/Mammalia
+|           |  |        |  |                 |  |     +--| (78)
+|           |  |        |  |                 |  |     |  +--OQ236124/AstV-CQ-L76.18d-2021/CHN/2021-12/Hipposideros-armiger/Mammalia
+|           |  |        |  |                 |  |  +--| (89)
+|           |  |        |  |                 |  |  |  +--OQ236128/AstV-SC-L74.18c-2021/CHN/2021-12/Hipposideros-armiger/Mammalia
+|           |  |        |  |                 |  +--| (99)
+|           |  |        |  |                 |     |  +--OQ236123/AstV-CQ-L76.18c-2021/CHN/2021-12/Hipposideros-armiger/Mammalia
+|           |  |        |  |                 |     +--| (86)
+|           |  |        |  |                 |        +--OQ236121/AstV-CQ-L76.18a-2021/CHN/2021-12/Hipposideros-armiger/Mammalia
+|           |  |        |  |              +--| (100)
+|           |  |        |  |              |  +--OQ236130/AstV-SC-L74.18e-2021/CHN/2021-12/Hipposideros-armiger/Mammalia
+|           |  |        |  |           +--| (91)
+|           |  |        |  |           |  |     +--OR951016/YN2020_064_655/CHN/2020/Myotis-chinensis/Mammalia
+|           |  |        |  |           |  |  +--| (100)
+|           |  |        |  |           |  |  |  +--MZ218053/BtAstV-21164-6-A-M.dau-DK-2015/DNK/2015-11/Myotis-daubentonii/Mammalia
+|           |  |        |  |           |  +--| (91)
+|           |  |        |  |           |     +--OR552421/seven/RUS/2023-02/Nyctalus-noctula/Mammalia
+|           |  |        |  |        +--| (100)
+|           |  |        |  |        |  +--OR951080/HB2020_306_19370/CHN/2020/Rhinolophus-sinicus/Mammalia
+|           |  |        |  |     +--| (100)
+|           |  |        |  |     |  |     +--OR951087/YN2020_321_29515/CHN/2020/Miniopterus-schreibersii/Mammalia
+|           |  |        |  |     |  |  +--| (70)
+|           |  |        |  |     |  |  |  +--EU847155/AFCD337/CHN/2006/Miniopterus-pusillus/Mammalia
+|           |  |        |  |     |  +--| (100)
+|           |  |        |  |     |     |  +--PP711873/3A-Kenya-BAT0736-2015/KEN/2015/Miniopterus-sp.-clade-10-TD-2020/Mammalia
+|           |  |        |  |     |     +--| (100)
+|           |  |        |  |     |        |        +--OP589979/EBW-Sk-3/AUS/2013_2021/Miniopterus-orianae/Mammalia
+|           |  |        |  |     |        |     +--| (100)
+|           |  |        |  |     |        |     |  +--OP589977/EBW-Sk-1/AUS/2013_2021/Miniopterus-orianae/Mammalia
+|           |  |        |  |     |        |  +--| (100)
+|           |  |        |  |     |        |  |  +--MW450837/BF2-astro-YN-CHN-2020/CHN/2020-02-20/Miniopterus-schreibersii/Mammalia
+|           |  |        |  |     |        +--| (99)
+|           |  |        |  |     |           +--OP589978/EBW-Sk-2/AUS/2013_2021/Miniopterus-orianae/Mammalia
+|           |  |        |  |  +--| (99)
+|           |  |        |  |  |  |     +--PQ421850/QJ1-CWDS/CHN/2017-10-14/Crocidura-dracula/Mammalia
+|           |  |        |  |  |  |  +--| (100)
+|           |  |        |  |  |  |  |  +--OQ802733/JM_Cr.shantungensis_astro_1/CHN/2016_2017/Crocidura-shantungensis/Mammalia
+|           |  |        |  |  |  +--| (100)
+|           |  |        |  |  |     +--PQ421849/YL-SCDW/CHN/2015-11-17/Anourosorex-squamipes/Mammalia
+|           |  |        |  +--| (63)
+|           |  |        |     +--OQ802710/JM_My.chinensis_astro_6/CHN/2016_2017/Myotis-chinensis/Mammalia
+|           |  |     +--| (100)
+|           |  |     |  |     +--PP711880/8A-Uganda-UGR87-2019/UGA/2019/Rousettus-aegyptiacus/Mammalia
+|           |  |     |  |  +--| (100)
+|           |  |     |  |  |  +--OQ606244/RR034B/MDG/2018/Rousettus-madagascariensis/Mammalia
+|           |  |     |  +--| (100)
+|           |  |     |     |  +--PP711872/2A-Uganda-UV32-2018/UGA/2018/Rousettus-aegyptiacus/Mammalia
+|           |  |     |     +--| (100)
+|           |  |     |        +--MG693176/CMR-Bat-AsV-P02/CMR/2013-12/Eidolon-helvum/Mammalia
+|           |  |  +--| (55)
+|           |  |  |  +--OQ693700/DAstV-1/NA/NA/Equus-asinus/Mammalia
+|           |  +--| (74)
+|           |     |  +--PV166024/PAstV3-XJJY17-2023/CHN/2023/Sus-scrofa/Mammalia
+|           |     +--| (100)
+|           |        +--KY933399/U460/UGA/2012-11/Sus-scrofa/Mammalia
+|        +--| (97)
+|        |  |           +--FJ973620/VA1/USA/2008-08/Homo-sapiens/Mammalia
+|        |  |        +--| (100)
+|        |  |        |  +--MH933754/CMRHP6/CMR/2014-12/Homo-sapiens/Mammalia
+|        |  |     +--| (100)
+|        |  |     |  +--JX857868/VA3-human-Vellore-28054-2005/IND/2005/Homo-sapiens/Mammalia
+|        |  |  +--| (100)
+|        |  |  |  |  +--OQ968312/21153-SD-CHN-VA2/CHN/2021/Homo-sapiens/Mammalia
+|        |  |  |  +--| (100)
+|        |  |  |     +--JX857869/VA4-human-Nepal-S5363-2008/NPL/2008/Homo-sapiens/Mammalia
+|        |  +--| (99)
+|        |     +--KF859964/NA/BFA/2010/Homo-sapiens/Mammalia
+|     +--| (99)
+|     |  +--MW037839/NA/AUS/2018-06/Felis-catus/Mammalia
+|  +--| (100)
+|  |  +--NC_004579/NA/NA/NA/NA/NA
++--| (100)
+|  +--KC692365/fox-5/LAO/2012-03-15/Vulpes-vulpes/Mammalia
+|
++--KM017741/FAstV-D1/USA/2013-10/Felis-catus/Mammalia
+
+
+Consensus tree in newick format: 
+
+(OZ453978/NA/GBR/2022/NA/NA:0.0416880487,(((((((PX941856/SN-6192/CHN/2022/Bos-taurus/Mammalia:0.0980584406,MT499772/NA/CHN/2019-08-06/Bubalus-bubalis/Mammalia:0.0882961321)100:0.1290048573,(((PX095800/DL-P.nayaur-Mav-1/CHN/2023/Pseudois-nayaur/Mammalia:0.0677672745,(OK107515/NA/CHN/2021/Capra-hircus/Mammalia:0.0285265753,LT706531/UK-2013-ewe-lib01454/NA/NA/NA/NA:0.0346439257)100:0.0501234732)99:0.0188637534,Y15937/provided-by-Dr.-D.R.-Snodgrass--Moredun-Research-Institute--Edinburgh/NA/NA/Ovis-aries/Mammalia:0.0846951517)100:0.1156343431,NC_024498/CH13/LAO/2012-03/Bos-taurus/Mammalia:0.2155010744)95:0.0358981670)100:0.1239642640,(((((((((((((((((((((PX597466/JSYC2504/CHN/2025/Anser-cygnoides/Aves:0.1866117062,OR924090/NA/CHN/2021-11-09/Anser-anser/Aves:0.3825238182)62:0.0689615963,(KF753807/NA/CHN/2012-09-15/NA/NA:0.0772731698,AF206663/NA/NA/NA/NA/NA:0.0952381745)100:0.0654669272)62:0.0802165542,(((PV093029/NA/CHN/2023-01-01/Neogale-vison/Mammalia:0.0547221515,JF832365/4175/USA/2006-11/Gallus-gallus/Aves:0.2170101107)100:0.0641849498,OM095382/JM/CHN/2021-03-08/Anas-platyrhynchos/Aves:0.1404045981)98:0.0546402054,OR907127/NA/CHN/2023-03-21/Anser-anser/Aves:0.1379643369)100:0.0724063285)94:0.0301149499,(PV169360/NA/CHN/2024/Anas-platyrhynchos/Aves:0.1313990405,MW588062/NA/GBR/NA/NA/NA:0.1599594389)100:0.0584307036)94:0.0454585266,(PP108251/NA/CHN/2023-08-15/Anser-anser/Aves:0.0022391502,OP272633/AH33-3/CHN/2021/Anser-anser/Aves:0.0000021570)100:0.3100108729)97:0.0650748541,((PV793827/AstroviridaeCranefe81/CHN/2024-01/Leucogeranus-leucogeranus/Aves:0.1154744123,MW588064/NA/GBR/NA/NA/NA:0.1047581033)100:0.1216776821,(PQ220257/ASTV-1/CHN/2020-12/Anser-indicus/Aves:0.2071643851,MT138004/hftbif16ast1nc/NA/2016/NA/NA:0.1931968022)96:0.0521797290)69:0.0619143282)97:0.0771559652,PV093020/NA/CHN/2023-01-01/Neogale-vison/Mammalia:0.4755377738)91:0.0510316447,(PV793829/AstroviridaeGoosefe94/CHN/2024-01/NA/Aves:0.4091658619,PQ893528/NSW-2021/AUS/2021-01/Eolophus-roseicapilla/Aves:0.3628833660)86:0.1081492512)76:0.0638609801,(((((PP871808/astro_vt_90/VNM/2015-06-16_2016-04-02/Gallus-gallus/Aves:0.0718397062,MW684820/Chicken-NLD-2019-V_M_033_astro_3/LAO/2019/Gallus-gallus/Aves:0.0680872765)100:0.0297994776,PP478075/PL_pigeon_4a-2023/LAO/2023-05/Columba-livia/Aves:0.0492128658)100:0.0440830666,PQ893527/QLD-2021/AUS/2021-01/Alisterus-scapularis/Aves:0.1298150544)100:0.0632566778,(MT993583/MW06_2o/AUS/2014/Arenaria-interpres/Aves:0.0433826259,MH453801/AstV-Red-necked-Avocet-MW09-Interior/AUS/2013/Recurvirostra-novaehollandiae/Aves:0.0333699579)100:0.0600121209)100:0.1820321750,((((MT993596/MW10_1o/AUS/2015/Arenaria-interpres/Aves:0.4768644105,MT138002/cra070ast1/NA/2018/NA/NA:0.1170743425)59:0.0268076799,(MT137999/coa196ast1/NA/2018/NA/NA:0.1254853117,MT137996/cfe153ast01/NA/2018/NA/NA:0.1838371894)98:0.0421192437)95:0.0690018119,MH453800/AstV-Red-necked-Avocet-MW08-Interior/AUS/2013/Recurvirostra-novaehollandiae/Aves:0.2302689949)94:0.0674276319,((MT138010/prf037ast2/NA/2018/NA/NA:0.0836292646,MT138007/ltr178ast1/NA/2018/NA/NA:0.0596949560)94:0.0153304016,MT138005/hwf041ast1/NA/2018/NA/NA:0.0818008989)100:0.0917312147)100:0.1779119990)100:0.2119272522)100:0.1033218420,((((((OQ986679/GEIG/LAO/2021-02_2021-03/NA/NA:0.2820802395,OQ986607/GEIG/LAO/2021-02_2021-03/NA/NA:0.2472598196)76:0.0437694346,OQ986608/RHFU/LAO/2021-02_2021-03/NA/NA:0.2821799206)64:0.0373730250,(((((OQ986606/GEIG/LAO/2021-02_2021-03/NA/NA:0.2596631623,MK096774/PasAstV-2/GUF/2016-10/NA/Aves:0.2500228271)92:0.0576073304,(MK096776/PasAstV-4/GUF/2016-10/NA/Aves:0.1812663928,MK096775/PasAstV-3/GUF/2016-10/NA/Aves:0.2444309723)98:0.0690440043)58:0.0198410161,MT138003/ecw123ast1/NA/2018/NA/NA:0.2894617650)59:0.0316758174,(((MW826482/YSN02/CHN/2019-07/NA/Aves:0.0887233288,(MW826371/XZN01/CHN/2018-04/NA/Aves:0.0783075469,((MT137995/bun145astnc1/NA/2018/NA/NA:0.0664872326,(MN920668/war204ast1/CHN/2018/NA/NA:0.0997113051,MN920663/spa143ast1/CHN/2018/NA/NA:0.0506595294)100:0.0317195169)99:0.0099553470,(MN920671/ytb089ast01/CHN/2018/NA/NA:0.0408863306,MN920669/ybb150ast01/CHN/2018/NA/NA:0.0276209575)100:0.0545728388)98:0.0179976839)99:0.0337355398)100:0.1659110126,MT138016/rtr168ast1/NA/2018/NA/NA:0.2357445405)97:0.0611139200,(((KT946721/D11-148.2-HK/HKG/NA/NA/Aves:0.0348104803,MT137997/cfe153ast02/NA/2018/NA/NA:0.0670648506)100:0.0729272666,MN920670/ybw202ast01/CHN/2018/NA/NA:0.1571679513)100:0.0852234158,MT137991/bbr144ast1/NA/2018/NA/NA:0.1921070085)59:0.0332369043)36:0.0316527761)98:0.0413314331,(MW385413/NA/CHN/2017-12-28/NA/Aves:0.2812282660,(MW385412/NA/CHN/2017-12-28/NA/Aves:0.1763157520,KT946718/D11-139-HK/HKG/NA/Corvus-splendens/Aves:0.1733274547)100:0.0825065965)76:0.0556698532)73:0.0202077208)79:0.0221606058,((OQ986605/BOPU/LAO/2021-02_2021-03/NA/NA:0.2165048121,MT137994/bsk136ast01/NA/2018/NA/NA:0.2660720652)99:0.1063764985,((MT138013/rob181ast1/NA/2018/NA/NA:0.0792055185,MT138008/ltt163ast1/NA/2018/NA/NA:0.0791343868)100:0.1322030013,(MN920665/stc111ast1/CHN/2018/NA/NA:0.1801509905,MN920664/sru051ast1/CHN/2018/NA/NA:0.1606946103)97:0.0601275126)97:0.0395225874)97:0.0420276405)74:0.0347542528,(OQ986609/RHFU/LAO/2021-02_2021-03/NA/NA:0.3559327159,MK096773/PasAstV-1/GUF/NA/NA/Aves:0.3280587310)89:0.0727162367)100:0.0732794370,((MW826483/YSN01/CHN/2019-07/NA/Aves:0.1311526776,MT138000/coa196ast2nc/NA/2018/NA/NA:0.1012713868)100:0.1572804781,(MT138009/prf037ast1nc/NA/2018/NA/NA:0.1388347072,(MT138006/hwf182ast2/NA/2018/NA/NA:0.0542269707,MT137993/brb026ast1/NA/2018/NA/NA:0.0290523407)100:0.2718746470)100:0.0782344661)100:0.2299879645)97:0.0178023914)98:0.0735424109,MT993595/MW09_1o/AUS/2015/Arenaria-interpres/Aves:0.3653972029)73:0.0784768574,((((PP711188/Hplan-A_304122/AUS/2017/Heteronotia-planiceps/Lepidosauria:0.2277028108,(MZ375139/3PE-RDRP-2/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria:0.1779217822,MG599918/NA/CHN/NA/Hemidactylus-bowringii/Lepidosauria:0.1830589877)100:0.0697595183)100:0.0905542429,MG599916/NA/CHN/NA/Hypselotriton-orientalis/Amphibia:0.2430338338)100:0.1875353460,MG599910/NA/CHN/NA/Duttaphrynus-melanostictus/Amphibia:0.3889008909)99:0.1000541849,(PP352010/Hunan-CHN-2022/CHN/2022/Pelophylax-nigromaculatus/Amphibia:0.4826699531,MG599931/NA/CHN/NA/Polypedates-megacephalus/Amphibia:0.4295772472)100:0.1040667021)100:0.1759562919)61:0.0744088690,PP623814/MP22-196/CHN/2022-11-09/Mareca-falcata/Aves:0.8905861064)93:0.0843847296,((((((((OR951053/JX2020/CHN/2020/NA/NA:0.1095426762,MG599892/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia:0.1562427629)100:0.1015322190,MG599891/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia:0.1686295075)100:0.2473795559,MG599890/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia:0.7138232442)98:0.1502876601,MG599922/NA/CHN/NA/Gonorynchus-abbreviatus/Actinopteri:1.2067289042)100:0.2482120903,((MG599895/NA/CHN/NA/Coelorinchus-multispinulosus/Actinopteri:0.1388849875,(MG599897/NA/CHN/NA/Coelorinchus-multispinulosus/Actinopteri:0.3070292522,MG599893/NA/CHN/NA/Coelorinchus-multispinulosus/Actinopteri:0.2314490847)100:0.0963442895)100:0.4536583764,((MG599886/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia:1.0571823702,MG599921/NA/CHN/NA/Macroramphosus-scolopax/Actinopteri:0.7383938531)100:0.1482269283,(MG599930/NA/CHN/NA/NA/Actinopteri:0.4391833930,MG599923/NA/CHN/NA/NA/Actinopteri:0.3329738267)100:0.4939397338)100:0.1690739265)100:0.2573666909)100:0.2838077166,((((MG599899/NA/CHN/NA/Pleuronichthys-japonicus/Actinopteri:0.1838048439,MG599929/NA/CHN/NA/Echelus-uropterus/Actinopteri:0.2507093219)100:0.0677786187,((MG599884/NA/CHN/NA/NA/NA:0.0390176015,MG599928/NA/CHN/NA/Parapercis-lutevittata/Actinopteri:0.0576409225)100:0.1039017263,MG599901/NA/CHN/NA/NA/Actinopteri:0.2210154820)100:0.0932984959)99:0.0715541037,MG599925/NA/CHN/NA/NA/Actinopteri:0.1962706364)97:0.0436836364,MG599924/NA/CHN/NA/NA/Actinopteri:0.1565955495)100:1.0022012372)37:0.1123732972,((((((PQ421846/LQ4-XSQ/CHN/2019-10-20/Crocidura-suaveolens/Mammalia:0.1979925911,OQ802743/WZ_Hy.pulveratus_astro_1/CHN/2016_2017/Hypsugo-pulveratus/Mammalia:0.1994782596)100:0.4691893556,((((((((PP352011/Jiangxi-CHN-2022/CHN/2022/Pelophylax-nigromaculatus/Amphibia:0.2778722409,MG599932/NA/CHN/NA/Polypedates-megacephalus/Amphibia:0.2464659061)100:0.1931299211,(MG599909/NA/CHN/NA/Microhyla-pulchra/Amphibia:0.3571949489,(MG599911/NA/CHN/NA/Hyla-simplex/Amphibia:0.4037775019,MG599903/NA/CHN/NA/Bufo-gargarizans/Amphibia:0.3577234879)99:0.1132386176)96:0.0971387806)83:0.0607406147,(MG599912/NA/CHN/NA/Sylvirana-guentheri/Amphibia:0.3727156409,MG599908/NA/CHN/NA/Microhyla-pulchra/Amphibia:0.2944914129)99:0.0969904142)84:0.0896379881,MG599906/NA/CHN/NA/Leptobrachium-hainanense/Amphibia:0.4027593040)99:0.1216464217,MG599913/NA/CHN/NA/Pachytriton-brevipes/Amphibia:0.4312658643)90:0.0894083319,(MG599915/NA/CHN/NA/Hypselotriton-orientalis/Amphibia:0.1477482515,MG599914/NA/CHN/NA/Hypselotriton-orientalis/Amphibia:0.0911800430)100:0.3287470129)84:0.0614640638,MG599907/NA/CHN/NA/Teratoscincus-roborowskii/Lepidosauria:0.4364173784)90:0.0832869559,(((((MZ375141/5PT-RDRP-1/CHN/2020/Phrynocephalus-theobaldi/Lepidosauria:0.0914453705,(MZ375137/2PE-RDRP-2/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria:0.0000021605,MZ375133/1PE-RDRP-3/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria:0.0000021570)100:0.0653767300)100:0.0683895632,(MZ375136/2PE-RDRP-1/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria:0.0026118113,MZ375134/1PE-RDRP-4/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria:0.0027914881)100:0.1378598282)100:0.1461950237,MG599933/NA/CHN/NA/Calotes-versicolor/Lepidosauria:0.2585597034)100:0.1559937560,(MG599904/NA/CHN/NA/Myrrophis-chinensis/Lepidosauria:0.4928053047,MG599905/NA/CHN/NA/NA/NA:0.3149752425)100:0.1405353235)100:0.1148960314,MG599920/NA/CHN/NA/Tropidophorus-sinicus/Lepidosauria:0.7239625986)88:0.0436559761)94:0.1319473892)100:0.5003040740,(((MG599888/NA/CHN/NA/Scoliodon-macrorhynchos/Chondrichthyes:0.4429661029,MG599936/NA/CHN/NA/Hemitriakis-japanica/Chondrichthyes:0.4139185495)100:0.2291765586,MG599887/NA/CHN/NA/Hemitrygon-akajei/Chondrichthyes:0.4994873776)100:0.5289122823,MG599889/NA/CHN/NA/Scoliodon-macrorhynchos/Chondrichthyes:0.8766950567)100:0.6869181217)68:0.1351123786,MG599902/NA/CHN/NA/Pterygotrigla-hemisticta/Actinopteri:1.6052978131)68:0.1326351655,(MG599883/NA/CHN/NA/Cephalopholis-spiloparaea/Actinopteri:0.5003825287,MG599882/NA/CHN/NA/Banjos-banjos/Actinopteri:0.5433324100)100:0.9040699022)100:0.4348923491,(PP172009/CC1C_k141_14283/AUS/2021-12-17/NA/NA:2.4394452650,PP171953/CC1B_k141_72897/AUS/2021-12-17/NA/NA:3.3788541147)99:2.6753804186)57:0.1137636747)86:0.1682589650,MK450332/NA/HUN/2011/Coracias-garrulus/Aves:0.8953543479)87:0.2703571630)91:0.3461657809,(PX236817/M22/LAO/2021/Trichosurus-vulpecula/Mammalia:0.5045586435,MK521912/Stony-Head-Tasmania-Sarcophilus_harrisii-2016-DN108473/AUS/2016/Sarcophilus-harrisii/Mammalia:0.4142380601)99:0.2586513016)26:0.0364192262,(((((((PX221760/JLTH_3/CHN/2021/Apodemus-agrarius/Mammalia:0.1584520772,PQ541155/Lo.-chrysopus_astro/SLE/2023/Lophuromys-chrysopus/Mammalia:0.1977382716)100:0.0902633967,((PV605181/21DB39/CHN/2021/Bandicota-indica/Mammalia:0.0390406217,OR711901/YNKm72022/CHN/2022-07/Rattus-norvegicus/Mammalia:0.0377386547)100:0.0646708115,PV351773/HN_K11f_6/CHN/2024-06-20/Suncus-murinus/Mammalia:0.0906823496)100:0.0990692510)100:0.2205338311,((((((MW826416/XZS01/CHN/2018-04/Rattus-norvegicus/Mammalia:0.2011784382,PQ678016/NJLS-YNSC15/CHN/2021/Eothenomys-miletus/Mammalia:0.1094978029)100:0.1254130056,((PQ678015/DHMS-YNSC01/CHN/2021/Rattus-tanezumi/Mammalia:0.0464597172,MZ779126/NA/USA/2021-07-13/NA/Mammalia:0.0597204549)100:0.1221085122,MW826530/YSS03/CHN/2019-07/Rattus-norvegicus/Mammalia:0.1985641099)99:0.0605793099)96:0.0603434596,(MN503235/TIB-224-MA-USA-2018/USA/2018-05-04/Mus-musculus/Mammalia:0.0975307347,KT946734/HK-1998F/HKG/NA/Rattus-andamanensis/Mammalia:0.0349201874)100:0.3120555328)78:0.0578986194,PX095749/SQ-N.fuscus-Mav-4/CHN/2023/Neodon-fuscus/Mammalia:0.1988371010)49:0.0695892053,OM480542/NA/CHN/2020/Myocastor-coypus/Mammalia:0.2464537031)46:0.0409466976,NC_027426/NA/HUN/2011-07/Coracias-garrulus/Aves:0.2927555841)90:0.0415019472)93:0.0426922959,((((PV656460/TNG04553/TZA/2023-12-01/Homo-sapiens/Mammalia:0.1483698075,(MK089435/668/LAO/2015/Homo-sapiens/Mammalia:0.0608651919,NC_019028/MLB3-human-Vellore-26564-2004/IND/2004/Homo-sapiens/Mammalia:0.0414503496)100:0.0675836691)100:0.1617180098,BR001717/macaque_feces-2019-624/NA/NA/Macaca-mulatta/Mammalia:0.2459460896)100:0.2078792755,KY024237/HHMAstV1/CHN/2013_2014/Marmota-himalayana/Mammalia:0.5200374956)70:0.0571789337,((OQ198047/AstroviridaeDogfe326C1full/CHN/2020_2021/Canis-lupus/Mammalia:0.1039742303,JF729316/TN-rabbit-10-2208/USA/2010-06-04/Oryctolagus-cuniculus/Mammalia:0.0756751476)100:0.1932979338,(OM140654/NA/CHN/2016/Marmota-caudata/Mammalia:0.0402697423,(NC_033821/HHMAstV2/CHN/2013_2014/Marmota-himalayana/Mammalia:0.0000021570,KY855438/NA/CHN/2013/Marmota-himalayana/Mammalia:0.0000021570)100:0.0554324847)100:0.3062008202)100:0.0947979402)70:0.0530139053)28:0.0321638724,((((((PV605151/22SS640/CHN/2022/Rattus-norvegicus/Mammalia:0.0559620977,OQ802720/WZ_Ra.losea_astro_1/CHN/2016_2017/Rattus-losea/Mammalia:0.0979415480)100:0.0364019491,KT946729/HK-13112F/HKG/NA/Rattus-andamanensis/Mammalia:0.0985014585)100:0.0751652373,OQ802759/WF_Ni.niviventer_astro_1/CHN/2016_2017/Niviventer-niviventer/Mammalia:0.1463049625)100:0.0608478238,((PQ541178/Mu.-setulosus_astro/SLE/2023/Mus-setulosus/Mammalia:0.1226802530,MN837532/TW2/TWN/NA/Mus-musculus/Mammalia:0.0852915718)100:0.1212568092,(PQ678013/ZTMIX-YNSC193/CHN/2022/Niviventer-huang/Mammalia:0.0853992920,OQ802742/WZ_Ni.niviventer_astro_1/CHN/2016_2017/Niviventer-niviventer/Mammalia:0.0578748385)100:0.1447140189)94:0.0441779648)37:0.0067218557,((((PP871761/astro_vt_43/VNM/2016-04-02/Gallus-gallus/Aves:0.0100257056,KY214437/15V010/BEL/2015-01/Sus-scrofa/Mammalia:0.0259086798)100:0.0721522233,PP871721/astro_vt_3/VNM/2014-05-29_2016-07-14/Sus-scrofa/Mammalia:0.0978797987)100:0.0855819212,OL345583/DB03F-SX-2018/CHN/2018/Meriones-unguiculatus/Mammalia:0.2542750777)96:0.0482099216,(PP711883/20A-Kenya-RNALIV2211-2016/KEN/2016/Aethomys-hindei/Mammalia:0.1042717234,((OQ802738/LQ_Ap.agrarius_astro_1/CHN/2016_2017/Apodemus-agrarius/Mammalia:0.0673673435,MT506231/RoAstV-CHN-S3/CHN/2016-12/Rattus-norvegicus/Mammalia:0.0546150187)100:0.0707880515,(MT152345/UK-2010/GBR/2010/NA/Mammalia:0.1534654865,KY855439/NA/CHN/2013/Marmota-himalayana/Mammalia:0.0922338445)100:0.1953895834)97:0.0650288479)96:0.0388697446)94:0.0420379994)98:0.1435442177,((PV247174/LUVAS-2023-PAstV_21/IND/2023/Sus-scrofa/Mammalia:0.1932964160,(((LC849253/AstV-Raccoon_dog-Kodo2023-51-2023-JPN/JPN/2023-11-27/Nyctereutes-procyonoides/Mammalia:0.0469535272,(OQ198041/AstroviridaeDogfe351C1full/CHN/2020_2021/Canis-lupus/Mammalia:0.0448064139,KX599353/NA/HUN/2012-05-09/Canis-lupus/Mammalia:0.3143236616)98:0.0290818213)100:0.1841824966,(JN420354/1169/USA/2010/Zalophus-californianus/Mammalia:0.0592348262,JN420351/1136/USA/2010/Zalophus-californianus/Mammalia:0.0614848416)100:0.0873079635)100:0.1179270930,(PQ435248/FeAstV-THA-CU34912-2023/LAO/2023-12/Felis-catus/Mammalia:0.0994663450,((PP901925/E59S4/IRL/NA/Homo-sapiens/Mammalia:0.0027669796,ON807354/G22-014/FRA/2014-03-12/NA/NA:0.0000021570)100:0.0689568021,JN420352/1148/USA/2010/Zalophus-californianus/Mammalia:0.0267319821)100:0.0946164425)86:0.0303691934)89:0.0926682969)90:0.0952498555,OP094602/B80F05/CHN/2019-03/Rhizomys-pruinosus/Mammalia:0.6956277189)44:0.0485065746)33:0.0443752453)90:0.0788074702,((OR951068/YN2016_267_21909/CHN/2016/Rousettus-leschenaultii/Mammalia:0.1822330239,((PQ805453/GX-DA-2024/CHN/2024/Capra-hircus/Mammalia:0.1352514609,(((((PP571883/GX-WZ-2023/CHN/2023/Capra-hircus/Mammalia:0.1161836313,ON624282/NA/CHN/2021/Bos-taurus/Mammalia:0.0565062911)87:0.0188504232,MN087316/NA/USA/2018/Odocoileus-virginianus/Mammalia:0.0564133340)88:0.0201565949,OQ198050/AstroviridaeDogfe316C2full/CHN/2020_2021/Canis-lupus/Mammalia:0.0522066100)88:0.0166872155,NC_023632/NA/HKG/NA/Bos-taurus/Mammalia:0.0884162618)100:0.0582539037,(MW504552/15214_AST_len_6117_cov_31.526724/USA/2018-10-09/Sus-scrofa/Mammalia:0.0793669236,(NC_034974/K321/KEN/2012-08/Sus-scrofa/Mammalia:0.0221979262,KY214438/15V010/BEL/2015-01/Sus-scrofa/Mammalia:0.0348661960)100:0.0578265389)100:0.0298366295)90:0.0362839109)96:0.0593990423,OR367608/YakFeces06-13688/CHN/2021-05/Bos-mutus/Mammalia:0.2947219098)84:0.0370195405)79:0.0372108105,(ON624260/NA/CHN/2021/Bos-taurus/Mammalia:0.0119608585,ON624251/NA/CHN/2021/Bos-taurus/Mammalia:0.0107063339)100:0.2538184021)100:0.1606720163)100:0.1142437309,(((LC900440/PoAstV-5-wt-Pig-Japan-G-Tsuru-2-2022/JPN/2022-05-19/Sus-scrofa/Mammalia:0.0711926485,ON571622/NA/CHN/2020/Capra-hircus/Mammalia:0.0833184054)53:0.0166235398,(LC900421/PoAstV-5-wt-Pig-Japan-Hira-4-2021/JPN/2021-05-18/Sus-scrofa/Mammalia:0.0421825721,PX113253/QXDL-78513/CHN/2023/Camelus-bactrianus/Mammalia:0.0898708542)47:0.0099793163)100:0.3641393827,OM480533/NA/CHN/2019/NA/Magnoliopsida:0.7184653242)100:0.3967242664)51:0.0403502039)52:0.0551553691,(((((((OR951049/GD2017_211_130439/CHN/2017/Myotis-pilosus/Mammalia:0.0691329498,OQ236134/AstV-GZ-L162.18b-2022/CHN/2022-08/Myotis-pilosus/Mammalia:0.0604007775)100:0.0966870029,(MW249010/DesRot-Peru-AYA14_F_DrAstV/PER/2016/Desmodus-rotundus/Mammalia:0.1174309080,MT734809/BAstV-RB/USA/2020-02/NA/Mammalia:0.0814336100)100:0.0786925281)100:0.0423315459,OQ802748/WZ_Pi.abramus_astro_2/CHN/2016_2017/Pipistrellus-abramus/Mammalia:0.2131289205)100:0.0756524942,((OR951026/GX2017_185_6114/CHN/2017/Scotophilus-kuhlii/Mammalia:0.1508776097,PQ678018/HHLX-YNSP102/CHN/2021/Anourosorex-squamipes/Mammalia:0.1688037185)97:0.0422317245,PP711853/10A-Kenya-BAT273-2015/KEN/2015/Coleura-afra/Mammalia:0.1967067669)100:0.1036177905)97:0.0288498883,PP711856/13A-Kenya-BAT1552-2015/KEN/2015/Mops-condylurus/Mammalia:0.2584177221)100:0.0513888270,(((((OR951045/GD2017_207_27658/CHN/2017/Myotis-pilosus/Mammalia:0.0737358630,MN832787/BtAstV-13585-58-M.dau-DK-2014/DNK/2014-10/Myotis-daubentonii/Mammalia:0.0633688658)100:0.0518486595,OQ802750/WZ_My.laniger_astro_2/CHN/2016_2017/Myotis-laniger/Mammalia:0.0787204467)100:0.0554971424,OR951021/GX2019_145_83144/CHN/2019/Tylonycteris-pachypus/Mammalia:0.1702369514)100:0.0639487870,(OR951025/GD2018_176_158949/CHN/2018/Scotophilus-kuhlii/Mammalia:0.2439140733,PP711857/14A-Kenya-BAT1537-2015/KEN/2015/Mops-condylurus/Mammalia:0.2980566963)99:0.0779144152)97:0.0435845224,((((PP711881/9A-Kenya-BAT2999-2015/KEN/2015/Miniopterus-sp.-clade-1-TD-2020/Mammalia:0.0485113785,PP711874/4A-Kenya-BAT3003-2015/KEN/2015/Miniopterus-sp./Mammalia:0.0477097565)100:0.0632076307,PP711877/5A-Kenya-BAT0738-2015/KEN/2015/Miniopterus-sp.-clade-10-TD-2020/Mammalia:0.0555857142)100:0.0766083739,OR613303/MSJDC22-12649/CHN/2022/Miniopterus-schreibersii/Mammalia:0.1574648373)99:0.0342161126,(PP711878/6A-Kenya-BAT2988-2015/KEN/2015/Miniopterus-sp.-clade-1-TD-2020/Mammalia:0.1375532601,OR613304/MSJDC22-9044/CHN/2022/Miniopterus-schreibersii/Mammalia:0.1562913779)100:0.0569714961)99:0.0616899872)99:0.1040388402)98:0.0392747714,(OR951032/GD2016_189_30487/CHN/2016/Hipposideros-larvatus/Mammalia:0.2437061253,OQ802712/JM_Rh.sinicus_astro_2/CHN/2016_2017/Rhinolophus-sinicus/Mammalia:0.2272524202)100:0.1723695715)100:0.2110476149)85:0.0656086285,((((((((OR951097/JX2021_367_194485/CHN/2021/Rhinolophus-sinicus/Mammalia:0.0692118659,OR951079/HB2020_303_11589/CHN/2020/Rhinolophus-ferrumequinum/Mammalia:0.1365927738)100:0.0431619891,(((OR951034/GD2017_191_26815/CHN/2017/Hipposideros-larvatus/Mammalia:0.0545996297,OQ236124/AstV-CQ-L76.18d-2021/CHN/2021-12/Hipposideros-armiger/Mammalia:0.0407017680)78:0.0176175338,OQ236128/AstV-SC-L74.18c-2021/CHN/2021-12/Hipposideros-armiger/Mammalia:0.0632431213)89:0.0054922906,(OQ236123/AstV-CQ-L76.18c-2021/CHN/2021-12/Hipposideros-armiger/Mammalia:0.0465838428,OQ236121/AstV-CQ-L76.18a-2021/CHN/2021-12/Hipposideros-armiger/Mammalia:0.0338505994)86:0.0127934077)99:0.0836529294)96:0.0256662747,OQ236130/AstV-SC-L74.18e-2021/CHN/2021-12/Hipposideros-armiger/Mammalia:0.1444839726)100:0.0408315288,((OR951016/YN2020_064_655/CHN/2020/Myotis-chinensis/Mammalia:0.0321956410,MZ218053/BtAstV-21164-6-A-M.dau-DK-2015/DNK/2015-11/Myotis-daubentonii/Mammalia:0.0535403090)100:0.0998070046,OR552421/seven/RUS/2023-02/Nyctalus-noctula/Mammalia:0.2483266254)91:0.0506394121)91:0.0312356332,OR951080/HB2020_306_19370/CHN/2020/Rhinolophus-sinicus/Mammalia:0.1681345939)100:0.1041691931,((OR951087/YN2020_321_29515/CHN/2020/Miniopterus-schreibersii/Mammalia:0.0805714873,EU847155/AFCD337/CHN/2006/Miniopterus-pusillus/Mammalia:0.1258756770)70:0.0387445430,(PP711873/3A-Kenya-BAT0736-2015/KEN/2015/Miniopterus-sp.-clade-10-TD-2020/Mammalia:0.0559015963,(((OP589979/EBW-Sk-3/AUS/2013_2021/Miniopterus-orianae/Mammalia:0.0431235435,OP589977/EBW-Sk-1/AUS/2013_2021/Miniopterus-orianae/Mammalia:0.0427930398)100:0.0217183160,MW450837/BF2-astro-YN-CHN-2020/CHN/2020-02-20/Miniopterus-schreibersii/Mammalia:0.0618356216)100:0.0275148704,OP589978/EBW-Sk-2/AUS/2013_2021/Miniopterus-orianae/Mammalia:0.0976928412)99:0.0272796964)100:0.0675320466)100:0.1021166294)100:0.1621246719,((PQ421850/QJ1-CWDS/CHN/2017-10-14/Crocidura-dracula/Mammalia:0.0857904451,OQ802733/JM_Cr.shantungensis_astro_1/CHN/2016_2017/Crocidura-shantungensis/Mammalia:0.1069935450)100:0.1997114923,PQ421849/YL-SCDW/CHN/2015-11-17/Anourosorex-squamipes/Mammalia:0.3423011618)100:0.1934136777)99:0.0888157470,OQ802710/JM_My.chinensis_astro_6/CHN/2016_2017/Myotis-chinensis/Mammalia:0.5069673614)63:0.0559210675)89:0.0575103805,((PP711880/8A-Uganda-UGR87-2019/UGA/2019/Rousettus-aegyptiacus/Mammalia:0.0796356016,OQ606244/RR034B/MDG/2018/Rousettus-madagascariensis/Mammalia:0.0707492054)100:0.2987626652,(PP711872/2A-Uganda-UV32-2018/UGA/2018/Rousettus-aegyptiacus/Mammalia:0.1582702521,MG693176/CMR-Bat-AsV-P02/CMR/2013-12/Eidolon-helvum/Mammalia:0.1434625220)100:0.1543526903)100:0.1895900556)100:0.1039191918,OQ693700/DAstV-1/NA/NA/Equus-asinus/Mammalia:0.3125180849)55:0.0500846655,(PV166024/PAstV3-XJJY17-2023/CHN/2023/Sus-scrofa/Mammalia:0.0960162043,KY933399/U460/UGA/2012-11/Sus-scrofa/Mammalia:0.1071173477)100:0.2143990579)74:0.0553102016)52:0.0203235524,((((FJ973620/VA1/USA/2008-08/Homo-sapiens/Mammalia:0.0051373017,MH933754/CMRHP6/CMR/2014-12/Homo-sapiens/Mammalia:0.0078313130)100:0.1007139353,JX857868/VA3-human-Vellore-28054-2005/IND/2005/Homo-sapiens/Mammalia:0.1072614746)100:0.1021760384,(OQ968312/21153-SD-CHN-VA2/CHN/2021/Homo-sapiens/Mammalia:0.1193027365,JX857869/VA4-human-Nepal-S5363-2008/NPL/2008/Homo-sapiens/Mammalia:0.1524650986)100:0.0535564321)100:0.0470813271,KF859964/NA/BFA/2010/Homo-sapiens/Mammalia:0.1581470581)99:0.0703072022)97:0.0452790038,MW037839/NA/AUS/2018-06/Felis-catus/Mammalia:0.2617067402)99:0.0595673728,NC_004579/NA/NA/NA/NA/NA:0.2517400587)100:0.1575232954,KC692365/fox-5/LAO/2012-03-15/Vulpes-vulpes/Mammalia:0.2149388423)100:0.0544819610,KM017741/FAstV-D1/USA/2013-10/Felis-catus/Mammalia:0.0371311082);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data//trees/orf1b_83nt.treefile -m "LG+F+I{0.0298118}+G4{0.829505}" --length 423
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/alignments/orf1b_clustered83nt/mafft/Astroviridae_complete_1B_nt83-mafftdash_nd_gt0.8.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/alignments/orf1b_clustered83nt/mafft/Astroviridae_complete_1B_nt83-mafftdash_nd_gt0.8.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Sep 18 21:16:00 2026
+Total CPU time used: 1510.09375 seconds (0h:25m:10s)
+Total wall-clock time used: 414.425889 seconds (0h:6m:54s)
+
