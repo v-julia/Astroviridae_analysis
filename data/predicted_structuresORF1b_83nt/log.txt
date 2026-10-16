@@ -1,0 +1,20 @@
+2026-10-15 17:22:20,746 Running colabfold 1.6.3
+2026-10-15 17:22:21,307 Running on GPU
+2026-10-15 17:22:21,480 Found 5 citations for tools or databases
+2026-10-15 17:22:21,480 Query 1/1: OZ453978_NA_GBR_2022_NA_NA (length 522)
+2026-10-15 17:22:22,446 Sleeping for 6s. Reason: RATELIMIT
+2026-10-15 17:22:29,001 Sleeping for 5s. Reason: RATELIMIT
+2026-10-15 17:22:34,565 Sleeping for 8s. Reason: RATELIMIT
+2026-10-15 17:22:43,141 Sleeping for 8s. Reason: RATELIMIT
+2026-10-15 17:22:51,720 Sleeping for 9s. Reason: RATELIMIT
+2026-10-15 17:23:01,296 Sleeping for 9s. Reason: RATELIMIT
+2026-10-15 17:23:10,889 Sleeping for 6s. Reason: RATELIMIT
+2026-10-15 17:23:17,472 Sleeping for 9s. Reason: RATELIMIT
+2026-10-15 17:23:27,080 Sleeping for 10s. Reason: RATELIMIT
+2026-10-15 17:23:37,662 Sleeping for 5s. Reason: RATELIMIT
+2026-10-15 17:23:43,236 Sleeping for 9s. Reason: RATELIMIT
+2026-10-15 17:23:52,804 Sleeping for 10s. Reason: RATELIMIT
+2026-10-15 17:24:03,377 Sleeping for 5s. Reason: RATELIMIT
+2026-10-15 17:24:08,945 Sleeping for 7s. Reason: RATELIMIT
+2026-10-15 17:24:16,736 Sleeping for 7s. Reason: RATELIMIT
+2026-10-15 17:24:24,304 Sleeping for 5s. Reason: RATELIMIT
