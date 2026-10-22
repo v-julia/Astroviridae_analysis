@@ -1,0 +1,67 @@
+candidate_id	record_name	accession	start	end	codon_start	strand	gene	product	is_corrected	correction_offset	original_translation
+cand_0001	PV605168	PV605168.1	0	595	1	-1	ORF3	hypothetical protein	False		
+cand_0002	PV605168	PV605168.1	112	3688	1	1	ORF1	putative non-structural polyprotein	False		
+cand_0003	PV605168	PV605168.1	3693	5727	1	1	ORF2	putative structural polyprotein	False		
+cand_0004	MF042208	MF042208.1	74	4298	1	1	unknown	non-structural polyprotein	False		
+cand_0005	MF042208	MF042208.1	4323	5376	1	1	unknown	structural polyprotein	False		
+cand_0006	MT549857	MT549857.1	0	3672	1	1	unknown	non-structural polyprotein	False		
+cand_0007	MT549857	MT549857.1	3677	5597	1	1	unknown	structural polyprotein	False		
+cand_0008	MT549856	MT549856.1	0	3671	3	1	unknown	non-structural polyprotein	False		
+cand_0009	MT549856	MT549856.1	3676	5710	1	1	unknown	structural polyprotein	False		
+cand_0010	MK387176	MK387176.1	236	3857	1	1	unknown	nonstructural polyprotein	False		
+cand_0011	MK387176	MK387176.1	3666	5718	1	1	unknown	structural polyprotein	False		
+cand_0012	PP872081	PP872081.1	0	3510	1	1	unknown	non-structural polyprotein	False		
+cand_0013	PP872081	PP872081.1	3319	5359	1	1	unknown	structural polyprotein	False		
+cand_0014	PP872079	PP872079.1	0	3621	1	1	unknown	non-structural polyprotein	False		
+cand_0015	PP872079	PP872079.1	3430	5476	1	1	unknown	structural polyprotein	False		
+cand_0016	PP872056	PP872056.1	0	3621	1	1	unknown	non-structural polyprotein	False		
+cand_0017	PP872056	PP872056.1	3430	5476	1	1	unknown	structural polyprotein	False		
+cand_0018	PP872047	PP872047.1	324	3834	1	1	unknown	non-structural polyprotein	False		
+cand_0019	PP872047	PP872047.1	3643	5686	1	1	unknown	structural polyprotein	False		
+cand_0020	PP872043	PP872043.1	0	3621	1	1	unknown	non-structural polyprotein	False		
+cand_0021	PP872043	PP872043.1	3430	5491	1	1	unknown	structural polyprotein	False		
+cand_0022	PP871984	PP871984.1	0	3621	1	1	unknown	non-structural polyprotein	False		
+cand_0023	PP871984	PP871984.1	3430	5476	1	1	unknown	structural polyprotein	False		
+cand_0024	PP871979	PP871979.1	0	3621	1	1	unknown	non-structural polyprotein	False		
+cand_0025	PP871979	PP871979.1	3430	5476	1	1	unknown	structural polyprotein	False		
+cand_0026	PP871961	PP871961.1	0	3621	1	1	unknown	non-structural polyprotein	False		
+cand_0027	PP871961	PP871961.1	3430	5476	1	1	unknown	structural polyprotein	False		
+cand_0028	PP211348	PP211348.1	333	3627	1	1	unknown	non-structural polyprotein	False		
+cand_0029	PP211348	PP211348.1	3632	5636	1	1	unknown	structural polyprotein	False		
+cand_0030	PP211347	PP211347.1	2	3674	1	1	unknown	non-structural polyprotein	False		
+cand_0031	PP211347	PP211347.1	3679	5683	1	1	unknown	structural polyprotein	False		
+cand_0032	PP211346	PP211346.1	1	3673	1	1	unknown	non-structural polyprotein	False		
+cand_0033	PP211346	PP211346.1	3678	5712	1	1	unknown	structural polyprotein	False		
+cand_0034	PP211344	PP211344.1	2	3677	1	1	unknown	non-structural polyprotein	False		
+cand_0035	PP211344	PP211344.1	3682	5704	1	1	unknown	structural polyprotein	False		
+cand_0036	PP211343	PP211343.1	3	3678	1	1	unknown	non-structural polyprotein	False		
+cand_0037	PP211343	PP211343.1	3683	5705	1	1	unknown	structural polyprotein	False		
+cand_0038	PQ541176	PQ541176.1	3	3678	1	1	unknown	non-structural polyprotein	False		
+cand_0039	PQ541176	PQ541176.1	3683	5723	1	1	unknown	structural polyprotein	False		
+cand_0040	PQ541169	PQ541169.1	0	3718	2	1	unknown	non-structural polyprotein	False		
+cand_0041	PQ541169	PQ541169.1	3720	5606	1	1	unknown	structural polyprotein	False		
+cand_0042	OQ835730	OQ835730.1	0	4190	3	1	unknown	non-structural polyprotein	False		
+cand_0043	OQ835730	OQ835730.1	4215	5268	1	1	unknown	structural polyprotein	False		
+cand_0044	OQ835730	OQ835730.1	5297	5535	1	1	unknown	hypothetical protein	False		
+cand_0045	OQ835729	OQ835729.1	79	4303	1	1	unknown	non-structural polyprotein	False		
+cand_0046	OQ835729	OQ835729.1	4328	5381	1	1	unknown	structural polyprotein	False		
+cand_0047	OQ835729	OQ835729.1	5410	5752	1	1	unknown	hypothetical protein	False		
+cand_0048	PQ161557	PQ161557.1	30	4254	1	1	unknown	hypothetical protein	False		
+cand_0049	PQ161557	PQ161557.1	4279	5332	1	1	unknown	hypothetical protein	False		
+cand_0050	PQ161557	PQ161557.1	5361	5667	1	1	unknown	hypothetical protein	False		
+cand_0051	OM104033	OM104033.1	253	3763	1	1	unknown	nonstructural polyprotein	False		
+cand_0052	OM104033	OM104033.1	3572	5612	1	1	unknown	structural polyprotein	False		
+cand_0053	PP999617	PP999617.1	7	3805	1	1	ORF1	nonstructural protein 1	False		
+cand_0054	PP999617	PP999617.1	3614	5576	1	1	ORF2	capsid protein	False		
+cand_0055	PP999617	PP999617.1	3699	4293	1	1	ORF4	putative protein	False		
+cand_0056	PP999617	PP999617.1	5600	5936	1	1	ORF3A	putative protein	False		
+cand_0057	PP999617	PP999617.1	5646	5910	1	1	ORF3B	putative protein	False		
+cand_0058	PP999616	PP999616.1	24	3822	1	1	ORF1	nonstructural protein 1	False		
+cand_0059	PP999616	PP999616.1	3631	5572	1	1	ORF2	capsid protein	False		
+cand_0060	PP999616	PP999616.1	3716	4304	1	1	ORF4	putative protein	False		
+cand_0061	PP999616	PP999616.1	5616	5952	1	1	ORF3A	putative protein	False		
+cand_0062	PP999616	PP999616.1	5662	5926	1	1	ORF3B	putative protein	False		
+cand_0063	OR710300	OR710300.1	2	3674	1	1	unknown	non-structural polyprotein	False		
+cand_0064	OR710300	OR710300.1	3679	5713	1	1	unknown	structural polyprotein	False		
+cand_0065	ON907858	ON907858.1	44	3680	1	1	unknown	nonstructural polyprotein	False		
+cand_0066	ON907858	ON907858.1	3685	5722	1	1	unknown	structural polyprotein	False		
