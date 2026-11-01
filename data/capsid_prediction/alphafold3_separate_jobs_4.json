@@ -1,6 +1,6 @@
 [
   {
-    "name": "capsid MK387176|Porcine-bastrovirus|Sus-scrofa|cand_0011",
+    "name": "capsid MK387176",
     "modelSeeds": [],
     "sequences": [
       {
@@ -14,7 +14,7 @@
     "version": 1
   },
   {
-    "name": "capsid MT549856|Bastrovirus-Rat",
+    "name": "capsid MT549856",
     "modelSeeds": [],
     "sequences": [
       {
@@ -28,7 +28,7 @@
     "version": 1
   },
   {
-    "name": "capsid MT549857|Bastrovirus-Rat",
+    "name": "capsid MT549857",
     "modelSeeds": [],
     "sequences": [
       {
@@ -42,7 +42,7 @@
     "version": 1
   },
   {
-    "name": "capsid OM104033|Porcine-bastrovirus|Sus-scrofa-domesticus|cand_0052",
+    "name": "capsid OM104033",
     "modelSeeds": [],
     "sequences": [
       {
@@ -56,7 +56,7 @@
     "version": 1
   },
   {
-    "name": "capsid ON907858|Bastrovirus-sp.|Rattus-norvegicus|cand_0066",
+    "name": "capsid ON907858",
     "modelSeeds": [],
     "sequences": [
       {
@@ -70,7 +70,7 @@
     "version": 1
   },
   {
-    "name": "capsid OQ835729|Bastrovirus-sp.|Homo-sapiens|cand_0046",
+    "name": "capsid OQ835729",
     "modelSeeds": [],
     "sequences": [
       {
@@ -84,7 +84,7 @@
     "version": 1
   },
   {
-    "name": "capsid OR710300|rodent-Bastrovirus|Rattus-tanezumi|cand_0064",
+    "name": "capsid OR710300",
     "modelSeeds": [],
     "sequences": [
       {
@@ -98,7 +98,7 @@
     "version": 1
   },
   {
-    "name": "capsid PP211343|Bastrovirus-BAS-3|Rattus-norvegicus|cand_0037",
+    "name": "capsid PP211343",
     "modelSeeds": [],
     "sequences": [
       {
@@ -112,7 +112,7 @@
     "version": 1
   },
   {
-    "name": "capsid PP211344|Bastrovirus-BAS-3|Rattus-norvegicus|cand_0035",
+    "name": "capsid PP211344",
     "modelSeeds": [],
     "sequences": [
       {
@@ -126,7 +126,7 @@
     "version": 1
   },
   {
-    "name": "capsid PP211346|Bastrovirus-Rat",
+    "name": "capsid PP211346",
     "modelSeeds": [],
     "sequences": [
       {
@@ -140,7 +140,7 @@
     "version": 1
   },
   {
-    "name": "capsid PP211347|Bastrovirus-Rat",
+    "name": "capsid PP211347",
     "modelSeeds": [],
     "sequences": [
       {
@@ -154,7 +154,7 @@
     "version": 1
   },
   {
-    "name": "capsid PP211348|Bastrovirus-Rat",
+    "name": "capsid PP211348",
     "modelSeeds": [],
     "sequences": [
       {
@@ -168,7 +168,7 @@
     "version": 1
   },
   {
-    "name": "capsid PP871961|Bastrovirus-sp.|Sus-scrofa-domesticus|cand_0027",
+    "name": "capsid PP871961",
     "modelSeeds": [],
     "sequences": [
       {
@@ -182,7 +182,7 @@
     "version": 1
   },
   {
-    "name": "capsid PQ161557|Bastrovirus-Brazil",
+    "name": "capsid PQ161557",
     "modelSeeds": [],
     "sequences": [
       {
@@ -196,7 +196,7 @@
     "version": 1
   },
   {
-    "name": "capsid PQ541169|Miniopterus-inflatus-bastrovirus|Miniopterus-inflatus|cand_0041",
+    "name": "capsid PQ541169",
     "modelSeeds": [],
     "sequences": [
       {
@@ -210,7 +210,7 @@
     "version": 1
   },
   {
-    "name": "capsid PQ541176|rodent-Bastrovirus|Mus-musculus|cand_0039",
+    "name": "capsid PQ541176",
     "modelSeeds": [],
     "sequences": [
       {
@@ -224,7 +224,7 @@
     "version": 1
   },
   {
-    "name": "capsid PV605168|Bastrovirus-sp.|Rattus-norvegicus|cand_0003",
+    "name": "capsid PV605168",
     "modelSeeds": [],
     "sequences": [
       {
