@@ -1,0 +1,4 @@
+foldtree  --cores 4 --folder af2_pdb -p --custom-structs
+foldtree  --cores 4 --folder af2_pdb_redbastro -p --custom-structs
+foldtree  --cores 4 --folder af2_pdb_astrobastro -p --custom-structs
+foldtree  --cores 4 --folder af3_capsid_pdb/ -p --custom-structs
