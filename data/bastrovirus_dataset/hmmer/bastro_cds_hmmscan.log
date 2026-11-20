@@ -33,8 +33,8 @@ Passed Vit filter:                        30  (0.000995553); expected 30.1 (0.00
 Passed Fwd filter:                         0  (0); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.45u 0.74s 00:00:01.19 Elapsed: 00:00:06.52
-# Mc/sec: 144.35
+# CPU time: 0.19u 0.14s 00:00:00.33 Elapsed: 00:00:00.33
+# Mc/sec: 2810.08
 //
 Query:       cand_0002|PV605168.1|ORF1|start=112|end=3688|codon_start=1|strand=1  [L=1191]
 Scores for complete sequence (score includes all domains):
@@ -108,8 +108,8 @@ Passed Vit filter:                        86  (0.00285392); expected 30.1 (0.001
 Passed Fwd filter:                         8  (0.000265481); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               8  [number of targets reported over threshold]
-# CPU time: 1.19u 0.44s 00:00:01.63 Elapsed: 00:00:04.44
-# Mc/sec: 1274.70
+# CPU time: 0.45u 0.13s 00:00:00.58 Elapsed: 00:00:00.57
+# Mc/sec: 9816.00
 //
 Query:       cand_0003|PV605168.1|ORF2|start=3693|end=5727|codon_start=1|strand=1  [L=677]
 Scores for complete sequence (score includes all domains):
@@ -143,8 +143,8 @@ Passed Vit filter:                        43  (0.00142696); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.74u 0.42s 00:00:01.15 Elapsed: 00:00:03.63
-# Mc/sec: 885.74
+# CPU time: 0.26u 0.17s 00:00:00.43 Elapsed: 00:00:00.43
+# Mc/sec: 7411.94
 //
 Query:       cand_0004|MF042208.1|unknown|start=74|end=4298|codon_start=1|strand=1  [L=1407]
 Scores for complete sequence (score includes all domains):
@@ -231,8 +231,8 @@ Passed Vit filter:                        54  (0.001792); expected 30.1 (0.001)
 Passed Fwd filter:                        10  (0.000331851); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              10  [number of targets reported over threshold]
-# CPU time: 1.29u 0.29s 00:00:01.58 Elapsed: 00:00:03.80
-# Mc/sec: 1757.59
+# CPU time: 0.44u 0.15s 00:00:00.59 Elapsed: 00:00:00.58
+# Mc/sec: 11396.88
 //
 Query:       cand_0005|MF042208.1|unknown|start=4323|end=5376|codon_start=1|strand=1  [L=350]
 Scores for complete sequence (score includes all domains):
@@ -260,8 +260,8 @@ Passed Vit filter:                        31  (0.00102874); expected 30.1 (0.001
 Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.66u 0.30s 00:00:00.96 Elapsed: 00:00:02.67
-# Mc/sec: 621.36
+# CPU time: 0.19u 0.15s 00:00:00.34 Elapsed: 00:00:00.34
+# Mc/sec: 4875.20
 //
 Query:       cand_0006|MT549857.1|unknown|start=0|end=3672|codon_start=1|strand=1  [L=1223]
 Scores for complete sequence (score includes all domains):
@@ -336,8 +336,8 @@ Passed Vit filter:                        84  (0.00278755); expected 30.1 (0.001
 Passed Fwd filter:                         8  (0.000265481); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               8  [number of targets reported over threshold]
-# CPU time: 1.21u 0.32s 00:00:01.53 Elapsed: 00:00:02.74
-# Mc/sec: 2117.54
+# CPU time: 0.45u 0.15s 00:00:00.60 Elapsed: 00:00:00.60
+# Mc/sec: 9656.06
 //
 Query:       cand_0007|MT549857.1|unknown|start=3677|end=5597|codon_start=1|strand=1  [L=640]
 Scores for complete sequence (score includes all domains):
@@ -380,8 +380,8 @@ Passed Vit filter:                        34  (0.00112829); expected 30.1 (0.001
 Passed Fwd filter:                         3  (9.95553e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               3  [number of targets reported over threshold]
-# CPU time: 0.78u 0.34s 00:00:01.12 Elapsed: 00:00:02.62
-# Mc/sec: 1160.23
+# CPU time: 0.28u 0.13s 00:00:00.41 Elapsed: 00:00:00.40
+# Mc/sec: 7440.87
 //
 Query:       cand_0008|MT549856.1|unknown|start=0|end=3671|codon_start=3|strand=1  [L=1222]
 Scores for complete sequence (score includes all domains):
@@ -473,8 +473,8 @@ Passed Vit filter:                        85  (0.00282073); expected 30.1 (0.001
 Passed Fwd filter:                        11  (0.000365036); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              11  [number of targets reported over threshold]
-# CPU time: 0.83u 0.19s 00:00:01.02 Elapsed: 00:00:01.42
-# Mc/sec: 4067.79
+# CPU time: 0.41u 0.18s 00:00:00.59 Elapsed: 00:00:00.59
+# Mc/sec: 9779.48
 //
 Query:       cand_0009|MT549856.1|unknown|start=3676|end=5710|codon_start=1|strand=1  [L=677]
 Scores for complete sequence (score includes all domains):
@@ -508,8 +508,8 @@ Passed Vit filter:                        47  (0.0015597); expected 30.1 (0.001)
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.70u 0.23s 00:00:00.93 Elapsed: 00:00:01.49
-# Mc/sec: 2149.33
+# CPU time: 0.28u 0.15s 00:00:00.43 Elapsed: 00:00:00.42
+# Mc/sec: 7533.56
 //
 Query:       cand_0010|MK387176.1|unknown|start=236|end=3857|codon_start=1|strand=1  [L=1206]
 Scores for complete sequence (score includes all domains):
@@ -595,8 +595,8 @@ Passed Vit filter:                        91  (0.00301984); expected 30.1 (0.001
 Passed Fwd filter:                        10  (0.000331851); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              10  [number of targets reported over threshold]
-# CPU time: 1.34u 0.34s 00:00:01.68 Elapsed: 00:00:03.90
-# Mc/sec: 1469.09
+# CPU time: 0.44u 0.14s 00:00:00.58 Elapsed: 00:00:00.58
+# Mc/sec: 9869.31
 //
 Query:       cand_0011|MK387176.1|unknown|start=3666|end=5718|codon_start=1|strand=1  [L=683]
 Scores for complete sequence (score includes all domains):
@@ -630,8 +630,8 @@ Passed Vit filter:                        57  (0.00189155); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.95u 0.34s 00:00:01.29 Elapsed: 00:00:03.56
-# Mc/sec: 909.71
+# CPU time: 0.26u 0.19s 00:00:00.45 Elapsed: 00:00:00.44
+# Mc/sec: 7290.59
 //
 Query:       cand_0012|PP872081.1|unknown|start=0|end=3510|codon_start=1|strand=1  [L=1169]
 Scores for complete sequence (score includes all domains):
@@ -725,8 +725,8 @@ Passed Vit filter:                        84  (0.00278755); expected 30.1 (0.001
 Passed Fwd filter:                        11  (0.000365036); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              11  [number of targets reported over threshold]
-# CPU time: 0.68u 0.23s 00:00:00.91 Elapsed: 00:00:01.21
-# Mc/sec: 4558.02
+# CPU time: 0.44u 0.12s 00:00:00.56 Elapsed: 00:00:00.55
+# Mc/sec: 9929.44
 //
 Query:       cand_0013|PP872081.1|unknown|start=3319|end=5359|codon_start=1|strand=1  [L=679]
 Scores for complete sequence (score includes all domains):
@@ -768,8 +768,8 @@ Passed Vit filter:                        83  (0.00275436); expected 30.1 (0.001
 Passed Fwd filter:                         3  (9.95553e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               3  [number of targets reported over threshold]
-# CPU time: 1.05u 0.33s 00:00:01.38 Elapsed: 00:00:03.40
-# Mc/sec: 949.34
+# CPU time: 0.35u 0.14s 00:00:00.49 Elapsed: 00:00:00.48
+# Mc/sec: 6603.94
 //
 Query:       cand_0014|PP872079.1|unknown|start=0|end=3621|codon_start=1|strand=1  [L=1206]
 Scores for complete sequence (score includes all domains):
@@ -855,8 +855,8 @@ Passed Vit filter:                        87  (0.0028871); expected 30.1 (0.001)
 Passed Fwd filter:                        10  (0.000331851); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              10  [number of targets reported over threshold]
-# CPU time: 0.69u 0.16s 00:00:00.85 Elapsed: 00:00:00.93
-# Mc/sec: 6146.88
+# CPU time: 0.44u 0.14s 00:00:00.58 Elapsed: 00:00:00.58
+# Mc/sec: 9884.69
 //
 Query:       cand_0015|PP872079.1|unknown|start=3430|end=5476|codon_start=1|strand=1  [L=681]
 Scores for complete sequence (score includes all domains):
@@ -891,8 +891,8 @@ Passed Vit filter:                        86  (0.00285392); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 1.05u 0.27s 00:00:01.32 Elapsed: 00:00:02.37
-# Mc/sec: 1363.93
+# CPU time: 0.30u 0.20s 00:00:00.50 Elapsed: 00:00:00.49
+# Mc/sec: 6545.59
 //
 Query:       cand_0016|PP872056.1|unknown|start=0|end=3621|codon_start=1|strand=1  [L=1206]
 Scores for complete sequence (score includes all domains):
@@ -978,8 +978,8 @@ Passed Vit filter:                        88  (0.00292029); expected 30.1 (0.001
 Passed Fwd filter:                        10  (0.000331851); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              10  [number of targets reported over threshold]
-# CPU time: 0.64u 0.20s 00:00:00.84 Elapsed: 00:00:00.94
-# Mc/sec: 6096.72
+# CPU time: 0.41u 0.17s 00:00:00.57 Elapsed: 00:00:00.58
+# Mc/sec: 9851.66
 //
 Query:       cand_0017|PP872056.1|unknown|start=3430|end=5476|codon_start=1|strand=1  [L=681]
 Scores for complete sequence (score includes all domains):
@@ -1014,8 +1014,8 @@ Passed Vit filter:                        91  (0.00301984); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.45u 0.13s 00:00:00.58 Elapsed: 00:00:00.72
-# Mc/sec: 4467.02
+# CPU time: 0.38u 0.10s 00:00:00.48 Elapsed: 00:00:00.49
+# Mc/sec: 6540.52
 //
 Query:       cand_0018|PP872047.1|unknown|start=324|end=3834|codon_start=1|strand=1  [L=1169]
 Scores for complete sequence (score includes all domains):
@@ -1101,8 +1101,8 @@ Passed Vit filter:                        88  (0.00292029); expected 30.1 (0.001
 Passed Fwd filter:                        10  (0.000331851); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              10  [number of targets reported over threshold]
-# CPU time: 0.43u 0.12s 00:00:00.55 Elapsed: 00:00:00.57
-# Mc/sec: 9724.04
+# CPU time: 0.41u 0.16s 00:00:00.56 Elapsed: 00:00:00.56
+# Mc/sec: 9873.49
 //
 Query:       cand_0019|PP872047.1|unknown|start=3643|end=5686|codon_start=1|strand=1  [L=681]
 Scores for complete sequence (score includes all domains):
@@ -1137,8 +1137,8 @@ Passed Vit filter:                        91  (0.00301984); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.34u 0.13s 00:00:00.47 Elapsed: 00:00:00.59
-# Mc/sec: 5454.49
+# CPU time: 0.34u 0.16s 00:00:00.50 Elapsed: 00:00:00.49
+# Mc/sec: 6514.20
 //
 Query:       cand_0020|PP872043.1|unknown|start=0|end=3621|codon_start=1|strand=1  [L=1206]
 Scores for complete sequence (score includes all domains):
@@ -1230,8 +1230,8 @@ Passed Vit filter:                        89  (0.00295347); expected 30.1 (0.001
 Passed Fwd filter:                        11  (0.000365036); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              11  [number of targets reported over threshold]
-# CPU time: 0.45u 0.15s 00:00:00.60 Elapsed: 00:00:00.75
-# Mc/sec: 7581.42
+# CPU time: 0.42u 0.18s 00:00:00.60 Elapsed: 00:00:00.59
+# Mc/sec: 9646.01
 //
 Query:       cand_0021|PP872043.1|unknown|start=3430|end=5491|codon_start=1|strand=1  [L=687]
 Scores for complete sequence (score includes all domains):
@@ -1265,8 +1265,8 @@ Passed Vit filter:                        62  (0.00205748); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.35u 0.15s 00:00:00.50 Elapsed: 00:00:00.73
-# Mc/sec: 4458.94
+# CPU time: 0.27u 0.16s 00:00:00.43 Elapsed: 00:00:00.43
+# Mc/sec: 7437.55
 //
 Query:       cand_0022|PP871984.1|unknown|start=0|end=3621|codon_start=1|strand=1  [L=1206]
 Scores for complete sequence (score includes all domains):
@@ -1352,8 +1352,8 @@ Passed Vit filter:                        89  (0.00295347); expected 30.1 (0.001
 Passed Fwd filter:                        10  (0.000331851); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              10  [number of targets reported over threshold]
-# CPU time: 0.41u 0.15s 00:00:00.55 Elapsed: 00:00:00.57
-# Mc/sec: 9998.81
+# CPU time: 0.42u 0.16s 00:00:00.57 Elapsed: 00:00:00.58
+# Mc/sec: 9840.41
 //
 Query:       cand_0023|PP871984.1|unknown|start=3430|end=5476|codon_start=1|strand=1  [L=681]
 Scores for complete sequence (score includes all domains):
@@ -1388,8 +1388,8 @@ Passed Vit filter:                        92  (0.00305303); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.35u 0.13s 00:00:00.48 Elapsed: 00:00:00.53
-# Mc/sec: 5999.57
+# CPU time: 0.35u 0.15s 00:00:00.50 Elapsed: 00:00:00.49
+# Mc/sec: 6514.20
 //
 Query:       cand_0024|PP871979.1|unknown|start=0|end=3621|codon_start=1|strand=1  [L=1206]
 Scores for complete sequence (score includes all domains):
@@ -1475,8 +1475,8 @@ Passed Vit filter:                        88  (0.00292029); expected 30.1 (0.001
 Passed Fwd filter:                        10  (0.000331851); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              10  [number of targets reported over threshold]
-# CPU time: 0.44u 0.11s 00:00:00.55 Elapsed: 00:00:00.54
-# Mc/sec: 10425.32
+# CPU time: 0.45u 0.13s 00:00:00.58 Elapsed: 00:00:00.57
+# Mc/sec: 9910.69
 //
 Query:       cand_0025|PP871979.1|unknown|start=3430|end=5476|codon_start=1|strand=1  [L=681]
 Scores for complete sequence (score includes all domains):
@@ -1511,8 +1511,8 @@ Passed Vit filter:                        91  (0.00301984); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.36u 0.11s 00:00:00.47 Elapsed: 00:00:00.47
-# Mc/sec: 6819.97
+# CPU time: 0.35u 0.15s 00:00:00.50 Elapsed: 00:00:00.49
+# Mc/sec: 6518.09
 //
 Query:       cand_0026|PP871961.1|unknown|start=0|end=3621|codon_start=1|strand=1  [L=1206]
 Scores for complete sequence (score includes all domains):
@@ -1598,8 +1598,8 @@ Passed Vit filter:                        82  (0.00272118); expected 30.1 (0.001
 Passed Fwd filter:                        10  (0.000331851); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              10  [number of targets reported over threshold]
-# CPU time: 0.42u 0.14s 00:00:00.56 Elapsed: 00:00:00.62
-# Mc/sec: 9126.72
+# CPU time: 0.40u 0.17s 00:00:00.57 Elapsed: 00:00:00.57
+# Mc/sec: 9975.84
 //
 Query:       cand_0027|PP871961.1|unknown|start=3430|end=5476|codon_start=1|strand=1  [L=681]
 Scores for complete sequence (score includes all domains):
@@ -1634,8 +1634,8 @@ Passed Vit filter:                        90  (0.00298666); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.32u 0.15s 00:00:00.47 Elapsed: 00:00:00.58
-# Mc/sec: 5500.87
+# CPU time: 0.31u 0.19s 00:00:00.50 Elapsed: 00:00:00.49
+# Mc/sec: 6583.79
 //
 Query:       cand_0028|PP211348.1|unknown|start=333|end=3627|codon_start=1|strand=1  [L=1097]
 Scores for complete sequence (score includes all domains):
@@ -1710,8 +1710,8 @@ Passed Vit filter:                        77  (0.00255525); expected 30.1 (0.001
 Passed Fwd filter:                         8  (0.000265481); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               8  [number of targets reported over threshold]
-# CPU time: 0.40u 0.17s 00:00:00.57 Elapsed: 00:00:00.71
-# Mc/sec: 7304.13
+# CPU time: 0.35u 0.20s 00:00:00.55 Elapsed: 00:00:00.55
+# Mc/sec: 9344.35
 //
 Query:       cand_0029|PP211348.1|unknown|start=3632|end=5636|codon_start=1|strand=1  [L=667]
 Scores for complete sequence (score includes all domains):
@@ -1745,8 +1745,8 @@ Passed Vit filter:                        33  (0.00109511); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.34u 0.19s 00:00:00.53 Elapsed: 00:00:00.80
-# Mc/sec: 3952.29
+# CPU time: 0.29u 0.13s 00:00:00.42 Elapsed: 00:00:00.41
+# Mc/sec: 7634.27
 //
 Query:       cand_0030|PP211347.1|unknown|start=2|end=3674|codon_start=1|strand=1  [L=1223]
 Scores for complete sequence (score includes all domains):
@@ -1814,8 +1814,8 @@ Passed Vit filter:                        92  (0.00305303); expected 30.1 (0.001
 Passed Fwd filter:                         7  (0.000232296); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               7  [number of targets reported over threshold]
-# CPU time: 0.46u 0.15s 00:00:00.61 Elapsed: 00:00:00.68
-# Mc/sec: 8433.51
+# CPU time: 0.49u 0.12s 00:00:00.61 Elapsed: 00:00:00.60
+# Mc/sec: 9541.70
 //
 Query:       cand_0031|PP211347.1|unknown|start=3679|end=5683|codon_start=1|strand=1  [L=667]
 Scores for complete sequence (score includes all domains):
@@ -1849,8 +1849,8 @@ Passed Vit filter:                        47  (0.0015597); expected 30.1 (0.001)
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.29u 0.12s 00:00:00.41 Elapsed: 00:00:00.53
-# Mc/sec: 5881.22
+# CPU time: 0.30u 0.13s 00:00:00.43 Elapsed: 00:00:00.43
+# Mc/sec: 7327.81
 //
 Query:       cand_0032|PP211346.1|unknown|start=1|end=3673|codon_start=1|strand=1  [L=1223]
 Scores for complete sequence (score includes all domains):
@@ -1932,8 +1932,8 @@ Passed Vit filter:                        94  (0.0031194); expected 30.1 (0.001)
 Passed Fwd filter:                         9  (0.000298666); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               9  [number of targets reported over threshold]
-# CPU time: 0.48u 0.17s 00:00:00.65 Elapsed: 00:00:00.82
-# Mc/sec: 7084.93
+# CPU time: 0.40u 0.21s 00:00:00.61 Elapsed: 00:00:00.60
+# Mc/sec: 9596.77
 //
 Query:       cand_0033|PP211346.1|unknown|start=3678|end=5712|codon_start=1|strand=1  [L=677]
 Scores for complete sequence (score includes all domains):
@@ -1975,8 +1975,8 @@ Passed Vit filter:                        44  (0.00146014); expected 30.1 (0.001
 Passed Fwd filter:                         3  (9.95553e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               3  [number of targets reported over threshold]
-# CPU time: 0.33u 0.15s 00:00:00.48 Elapsed: 00:00:00.67
-# Mc/sec: 4802.25
+# CPU time: 0.26u 0.16s 00:00:00.42 Elapsed: 00:00:00.42
+# Mc/sec: 7582.88
 //
 Query:       cand_0034|PP211344.1|unknown|start=2|end=3677|codon_start=1|strand=1  [L=1224]
 Scores for complete sequence (score includes all domains):
@@ -2078,8 +2078,8 @@ Passed Vit filter:                        87  (0.0028871); expected 30.1 (0.001)
 Passed Fwd filter:                        12  (0.000398221); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              12  [number of targets reported over threshold]
-# CPU time: 1.06u 0.21s 00:00:01.27 Elapsed: 00:00:02.04
-# Mc/sec: 2849.46
+# CPU time: 0.45u 0.16s 00:00:00.61 Elapsed: 00:00:00.61
+# Mc/sec: 9452.18
 //
 Query:       cand_0035|PP211344.1|unknown|start=3682|end=5704|codon_start=1|strand=1  [L=673]
 Scores for complete sequence (score includes all domains):
@@ -2113,8 +2113,8 @@ Passed Vit filter:                        43  (0.00142696); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.45u 0.18s 00:00:00.63 Elapsed: 00:00:00.88
-# Mc/sec: 3630.74
+# CPU time: 0.29u 0.14s 00:00:00.43 Elapsed: 00:00:00.41
+# Mc/sec: 7638.49
 //
 Query:       cand_0036|PP211343.1|unknown|start=3|end=3678|codon_start=1|strand=1  [L=1224]
 Scores for complete sequence (score includes all domains):
@@ -2201,8 +2201,8 @@ Passed Vit filter:                        82  (0.00272118); expected 30.1 (0.001
 Passed Fwd filter:                        10  (0.000331851); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              10  [number of targets reported over threshold]
-# CPU time: 0.64u 0.20s 00:00:00.84 Elapsed: 00:00:00.95
-# Mc/sec: 6122.09
+# CPU time: 0.42u 0.17s 00:00:00.59 Elapsed: 00:00:00.59
+# Mc/sec: 9782.69
 //
 Query:       cand_0037|PP211343.1|unknown|start=3683|end=5705|codon_start=1|strand=1  [L=673]
 Scores for complete sequence (score includes all domains):
@@ -2236,8 +2236,8 @@ Passed Vit filter:                        43  (0.00142696); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.35u 0.13s 00:00:00.48 Elapsed: 00:00:00.65
-# Mc/sec: 4906.69
+# CPU time: 0.30u 0.13s 00:00:00.43 Elapsed: 00:00:00.43
+# Mc/sec: 7418.14
 //
 Query:       cand_0038|PQ541176.1|unknown|start=3|end=3678|codon_start=1|strand=1  [L=1224]
 Scores for complete sequence (score includes all domains):
@@ -2332,8 +2332,8 @@ Passed Vit filter:                        91  (0.00301984); expected 30.1 (0.001
 Passed Fwd filter:                        11  (0.000365036); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              11  [number of targets reported over threshold]
-# CPU time: 0.80u 0.28s 00:00:01.08 Elapsed: 00:00:01.67
-# Mc/sec: 3470.11
+# CPU time: 0.43u 0.17s 00:00:00.60 Elapsed: 00:00:00.60
+# Mc/sec: 9693.57
 //
 Query:       cand_0039|PQ541176.1|unknown|start=3683|end=5723|codon_start=1|strand=1  [L=679]
 Scores for complete sequence (score includes all domains):
@@ -2367,8 +2367,8 @@ Passed Vit filter:                        39  (0.00129422); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.70u 0.30s 00:00:01.00 Elapsed: 00:00:01.85
-# Mc/sec: 1741.93
+# CPU time: 0.29u 0.14s 00:00:00.43 Elapsed: 00:00:00.42
+# Mc/sec: 7551.31
 //
 Query:       cand_0040|PQ541169.1|unknown|start=0|end=3718|codon_start=2|strand=1  [L=1238]
 Scores for complete sequence (score includes all domains):
@@ -2444,8 +2444,8 @@ Passed Vit filter:                        74  (0.0024557); expected 30.1 (0.001)
 Passed Fwd filter:                         8  (0.000265481); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               8  [number of targets reported over threshold]
-# CPU time: 1.28u 0.23s 00:00:01.51 Elapsed: 00:00:02.48
-# Mc/sec: 2366.42
+# CPU time: 0.39u 0.20s 00:00:00.59 Elapsed: 00:00:00.58
+# Mc/sec: 10046.39
 //
 Query:       cand_0041|PQ541169.1|unknown|start=3720|end=5606|codon_start=1|strand=1  [L=628]
 Scores for complete sequence (score includes all domains):
@@ -2481,8 +2481,8 @@ Passed Vit filter:                        30  (0.000995553); expected 30.1 (0.00
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.64u 0.27s 00:00:00.91 Elapsed: 00:00:01.63
-# Mc/sec: 1827.61
+# CPU time: 0.27u 0.11s 00:00:00.38 Elapsed: 00:00:00.39
+# Mc/sec: 7598.47
 //
 Query:       cand_0042|OQ835730.1|unknown|start=0|end=4190|codon_start=3|strand=1  [L=1395]
 Scores for complete sequence (score includes all domains):
@@ -2543,8 +2543,8 @@ Passed Vit filter:                        39  (0.00129422); expected 30.1 (0.001
 Passed Fwd filter:                         6  (0.000199111); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               6  [number of targets reported over threshold]
-# CPU time: 0.63u 0.15s 00:00:00.78 Elapsed: 00:00:01.02
-# Mc/sec: 6471.43
+# CPU time: 0.38u 0.17s 00:00:00.55 Elapsed: 00:00:00.53
+# Mc/sec: 12332.35
 //
 Query:       cand_0043|OQ835730.1|unknown|start=4215|end=5268|codon_start=1|strand=1  [L=350]
 Scores for complete sequence (score includes all domains):
@@ -2572,8 +2572,8 @@ Passed Vit filter:                        30  (0.000995553); expected 30.1 (0.00
 Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.38u 0.19s 00:00:00.57 Elapsed: 00:00:00.84
-# Mc/sec: 1980.78
+# CPU time: 0.19u 0.15s 00:00:00.34 Elapsed: 00:00:00.33
+# Mc/sec: 4925.07
 //
 Query:       cand_0044|OQ835730.1|unknown|start=5297|end=5535|codon_start=1|strand=1  [L=79]
 Scores for complete sequence (score includes all domains):
@@ -2608,8 +2608,8 @@ Passed Vit filter:                        56  (0.00185837); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.53u 0.29s 00:00:00.82 Elapsed: 00:00:02.49
-# Mc/sec: 150.29
+# CPU time: 0.17u 0.12s 00:00:00.29 Elapsed: 00:00:00.29
+# Mc/sec: 1258.55
 //
 Query:       cand_0045|OQ835729.1|unknown|start=79|end=4303|codon_start=1|strand=1  [L=1407]
 Scores for complete sequence (score includes all domains):
@@ -2689,8 +2689,8 @@ Passed Vit filter:                        54  (0.001792); expected 30.1 (0.001)
 Passed Fwd filter:                         9  (0.000298666); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               9  [number of targets reported over threshold]
-# CPU time: 0.72u 0.18s 00:00:00.89 Elapsed: 00:00:01.07
-# Mc/sec: 6241.06
+# CPU time: 0.45u 0.15s 00:00:00.60 Elapsed: 00:00:00.59
+# Mc/sec: 11179.47
 //
 Query:       cand_0046|OQ835729.1|unknown|start=4328|end=5381|codon_start=1|strand=1  [L=350]
 Scores for complete sequence (score includes all domains):
@@ -2718,8 +2718,8 @@ Passed Vit filter:                        26  (0.000862813); expected 30.1 (0.00
 Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.21u 0.13s 00:00:00.34 Elapsed: 00:00:00.39
-# Mc/sec: 4206.82
+# CPU time: 0.18u 0.16s 00:00:00.34 Elapsed: 00:00:00.33
+# Mc/sec: 4910.64
 //
 Query:       cand_0047|OQ835729.1|unknown|start=5410|end=5752|codon_start=1|strand=1  [L=113]
 Scores for complete sequence (score includes all domains):
@@ -2748,8 +2748,8 @@ Passed Vit filter:                        46  (0.00152651); expected 30.1 (0.001
 Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.31u 0.20s 00:00:00.51 Elapsed: 00:00:00.84
-# Mc/sec: 634.95
+# CPU time: 0.14u 0.16s 00:00:00.30 Elapsed: 00:00:00.30
+# Mc/sec: 1775.18
 //
 Query:       cand_0048|PQ161557.1|unknown|start=30|end=4254|codon_start=1|strand=1  [L=1407]
 Scores for complete sequence (score includes all domains):
@@ -2823,8 +2823,8 @@ Passed Vit filter:                        48  (0.00159289); expected 30.1 (0.001
 Passed Fwd filter:                         8  (0.000265481); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               8  [number of targets reported over threshold]
-# CPU time: 0.68u 0.16s 00:00:00.84 Elapsed: 00:00:01.03
-# Mc/sec: 6463.65
+# CPU time: 0.42u 0.16s 00:00:00.57 Elapsed: 00:00:00.57
+# Mc/sec: 11574.76
 //
 Query:       cand_0049|PQ161557.1|unknown|start=4279|end=5332|codon_start=1|strand=1  [L=350]
 Scores for complete sequence (score includes all domains):
@@ -2853,8 +2853,8 @@ Passed Vit filter:                        26  (0.000862813); expected 30.1 (0.00
 Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.37u 0.17s 00:00:00.54 Elapsed: 00:00:00.78
-# Mc/sec: 2126.97
+# CPU time: 0.21u 0.13s 00:00:00.34 Elapsed: 00:00:00.34
+# Mc/sec: 4863.68
 //
 Query:       cand_0050|PQ161557.1|unknown|start=5361|end=5667|codon_start=1|strand=1  [L=102]
 Scores for complete sequence (score includes all domains):
@@ -2895,8 +2895,8 @@ Passed Vit filter:                        63  (0.00209066); expected 30.1 (0.001
 Passed Fwd filter:                         3  (9.95553e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               3  [number of targets reported over threshold]
-# CPU time: 0.43u 0.23s 00:00:00.66 Elapsed: 00:00:01.12
-# Mc/sec: 432.95
+# CPU time: 0.15u 0.16s 00:00:00.31 Elapsed: 00:00:00.30
+# Mc/sec: 1578.07
 //
 Query:       cand_0051|OM104033.1|unknown|start=253|end=3763|codon_start=1|strand=1  [L=1169]
 Scores for complete sequence (score includes all domains):
@@ -2988,8 +2988,8 @@ Passed Vit filter:                        80  (0.00265481); expected 30.1 (0.001
 Passed Fwd filter:                        11  (0.000365036); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              11  [number of targets reported over threshold]
-# CPU time: 0.62u 0.18s 00:00:00.80 Elapsed: 00:00:00.82
-# Mc/sec: 6773.84
+# CPU time: 0.43u 0.12s 00:00:00.55 Elapsed: 00:00:00.55
+# Mc/sec: 9958.24
 //
 Query:       cand_0052|OM104033.1|unknown|start=3572|end=5612|codon_start=1|strand=1  [L=679]
 Scores for complete sequence (score includes all domains):
@@ -3031,8 +3031,8 @@ Passed Vit filter:                        85  (0.00282073); expected 30.1 (0.001
 Passed Fwd filter:                         3  (9.95553e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               3  [number of targets reported over threshold]
-# CPU time: 0.39u 0.11s 00:00:00.50 Elapsed: 00:00:00.59
-# Mc/sec: 5408.12
+# CPU time: 0.36u 0.13s 00:00:00.49 Elapsed: 00:00:00.48
+# Mc/sec: 6601.92
 //
 Query:       cand_0053|PP999617.1|ORF1|start=7|end=3805|codon_start=1|strand=1  [L=1265]
 Scores for complete sequence (score includes all domains):
@@ -3126,8 +3126,8 @@ Passed Vit filter:                        84  (0.00278755); expected 30.1 (0.001
 Passed Fwd filter:                        11  (0.000365036); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              11  [number of targets reported over threshold]
-# CPU time: 0.45u 0.14s 00:00:00.59 Elapsed: 00:00:00.70
-# Mc/sec: 8513.49
+# CPU time: 0.47u 0.14s 00:00:00.61 Elapsed: 00:00:00.60
+# Mc/sec: 9955.78
 //
 Query:       cand_0054|PP999617.1|ORF2|start=3614|end=5576|codon_start=1|strand=1  [L=653]
 Scores for complete sequence (score includes all domains):
@@ -3169,8 +3169,8 @@ Passed Vit filter:                        70  (0.00232296); expected 30.1 (0.001
 Passed Fwd filter:                         3  (9.95553e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               3  [number of targets reported over threshold]
-# CPU time: 0.32u 0.12s 00:00:00.44 Elapsed: 00:00:00.51
-# Mc/sec: 6068.76
+# CPU time: 0.30u 0.17s 00:00:00.47 Elapsed: 00:00:00.46
+# Mc/sec: 6622.72
 //
 Query:       cand_0055|PP999617.1|ORF4|start=3699|end=4293|codon_start=1|strand=1  [L=197]
 Scores for complete sequence (score includes all domains):
@@ -3196,8 +3196,8 @@ Passed Vit filter:                        27  (0.000895998); expected 30.1 (0.00
 Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.39u 0.14s 00:00:00.53 Elapsed: 00:00:00.80
-# Mc/sec: 1157.94
+# CPU time: 0.15u 0.16s 00:00:00.31 Elapsed: 00:00:00.31
+# Mc/sec: 3003.65
 //
 Query:       cand_0056|PP999617.1|ORF3A|start=5600|end=5936|codon_start=1|strand=1  [L=111]
 Scores for complete sequence (score includes all domains):
@@ -3225,8 +3225,8 @@ Passed Vit filter:                        29  (0.000962368); expected 30.1 (0.00
 Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.46u 0.25s 00:00:00.71 Elapsed: 00:00:01.37
-# Mc/sec: 382.70
+# CPU time: 0.11u 0.19s 00:00:00.30 Elapsed: 00:00:00.29
+# Mc/sec: 1774.41
 //
 Query:       cand_0057|PP999617.1|ORF3B|start=5646|end=5910|codon_start=1|strand=1  [L=87]
 Scores for complete sequence (score includes all domains):
@@ -3252,8 +3252,8 @@ Passed Vit filter:                        20  (0.000663702); expected 30.1 (0.00
 Passed Fwd filter:                         0  (0); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.38u 0.22s 00:00:00.60 Elapsed: 00:00:01.04
-# Mc/sec: 394.80
+# CPU time: 0.16u 0.13s 00:00:00.29 Elapsed: 00:00:00.28
+# Mc/sec: 1432.60
 //
 Query:       cand_0058|PP999616.1|ORF1|start=24|end=3822|codon_start=1|strand=1  [L=1265]
 Scores for complete sequence (score includes all domains):
@@ -3346,8 +3346,8 @@ Passed Vit filter:                        92  (0.00305303); expected 30.1 (0.001
 Passed Fwd filter:                        11  (0.000365036); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):              11  [number of targets reported over threshold]
-# CPU time: 0.76u 0.17s 00:00:00.93 Elapsed: 00:00:01.02
-# Mc/sec: 5872.65
+# CPU time: 0.47u 0.14s 00:00:00.61 Elapsed: 00:00:00.61
+# Mc/sec: 9817.92
 //
 Query:       cand_0059|PP999616.1|ORF2|start=3631|end=5572|codon_start=1|strand=1  [L=646]
 Scores for complete sequence (score includes all domains):
@@ -3382,8 +3382,8 @@ Passed Vit filter:                       107  (0.00355081); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.64u 0.26s 00:00:00.90 Elapsed: 00:00:01.36
-# Mc/sec: 2256.90
+# CPU time: 0.32u 0.18s 00:00:00.50 Elapsed: 00:00:00.49
+# Mc/sec: 6242.88
 //
 Query:       cand_0060|PP999616.1|ORF4|start=3716|end=4304|codon_start=1|strand=1  [L=195]
 Scores for complete sequence (score includes all domains):
@@ -3409,8 +3409,8 @@ Passed Vit filter:                        19  (0.000630517); expected 30.1 (0.00
 Passed Fwd filter:                         0  (0); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.32u 0.17s 00:00:00.49 Elapsed: 00:00:00.74
-# Mc/sec: 1247.93
+# CPU time: 0.16u 0.14s 00:00:00.30 Elapsed: 00:00:00.30
+# Mc/sec: 3021.04
 //
 Query:       cand_0061|PP999616.1|ORF3A|start=5616|end=5952|codon_start=1|strand=1  [L=111]
 Scores for complete sequence (score includes all domains):
@@ -3439,8 +3439,8 @@ Passed Vit filter:                        28  (0.000929183); expected 30.1 (0.00
 Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               1  [number of targets reported over threshold]
-# CPU time: 0.26u 0.13s 00:00:00.39 Elapsed: 00:00:00.44
-# Mc/sec: 1172.82
+# CPU time: 0.14u 0.16s 00:00:00.30 Elapsed: 00:00:00.29
+# Mc/sec: 1771.13
 //
 Query:       cand_0062|PP999616.1|ORF3B|start=5662|end=5926|codon_start=1|strand=1  [L=87]
 Scores for complete sequence (score includes all domains):
@@ -3466,8 +3466,8 @@ Passed Vit filter:                        25  (0.000829628); expected 30.1 (0.00
 Passed Fwd filter:                         0  (0); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               0  [number of targets reported over threshold]
-# CPU time: 0.23u 0.17s 00:00:00.40 Elapsed: 00:00:00.51
-# Mc/sec: 798.26
+# CPU time: 0.16u 0.12s 00:00:00.28 Elapsed: 00:00:00.29
+# Mc/sec: 1423.35
 //
 Query:       cand_0063|OR710300.1|unknown|start=2|end=3674|codon_start=1|strand=1  [L=1223]
 Scores for complete sequence (score includes all domains):
@@ -3533,8 +3533,8 @@ Passed Vit filter:                        97  (0.00321896); expected 30.1 (0.001
 Passed Fwd filter:                         7  (0.000232296); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               7  [number of targets reported over threshold]
-# CPU time: 0.63u 0.13s 00:00:00.76 Elapsed: 00:00:00.92
-# Mc/sec: 6315.47
+# CPU time: 0.46u 0.14s 00:00:00.60 Elapsed: 00:00:00.60
+# Mc/sec: 9658.06
 //
 Query:       cand_0064|OR710300.1|unknown|start=3679|end=5713|codon_start=1|strand=1  [L=677]
 Scores for complete sequence (score includes all domains):
@@ -3568,8 +3568,8 @@ Passed Vit filter:                        55  (0.00182518); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.54u 0.16s 00:00:00.70 Elapsed: 00:00:01.06
-# Mc/sec: 3028.43
+# CPU time: 0.29u 0.16s 00:00:00.44 Elapsed: 00:00:00.44
+# Mc/sec: 7218.52
 //
 Query:       cand_0065|ON907858.1|unknown|start=44|end=3680|codon_start=1|strand=1  [L=1211]
 Scores for complete sequence (score includes all domains):
@@ -3649,8 +3649,8 @@ Passed Vit filter:                        83  (0.00275436); expected 30.1 (0.001
 Passed Fwd filter:                         9  (0.000298666); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               9  [number of targets reported over threshold]
-# CPU time: 0.61u 0.18s 00:00:00.79 Elapsed: 00:00:00.91
-# Mc/sec: 6281.98
+# CPU time: 0.42u 0.17s 00:00:00.59 Elapsed: 00:00:00.59
+# Mc/sec: 9645.18
 //
 Query:       cand_0066|ON907858.1|unknown|start=3685|end=5722|codon_start=1|strand=1  [L=678]
 Scores for complete sequence (score includes all domains):
@@ -3684,7 +3684,7 @@ Passed Vit filter:                        43  (0.00142696); expected 30.1 (0.001
 Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
 Initial search space (Z):              30134  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
-# CPU time: 0.36u 0.12s 00:00:00.48 Elapsed: 00:00:00.69
-# Mc/sec: 4641.93
+# CPU time: 0.30u 0.13s 00:00:00.43 Elapsed: 00:00:00.42
+# Mc/sec: 7603.43
 //
 [ok]
