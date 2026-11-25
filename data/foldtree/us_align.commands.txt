@@ -1,0 +1,8 @@
+cd /work/aleshina/Structure_prediction/ORF1b/af3_rdp_pdb/astro_bastro_hpc/structs/
+ls -1 > af3_astro_bastro_hpc_pdblist.txt
+mv af3_astro_bastro_hpc_pdblist.txt  /work/aleshina/Structure_prediction/ORF1b/af3_rdp_pdb/
+cd /work/aleshina/Structure_prediction/ORF1b/af3_rdp_pdb/
+USalign -dir astro_bastro_hpc/structs/ af3_astro_bastro_hpc_pdblist.txt -suffix .pdb -mm 4 > astro_bastro_hpc_af3_orf1b_usalign.txt
+
+
+USalign -dir af2_pdb_redbastro/structs/ pdb_list.txt -suffix .pdb -mm 4 > redbastro_orf1b_usalign.txt

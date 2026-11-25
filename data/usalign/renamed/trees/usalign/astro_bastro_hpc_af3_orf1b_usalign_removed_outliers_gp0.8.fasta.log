@@ -1,0 +1,418 @@
+IQ-TREE multicore version 2.4.0 for Windows 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    DESKTOP-03O5FP3 (AVX2, FMA3, 31 GB RAM)
+Command: D:/Programs/iqtree-2.4.0/bin/iqtree2.exe -s D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/usalign/renamed/astro_bastro_hpc_af3_orf1b_usalign_removed_outliers_gp0.8.fasta -m TEST -B 1000 -T AUTO --redo
+Seed:    908908 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Nov 25 16:16:00 2026
+Kernel:  AVX+FMA - auto-detect threads (12 CPU cores detected)
+
+Reading alignment file D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/usalign/renamed/astro_bastro_hpc_af3_orf1b_usalign_removed_outliers_gp0.8.fasta ... Fasta format detected
+Reading fasta file: done in 0.0015153 secs
+Alignment most likely contains protein sequences
+Alignment has 145 sequences with 377 columns, 373 distinct patterns
+365 parsimony-informative, 2 singleton sites, 10 constant sites
+                                                                                                        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.42e-005 secs
+   1  AF206663/NA/NA/NA/NA/NA                                                                                   0.00%    passed     68.03%
+   2  BR001717/macaque_feces-2019-624/NA/NA/Macaca-mulatta/Mammalia                                             0.27%    passed     65.08%
+   3  JN420354/1169/USA/2010/Zalophus-californianus/Mammalia                                                    0.00%    passed     96.47%
+   4  JX624774/NA/CHN/NA/Anas-platyrhynchos/Aves                                                                0.00%    passed     90.84%
+   5  JX857870/MLB3-human-Vellore-26564-2004/IND/2004/Homo-sapiens/Mammalia                                     0.53%    passed     73.05%
+   6  KU318317|Bastrovirus-3|Homo-sapiens|cand_0104                                                            38.73%    passed      5.70%
+   7  KU318321|Bastrovirus-7|Homo-sapiens|cand_0092                                                            49.34%    failed      4.96%
+   8  KX907133|Bastrovirus/VietNam/Bat/16715_78|Chiroptera|cand_0137                                           36.34%    failed      0.23%
+   9  KY024237/HHMAstV1/CHN/2013_2014/Marmota-himalayana/Mammalia                                               0.27%    passed     93.54%
+  10  KY214438/15V010/BEL/2015-01/Sus-scrofa/Mammalia                                                          11.67%    passed     97.02%
+  11  KY271027/FLX/CHN/2014-06-04/Anser-anser/Aves                                                              0.00%    passed     85.47%
+  12  KY855438/NA/CHN/2013/Marmota-himalayana/Mammalia                                                          0.27%    passed     82.24%
+  13  KY933399/U460/UGA/2012-11/Sus-scrofa/Mammalia                                                             0.00%    passed     99.52%
+  14  LC201615/NA/JPN/2015/Sus-scrofa/Mammalia                                                                  0.27%    passed     57.35%
+  15  LC577871|Porcine-bastrovirus|Sus-scrofa|cand_0083                                                        36.34%    failed      0.01%
+  16  MF042208|Bastrovirus-Brazil/sewage|NA|cand_0004                                                          35.28%    passed      5.31%
+  17  MG599882/NA/CHN/NA/Banjos-banjos/Actinopteri                                                              1.06%    passed     18.99%
+  18  MG599886/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia                                                  1.33%    passed     96.58%
+  19  MG599887/NA/CHN/NA/Hemitrygon-akajei/Chondrichthyes                                                       1.06%    passed     93.07%
+  20  MG599888/NA/CHN/NA/Scoliodon-macrorhynchos/Chondrichthyes                                                 0.80%    passed     51.00%
+  21  MG599889/NA/CHN/NA/Scoliodon-macrorhynchos/Chondrichthyes                                                 1.06%    passed     48.19%
+  22  MG599890/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia                                                  1.33%    passed     87.17%
+  23  MG599892/NA/CHN/NA/Lethenteron-camtschaticum/Hyperoartia                                                  0.80%    passed     18.68%
+  24  MG599893/NA/CHN/NA/Coelorinchus-multispinulosus/Actinopteri                                               0.80%    passed     49.55%
+  25  MG599895/NA/CHN/NA/Coelorinchus-multispinulosus/Actinopteri                                               0.27%    passed     70.70%
+  26  MG599897/NA/CHN/NA/Coelorinchus-multispinulosus/Actinopteri                                               0.80%    passed     43.99%
+  27  MG599902/NA/CHN/NA/Pterygotrigla-hemisticta/Actinopteri                                                   0.27%    passed     97.85%
+  28  MG599903/NA/CHN/NA/Bufo-gargarizans/Amphibia                                                              0.80%    passed     23.24%
+  29  MG599904/NA/CHN/NA/Myrrophis-chinensis/Lepidosauria                                                       1.59%    passed     16.31%
+  30  MG599905/NA/CHN/NA/NA/NA                                                                                  1.86%    passed     38.93%
+  31  MG599906/NA/CHN/NA/Leptobrachium-hainanense/Amphibia                                                      1.06%    passed     27.82%
+  32  MG599907/NA/CHN/NA/Teratoscincus-roborowskii/Lepidosauria                                                 1.06%    passed     91.58%
+  33  MG599908/NA/CHN/NA/Microhyla-pulchra/Amphibia                                                             1.06%    passed     84.93%
+  34  MG599909/NA/CHN/NA/Microhyla-pulchra/Amphibia                                                             1.06%    passed     78.79%
+  35  MG599910/NA/CHN/NA/Duttaphrynus-melanostictus/Amphibia                                                    0.53%    passed     52.58%
+  36  MG599911/NA/CHN/NA/Hyla-simplex/Amphibia                                                                  0.80%    passed     81.78%
+  37  MG599913/NA/CHN/NA/Pachytriton-brevipes/Amphibia                                                          0.80%    passed     76.80%
+  38  MG599914/NA/CHN/NA/Hypselotriton-orientalis/Amphibia                                                      1.33%    passed     96.33%
+  39  MG599922/NA/CHN/NA/Gonorynchus-abbreviatus/Actinopteri                                                    1.33%    failed      4.39%
+  40  MG599930/NA/CHN/NA/NA/Actinopteri                                                                         1.06%    passed     47.86%
+  41  MG599931/NA/CHN/NA/Polypedates-megacephalus/Amphibia                                                      0.53%    passed     82.56%
+  42  MG599932/NA/CHN/NA/Polypedates-megacephalus/Amphibia                                                      1.33%    passed     35.86%
+  43  MG599933/NA/CHN/NA/Calotes-versicolor/Lepidosauria                                                        1.86%    passed      5.46%
+  44  MG599936/NA/CHN/NA/Hemitriakis-japanica/Chondrichthyes                                                    0.53%    passed     71.58%
+  45  MH933754/CMRHP6/CMR/2014-12/Homo-sapiens/Mammalia                                                         4.51%    passed     72.46%
+  46  MK096773/PasAstV-1/GUF/NA/NA/Aves                                                                         0.00%    passed     61.12%
+  47  MK096774/PasAstV-2/GUF/2016-10/NA/Aves                                                                    0.00%    passed     62.75%
+  48  MK096776/PasAstV-4/GUF/2016-10/NA/Aves                                                                    5.31%    passed     95.66%
+  49  MK521912/Stony-Head-Tasmania-Sarcophilus_harrisii-2016-DN108473/AUS/2016/Sarcophilus-harrisii/Mammalia    0.00%    passed     46.33%
+  50  MN503235/TIB-224-MA-USA-2018/USA/2018-05-04/Mus-musculus/Mammalia                                         0.27%    passed     23.70%
+  51  MN920663/spa143ast1/CHN/2018/NA/NA                                                                        0.27%    passed     51.19%
+  52  MN920665/stc111ast1/CHN/2018/NA/NA                                                                        0.27%    passed     87.46%
+  53  MT137994/bsk136ast01/NA/2018/NA/NA                                                                        0.00%    passed     65.62%
+  54  MT137997/cfe153ast02/NA/2018/NA/NA                                                                        0.27%    passed     65.37%
+  55  MT138002/cra070ast1/NA/2018/NA/NA                                                                         0.00%    passed     22.95%
+  56  MT138003/ecw123ast1/NA/2018/NA/NA                                                                         5.31%    passed     95.57%
+  57  MT138004/hftbif16ast1nc/NA/2016/NA/NA                                                                     0.27%    passed     48.53%
+  58  MT138005/hwf041ast1/NA/2018/NA/NA                                                                         0.00%    passed     88.81%
+  59  MT138009/prf037ast1nc/NA/2018/NA/NA                                                                       0.00%    passed     80.14%
+  60  MT152345/UK-2010/GBR/2010/NA/Mammalia                                                                     0.53%    passed     86.94%
+  61  MT499771/NA/CHN/2019-08-06/Bubalus-bubalis/Mammalia                                                       0.53%    passed     79.59%
+  62  MT499772/NA/CHN/2019-08-06/Bubalus-bubalis/Mammalia                                                       0.00%    passed     65.47%
+  63  MT549857|Bastrovirus-Rat/78|Rattus-norvegicus|cand_0006                                                  32.36%    failed      0.01%
+  64  MT568535|Pyongtaek-Culex-bastrovirus|Culex-tritaeniorhynchus|cand_0077                                   49.60%    passed     51.81%
+  65  MT993595/MW09_1o/AUS/2015/Arenaria-interpres/Aves                                                         0.00%    passed     41.81%
+  66  MT993596/MW10_1o/AUS/2015/Arenaria-interpres/Aves                                                         0.00%    passed     96.24%
+  67  MW037839/NA/AUS/2018-06/Felis-catus/Mammalia                                                              0.00%    passed     63.99%
+  68  MW385412/NA/CHN/2017-12-28/NA/Aves                                                                        0.00%    passed     45.77%
+  69  MW385413/NA/CHN/2017-12-28/NA/Aves                                                                        0.27%    passed     23.79%
+  70  MW826530/YSS03/CHN/2019-07/Rattus-norvegicus/Mammalia                                                     6.10%    passed     94.59%
+  71  MZ375133/1PE-RDRP-3/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria                                       5.31%    passed      9.64%
+  72  MZ375136/2PE-RDRP-1/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria                                       1.86%    passed     35.21%
+  73  MZ375137/2PE-RDRP-2/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria                                       1.86%    passed      9.61%
+  74  MZ375139/3PE-RDRP-2/CHN/2020/Phrynocephalus-erythrurus/Lepidosauria                                       0.53%    passed     57.71%
+  75  NC_004579/NA/NA/NA/NA/NA                                                                                  0.00%    passed     92.24%
+  76  NC_019026/VA3-human-Vellore-28054-2005/IND/2005/Homo-sapiens/Mammalia                                     0.00%    passed     97.04%
+  77  NC_025346/TN-rabbit-10-2208/USA/2010-06-04/Oryctolagus-cuniculus/Mammalia                                 0.00%    passed     88.26%
+  78  NP_056779.1|Hepatitis_E_virus                                                                            33.16%    passed     16.65%
+  79  NP_740332.1|Rabbit_hemorrhagic_disease_virus                                                              2.65%    failed      0.87%
+  80  NP_740359.1|Teschovirus_A                                                                                 6.90%    passed     31.68%
+  81  NP_740368.1|Equine_rhinitis_B_virus_1                                                                     6.10%    failed      0.31%
+  82  NP_740411.1|Encephalomyocarditis_virus                                                                    5.84%    passed     13.08%
+  83  NP_740444.1|Aichi_virus_1                                                                                 5.84%    failed      3.25%
+  84  NP_740536.1|Enterovirus_A                                                                                 7.16%    passed      9.61%
+  85  NP_740559.1|Hepatovirus_A                                                                                 5.04%    passed     33.58%
+  86  NP_783310.1|Feline_calicivirus                                                                           13.26%    failed      1.91%
+  87  OM140654/NA/CHN/2016/Marmota-caudata/Mammalia                                                             0.00%    passed     51.38%
+  88  OM480543/NA/CHN/2020/Myocastor-coypus/Mammalia                                                            0.27%    passed     87.37%
+  89  ON624251/NA/CHN/2021/Bos-taurus/Mammalia                                                                  0.53%    passed     81.85%
+  90  ON807347/G22-005/FRA/2014-02-05/NA/NA                                                                    13.79%    passed     99.74%
+  91  OP094602/B80F05/CHN/2019-03/Rhizomys-pruinosus/Mammalia                                                   0.00%    passed     11.47%
+  92  OP589979/EBW-Sk-3/AUS/2013_2021/Miniopterus-orianae/Mammalia                                              0.00%    passed     65.87%
+  93  OQ693700/DAstV-1/NA/NA/Equus-asinus/Mammalia                                                              0.00%    passed     99.66%
+  94  OQ802712/JM_Rh.sinicus_astro_2/CHN/2016_2017/Rhinolophus-sinicus/Mammalia                                 0.00%    passed     99.22%
+  95  OQ802749/WZ_Pi.abramus_astro_3/CHN/2016_2017/Pipistrellus-abramus/Mammalia                                0.00%    passed     97.82%
+  96  OQ986605/BOPU/LAO/2021-02_2021-03/NA/NA                                                                   3.45%    passed     77.79%
+  97  OQ986606/GEIG/LAO/2021-02_2021-03/NA/NA                                                                   0.00%    passed     11.41%
+  98  OQ986607/GEIG/LAO/2021-02_2021-03/NA/NA                                                                   0.00%    passed     57.06%
+  99  OQ986608/RHFU/LAO/2021-02_2021-03/NA/NA                                                                   0.00%    passed     98.05%
+ 100  OQ986609/RHFU/LAO/2021-02_2021-03/NA/NA                                                                   0.00%    passed     35.59%
+ 101  OQ986679/GEIG/LAO/2021-02_2021-03/NA/NA                                                                   0.00%    passed     66.44%
+ 102  OR270284|Culex-Bastrovirus-like-virus|Gonidea-angulata|cand_0119                                         35.01%    passed     20.53%
+ 103  OR552421/seven/RUS/2023-02/Nyctalus-noctula/Mammalia                                                      0.00%    passed     96.18%
+ 104  OR711901/YNKm72022/CHN/2022-07/Rattus-norvegicus/Mammalia                                                 0.53%    passed     61.72%
+ 105  OR951021/GX2019_145_83144/CHN/2019/Tylonycteris-pachypus/Mammalia                                         0.00%    passed     76.20%
+ 106  OR951025/GD2018_176_158949/CHN/2018/Scotophilus-kuhlii/Mammalia                                           0.00%    passed     94.63%
+ 107  OR951026/GX2017_185_6114/CHN/2017/Scotophilus-kuhlii/Mammalia                                             0.00%    passed     99.59%
+ 108  OR951036/GD2018_193_3704/CHN/2018/Hipposideros-larvatus/Mammalia                                          0.00%    passed     99.42%
+ 109  OR951049/GD2017_211_130439/CHN/2017/Myotis-pilosus/Mammalia                                               0.00%    passed     98.52%
+ 110  OR951068/YN2016_267_21909/CHN/2016/Rousettus-leschenaultii/Mammalia                                       0.00%    passed     66.90%
+ 111  OR951080/HB2020_306_19370/CHN/2020/Rhinolophus-sinicus/Mammalia                                           0.00%    passed     97.46%
+ 112  OZ453978/NA/GBR/2022/NA/NA                                                                                0.00%    passed     88.48%
+ 113  PP211344|Bastrovirus-BAS-3|Rattus-norvegicus|cand_0034                                                   18.83%    failed      0.00%
+ 114  PP352010/Hunan-CHN-2022/CHN/2022/Pelophylax-nigromaculatus/Amphibia                                       0.53%    passed     30.15%
+ 115  PP352011/Jiangxi-CHN-2022/CHN/2022/Pelophylax-nigromaculatus/Amphibia                                     2.12%    passed     87.84%
+ 116  PP623814/MP22-196/CHN/2022-11-09/Mareca-falcata/Aves                                                      1.06%    passed     17.93%
+ 117  PP711188/Hplan-A_304122/AUS/2017/Heteronotia-planiceps/Lepidosauria                                       0.27%    passed     81.99%
+ 118  PP711853/10A-Kenya-BAT273-2015/KEN/2015/Coleura-afra/Mammalia                                             9.28%    passed     74.22%
+ 119  PP711856/13A-Kenya-BAT1552-2015/KEN/2015/Mops-condylurus/Mammalia                                         0.27%    passed     75.69%
+ 120  PP711857/14A-Kenya-BAT1537-2015/KEN/2015/Mops-condylurus/Mammalia                                         8.49%    passed     90.15%
+ 121  PP711872/2A-Uganda-UV32-2018/UGA/2018/Rousettus-aegyptiacus/Mammalia                                      8.22%    passed     65.30%
+ 122  PP711878/6A-Kenya-BAT2988-2015/KEN/2015/Miniopterus-sp.-clade-1-TD-2020/Mammalia                          8.49%    passed     99.91%
+ 123  PP711880/8A-Uganda-UGR87-2019/UGA/2019/Rousettus-aegyptiacus/Mammalia                                     0.27%    passed     99.95%
+ 124  PP871761/astro_vt_43/VNM/2016-04-02/Gallus-gallus/Aves                                                    1.86%    passed     91.28%
+ 125  PP871808/astro_vt_90/VNM/2015-06-16_2016-04-02/Gallus-gallus/Aves                                         0.00%    passed     90.97%
+ 126  PQ421849/YL-SCDW/CHN/2015-11-17/Anourosorex-squamipes/Mammalia                                            0.00%    passed     97.91%
+ 127  PQ421850/QJ1-CWDS/CHN/2017-10-14/Crocidura-dracula/Mammalia                                               0.00%    passed     95.71%
+ 128  PQ541169|Miniopterus-inflatus-bastrovirus|Miniopterus-inflatus|cand_0040                                 35.01%    failed      0.00%
+ 129  PQ678013/ZTMIX-YNSC193/CHN/2022/Niviventer-huang/Mammalia                                                14.06%    passed     78.17%
+ 130  PQ678019/LJNL-YNSC78/CHN/2021/Crocidura-fuliginosa/Mammalia                                               1.06%    passed     54.00%
+ 131  PQ893528/NSW-2021/AUS/2021-01/Eolophus-roseicapilla/Aves                                                  0.53%    passed     42.99%
+ 132  PV093021/NA/CHN/2023-01-01/Neogale-vison/Mammalia                                                         0.00%    passed     99.45%
+ 133  PV605202|Astroviridae-sp.|Suncus-murinus|cand_0113                                                       23.08%    failed      1.29%
+ 134  PV793829/AstroviridaeGoosefe94/CHN/2024-01/NA/Aves                                                        0.27%    passed     35.44%
+ 135  PX221760/JLTH_3/CHN/2021/Apodemus-agrarius/Mammalia                                                       9.55%    passed     97.14%
+ 136  PX236818/M23/LAO/2021/Trichosurus-vulpecula/Mammalia                                                      0.27%    passed     97.07%
+ 137  PX597466/JSYC2504/CHN/2025/Anser-cygnoides/Aves                                                           0.00%    passed     78.21%
+ 138  YP_004464929.1|Cutthroat_trout_virus                                                                     16.98%    passed     10.18%
+ 139  YP_006576507.1|Chirohepevirus_eptesici                                                                   32.89%    passed     43.71%
+ 140  YP_009001465.1|Avian_hepatitis_E_virus                                                                   33.42%    passed      7.14%
+ 141  YP_009508984.1|rhinovirus_A1                                                                              7.16%    passed      7.22%
+ 142  YP_009684405.1|Norovirus_GII                                                                              3.98%    failed      4.22%
+ 143  YP_010799168.1|Paslahepevirus_balayani                                                                   32.89%    passed     46.07%
+ 144  YP_010799312.1|Rocahepevirus_ratti                                                                       34.22%    passed     28.65%
+ 145  YP_529897.1|Newbury_agent_1                                                                               4.51%    failed      0.00%
+****  TOTAL                                                                                                     5.53%  14 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.132 seconds, parsimony score: 15485 (based on 367 sites)
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths
+19 trees examined
+Threads: 1 / Time: 12.407 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -96989
+Threads: 2 / Time: 7.023 sec / Speedup: 1.767 / Efficiency: 88% / LogL: -96989
+Threads: 3 / Time: 5.378 sec / Speedup: 2.307 / Efficiency: 77% / LogL: -96989
+Threads: 4 / Time: 4.712 sec / Speedup: 2.633 / Efficiency: 66% / LogL: -96989
+Threads: 5 / Time: 4.367 sec / Speedup: 2.841 / Efficiency: 57% / LogL: -96989
+Threads: 6 / Time: 4.100 sec / Speedup: 3.026 / Efficiency: 50% / LogL: -96989
+Threads: 7 / Time: 3.908 sec / Speedup: 3.175 / Efficiency: 45% / LogL: -96989
+BEST NUMBER OF THREADS: 6
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -72017.885
+Optimal log-likelihood: -72017.688
+Proportion of invariable sites: 0.026
+Gamma shape alpha: 1.008
+Parameters optimization took 1 rounds (0.078 sec)
+Time for fast ML tree search: 0.684 seconds
+
+NOTE: ModelFinder requires 36 MB RAM!
+ModelFinder will test up to 224 protein models (sample size: 377 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            76465.463    287 153504.926   155362.364   154633.480
+  2  LG+I          75922.719    288 152421.437   154313.074   153553.924
+  3  LG+G4         72092.938    288 144761.875   146653.511   145894.362
+  4  LG+I+G4       72017.700    289 144613.399   146540.066   145749.818
+  8  LG+F+I+G4     71937.780    308 144491.560   147290.737   145702.692
+ 12  WAG+I+G4      72474.490    289 145526.979   147453.646   146663.398
+ 16  WAG+F+I+G4    72292.226    308 145200.453   147999.629   146411.584
+ 20  JTT+I+G4      73525.857    289 147629.713   149556.380   148766.132
+ 24  JTT+F+I+G4    73246.509    308 147109.017   149908.194   148320.149
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 28  Q.pfam+I+G4   72066.159    289 144710.318   146636.984   145846.737
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 32  Q.pfam+F+I+G4 71904.852    308 144425.704   147224.880   145636.835
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 36  Q.bird+I+G4   75662.671    289 151903.343   153830.009   153039.762
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 40  Q.bird+F+I+G4 75415.214    308 151446.428   154245.604   152657.559
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 44  Q.mammal+I+G4 74806.057    289 150190.114   152116.780   151326.533
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 48  Q.mammal+F+I+G4 74571.034    308 149758.068   152557.245   150969.200
+ 52  Q.insect+I+G4 72591.661    289 145761.323   147687.990   146897.742
+ 56  Q.insect+F+I+G4 72518.772    308 145653.544   148452.720   146864.675
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 60  Q.plant+I+G4  73994.016    289 148566.032   150492.699   149702.451
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 64  Q.plant+F+I+G4 73785.391    308 148186.783   150985.959   149397.914
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 68  Q.yeast+I+G4  72592.903    289 145763.807   147690.473   146900.226
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 72  Q.yeast+F+I+G4 72126.920    308 144869.839   147669.016   146080.971
+ 76  JTTDCMut+I+G4 73491.116    289 147560.232   149486.899   148696.651
+ 80  JTTDCMut+F+I+G4 73220.592    308 147057.185   149856.361   148268.316
+ 84  DCMut+I+G4    74031.573    289 148641.147   150567.814   149777.566
+ 88  DCMut+F+I+G4  73455.973    308 147527.945   150327.122   148739.077
+ 92  VT+I+G4       72438.893    289 145455.785   147382.452   146592.204
+ 96  VT+F+I+G4     72271.579    308 145159.157   147958.334   146370.289
+100  PMB+I+G4      72381.100    289 145340.200   147266.867   146476.619
+104  PMB+F+I+G4    72514.005    308 145644.011   148443.187   146855.142
+108  Blosum62+I+G4 72272.202    289 145122.403   147049.070   146258.822
+112  Blosum62+F+I+G4 72323.276    308 145262.553   148061.729   146473.684
+116  Dayhoff+I+G4  74036.760    289 148651.520   150578.186   149787.939
+120  Dayhoff+F+I+G4 73461.012    308 147538.023   150337.199   148749.155
+124  mtREV+I+G4    77179.528    289 154937.055   156863.722   156073.474
+128  mtREV+F+I+G4  74358.660    308 149333.320   152132.497   150544.452
+132  mtART+I+G4    77742.522    289 156063.044   157989.710   157199.463
+136  mtART+F+I+G4  74750.347    308 150116.695   152915.871   151327.826
+140  mtZOA+I+G4    75849.429    289 152276.858   154203.524   153413.277
+144  mtZOA+F+I+G4  73689.832    308 147995.665   150794.841   149206.796
+148  mtMet+I+G4    77158.515    289 154895.030   156821.696   156031.448
+152  mtMet+F+I+G4  74290.555    308 149197.111   151996.287   150408.242
+156  mtVer+I+G4    78639.210    289 157856.420   159783.087   158992.839
+160  mtVer+F+I+G4  75878.937    308 152373.874   155173.050   153585.005
+164  mtInv+I+G4    76972.405    289 154522.810   156449.477   155659.229
+168  mtInv+F+I+G4  73438.584    308 147493.167   150292.344   148704.299
+172  mtMAM+I+G4    79651.706    289 159881.412   161808.079   161017.831
+176  mtMAM+F+I+G4  76655.607    308 153927.215   156726.391   155138.346
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+180  FLAVI+I+G4    77889.168    289 156356.335   158283.002   157492.754
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+184  FLAVI+F+I+G4  77306.611    308 155229.223   158028.399   156440.354
+188  HIVb+I+G4     75724.788    289 152027.576   153954.243   153163.995
+192  HIVb+F+I+G4   75510.321    308 151636.643   154435.819   152847.774
+196  HIVw+I+G4     80071.603    289 160721.207   162647.874   161857.626
+200  HIVw+F+I+G4   78181.702    308 156979.405   159778.581   158190.536
+204  FLU+I+G4      75539.530    289 151657.060   153583.727   152793.479
+208  FLU+F+I+G4    74968.554    308 150553.108   153352.284   151764.239
+212  rtREV+I+G4    72421.298    289 145420.597   147347.263   146557.015
+216  rtREV+F+I+G4  72031.808    308 144679.616   147478.792   145890.747
+220  cpREV+I+G4    73266.524    289 147111.048   149037.715   148247.467
+224  cpREV+F+I+G4  72991.180    308 146598.360   149397.536   147809.491
+Akaike Information Criterion:           Q.pfam+F+I+G4
+Corrected Akaike Information Criterion: LG+I+G4
+Bayesian Information Criterion:         Q.pfam+F+I+G4
+Best-fit model: Q.pfam+F+I+G4 chosen according to BIC
+
+All model information printed to D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/usalign/renamed/astro_bastro_hpc_af3_orf1b_usalign_removed_outliers_gp0.8.fasta.model.gz
+CPU time for ModelFinder: 242.625 seconds (0h:4m:2s)
+Wall-clock time for ModelFinder: 61.441 seconds (0h:1m:1s)
+Generating 1000 samples for ultrafast bootstrap (seed: 908908)...
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+
+NOTE: 37 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.083 / Estimate: 0.026, 1.035 / LogL: -71904.862
+Init pinv, alpha: 0.003, 1.083 / Estimate: 0.026, 1.036 / LogL: -71904.859
+Init pinv, alpha: 0.006, 1.083 / Estimate: 0.026, 1.036 / LogL: -71904.859
+Init pinv, alpha: 0.009, 1.083 / Estimate: 0.026, 1.036 / LogL: -71904.859
+Init pinv, alpha: 0.012, 1.083 / Estimate: 0.026, 1.036 / LogL: -71904.859
+Init pinv, alpha: 0.015, 1.083 / Estimate: 0.026, 1.036 / LogL: -71904.859
+Init pinv, alpha: 0.018, 1.083 / Estimate: 0.026, 1.036 / LogL: -71904.859
+Init pinv, alpha: 0.021, 1.083 / Estimate: 0.026, 1.036 / LogL: -71904.859
+Init pinv, alpha: 0.024, 1.083 / Estimate: 0.026, 1.036 / LogL: -71904.859
+Init pinv, alpha: 0.027, 1.083 / Estimate: 0.026, 1.036 / LogL: -71904.859
+Optimal pinv,alpha: 0.026, 1.036 / LogL: -71904.859
+
+Parameters optimization took 3.091 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.654942 secs using 601.2% CPU
+Computing ML distances took 0.655230 sec (of wall-clock time) 3.937500 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.0004884 secs
+Computing RapidNJ tree took 0.001406 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -72067.721
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.860 second
+Computing log-likelihood of 98 initial trees ... 2.879 seconds
+Current best score: -71904.859
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -71886.170
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -71884.120
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -71880.314
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -71875.143
+Iteration 10 / LogL: -71879.978 / Time: 0h:1m:16s
+Iteration 20 / LogL: -71878.524 / Time: 0h:1m:23s
+Finish initializing candidate tree set (20)
+Current best tree score: -71875.143 / CPU time: 18.099
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -71872.871
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -71857.951
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -71855.595
+Iteration 30 / LogL: -71855.595 / Time: 0h:1m:29s (0h:1m:35s left)
+Iteration 40 / LogL: -71872.107 / Time: 0h:1m:34s (0h:1m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -71852.815
+Iteration 50 / LogL: -71868.564 / Time: 0h:1m:40s (0h:1m:19s left)
+Log-likelihood cutoff on original alignment: -71971.652
+Iteration 60 / LogL: -71909.840 / Time: 0h:1m:47s (0h:1m:8s left)
+Iteration 70 / LogL: -71858.206 / Time: 0h:1m:53s (0h:0m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 80: -71852.488
+Iteration 80 / LogL: -71852.488 / Time: 0h:1m:58s (0h:1m:12s left)
+Iteration 90 / LogL: -71853.641 / Time: 0h:2m:4s (0h:1m:3s left)
+Iteration 100 / LogL: -72120.845 / Time: 0h:2m:10s (0h:0m:55s left)
+Log-likelihood cutoff on original alignment: -71971.652
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 110 / LogL: -71862.188 / Time: 0h:2m:16s (0h:1m:2s left)
+Iteration 120 / LogL: -71857.174 / Time: 0h:2m:22s (0h:0m:54s left)
+Iteration 130 / LogL: -71866.113 / Time: 0h:2m:27s (0h:0m:46s left)
+Iteration 140 / LogL: -71860.765 / Time: 0h:2m:33s (0h:0m:39s left)
+Iteration 150 / LogL: -71855.845 / Time: 0h:2m:39s (0h:0m:32s left)
+Log-likelihood cutoff on original alignment: -71971.652
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 155: -71851.891
+Iteration 160 / LogL: -71864.766 / Time: 0h:2m:45s (0h:1m:1s left)
+Iteration 170 / LogL: -71855.140 / Time: 0h:2m:50s (0h:0m:54s left)
+Iteration 180 / LogL: -71869.677 / Time: 0h:2m:56s (0h:0m:48s left)
+Iteration 190 / LogL: -71853.727 / Time: 0h:3m:2s (0h:0m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 191: -71851.432
+Iteration 200 / LogL: -71859.851 / Time: 0h:3m:8s (0h:0m:57s left)
+Log-likelihood cutoff on original alignment: -71971.652
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 210 / LogL: -71853.369 / Time: 0h:3m:14s (0h:0m:57s left)
+Iteration 220 / LogL: -71851.703 / Time: 0h:3m:19s (0h:0m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 227: -71851.345
+Iteration 230 / LogL: -71857.311 / Time: 0h:3m:25s (0h:1m:1s left)
+Iteration 240 / LogL: -71860.318 / Time: 0h:3m:31s (0h:0m:54s left)
+Iteration 250 / LogL: -71997.844 / Time: 0h:3m:37s (0h:0m:48s left)
+Log-likelihood cutoff on original alignment: -71971.652
+Iteration 260 / LogL: -71869.558 / Time: 0h:3m:43s (0h:0m:41s left)
+Iteration 270 / LogL: -71858.571 / Time: 0h:3m:49s (0h:0m:35s left)
+Iteration 280 / LogL: -71859.150 / Time: 0h:3m:54s (0h:0m:29s left)
+Iteration 290 / LogL: -71858.967 / Time: 0h:4m:0s (0h:0m:22s left)
+Iteration 300 / LogL: -71851.408 / Time: 0h:4m:6s (0h:0m:16s left)
+Log-likelihood cutoff on original alignment: -71971.652
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 310 / LogL: -71894.351 / Time: 0h:4m:12s (0h:0m:55s left)
+Iteration 320 / LogL: -71855.216 / Time: 0h:4m:17s (0h:0m:49s left)
+TREE SEARCH COMPLETED AFTER 328 ITERATIONS / Time: 0h:4m:22s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -71851.345
+Optimal log-likelihood: -71851.344
+Proportion of invariable sites: 0.026
+Gamma shape alpha: 1.047
+Parameters optimization took 1 rounds (0.073 sec)
+BEST SCORE FOUND : -71851.344
+Creating bootstrap support values...
+Split supports printed to NEXUS file D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/usalign/renamed/astro_bastro_hpc_af3_orf1b_usalign_removed_outliers_gp0.8.fasta.splits.nex
+Total tree length: 88.337
+
+Total number of iterations: 328
+CPU time used for tree search: 1093.609 sec (0h:18m:13s)
+Wall-clock time used for tree search: 196.637 sec (0h:3m:16s)
+Total CPU time used: 1362.453 sec (0h:22m:42s)
+Total wall-clock time used: 262.697 sec (0h:4m:22s)
+
+Computing bootstrap consensus tree...
+Reading input file D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/usalign/renamed/astro_bastro_hpc_af3_orf1b_usalign_removed_outliers_gp0.8.fasta.splits.nex...
+145 taxa and 779 splits.
+Consensus tree written to D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/usalign/renamed/astro_bastro_hpc_af3_orf1b_usalign_removed_outliers_gp0.8.fasta.contree
+Reading input trees file D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/usalign/renamed/astro_bastro_hpc_af3_orf1b_usalign_removed_outliers_gp0.8.fasta.contree
+Log-likelihood of consensus tree: -71851.313
+
+Analysis results written to: 
+  IQ-TREE report:                D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/usalign/renamed/astro_bastro_hpc_af3_orf1b_usalign_removed_outliers_gp0.8.fasta.iqtree
+  Maximum-likelihood tree:       D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/usalign/renamed/astro_bastro_hpc_af3_orf1b_usalign_removed_outliers_gp0.8.fasta.treefile
+  Likelihood distances:          D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/usalign/renamed/astro_bastro_hpc_af3_orf1b_usalign_removed_outliers_gp0.8.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/usalign/renamed/astro_bastro_hpc_af3_orf1b_usalign_removed_outliers_gp0.8.fasta.splits.nex
+  Consensus tree:                D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/usalign/renamed/astro_bastro_hpc_af3_orf1b_usalign_removed_outliers_gp0.8.fasta.contree
+  Screen log file:               D:/Virology/RNA_viruses/Astrovirus/Astroviridae_analysis/data/usalign/renamed/astro_bastro_hpc_af3_orf1b_usalign_removed_outliers_gp0.8.fasta.log
+
+Date and Time: Wed Nov 25 16:20:24 2026

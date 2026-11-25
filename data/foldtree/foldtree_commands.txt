@@ -2,3 +2,8 @@ foldtree  --cores 4 --folder af2_pdb -p --custom-structs
 foldtree  --cores 4 --folder af2_pdb_redbastro -p --custom-structs
 foldtree  --cores 4 --folder af2_pdb_astrobastro -p --custom-structs
 foldtree  --cores 4 --folder af3_capsid_pdb/ -p --custom-structs
+
+
+cd /work/aleshina/Structure_prediction/ORF1b/af3_rdp_pdb/
+touch astro_bastro_hpc/identifiers.txt
+foldtree  --cores 4 --folder astro_bastro_hpc/ -p --custom-structs

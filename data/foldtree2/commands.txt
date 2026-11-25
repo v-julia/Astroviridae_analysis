@@ -1,0 +1,13 @@
+conda activate foldtree2-cpu
+
+export FOLDTREEPATH="/home/aleshina/foldtree2"
+export FOLDTREE2OUTPUT="/work/aleshina/foldtree2"
+
+foldtree2 \
+  --encoder $FOLDTREEPATH/models/production/30char_minimal_decoder/final_30char_contacts_aa_encoder_full_epoch_52.pt \
+  --decoder $FOLDTREEPATH/models/production/30char_minimal_decoder/final_30char_contacts_aa_decoder_full_epoch_52.pt \
+  --mafftmat $FOLDTREEPATH/models/production/30char_minimal_decoder/final_30char_contacts_aa_encoder_full_epoch_52_mafftmat.mtx \
+  --submat $FOLDTREEPATH/models/production/30char_minimal_decoder/final_30char_contacts_aa_encoder_full_epoch_52_submat.txt \
+  --charmaps $FOLDTREEPATH/models/production/30char_minimal_decoder/final_30char_contacts_aa_encoder_full_epoch_52_pair_counts.pkl \
+  --structures "/work/aleshina/Structure_prediction/ORF1b/af3_rdp_pdb/astro_bastro_hpc/structs/*.pdb" \
+  --device cpu --ncores 4 --outdir FOLDTREE2OUTPUT/results/ORF1b_astro_bastro_hpc
